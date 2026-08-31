@@ -4,6 +4,7 @@ from app.repositories.neo4j_connector import neo4j_connector
 
 router = APIRouter()
 
+
 @router.get("/degree-centrality")
 async def get_degree_centrality(
     entity_type: Optional[str] = Query(None, description="Filter by entity type"),
@@ -13,7 +14,6 @@ async def get_degree_centrality(
     Get degree centrality (number of connections) for entities.
     """
     try:
-        # Map entity type to Neo4j label
         type_to_label = {
             "PERSON": "Person",
             "PHONE": "Phone",
@@ -24,7 +24,10 @@ async def get_degree_centrality(
         }
 
         if entity_type and entity_type.upper() not in type_to_label:
-            raise HTTPException(status_code=400, detail=f"Unsupported entity type: {entity_type}")
+            raise HTTPException(
+                status_code=400,
+                detail=f"Unsupported entity type: {entity_type}"
+            )
 
         label_clause = ""
         params = {"limit": limit}
@@ -72,42 +75,69 @@ async def get_degree_centrality(
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 
+
 @router.get("/connected-components")
 async def get_connected_components(
     min_size: int = Query(2, description="Minimum size of component to report")
 ):
     """
-    Find connected components in the graph.
+    Find connected components without relying on APOC.
+
+    For each non-Document node, collect the non-Document nodes reachable
+    from it, derive a stable component key from the minimum elementId, and
+    group nodes by that key.
     """
     try:
+        if min_size < 1:
+            raise HTTPException(
+                status_code=400,
+                detail="min_size must be at least 1"
+            )
+
         query = """
         MATCH (n)
         WHERE NOT n:Document
-        WITH collect(n) AS nodes
-        CALL apoc.components.get(nodes) YIELD component, nodes
-        WITH component, nodes
-        WHERE size(nodes) >= $min_size
-        RETURN component AS component_id,
-               [n IN nodes |
+
+        CALL {
+            WITH n
+            MATCH p = (n)-[*0..]-(m)
+            WHERE NOT m:Document
+              AND ALL(x IN nodes(p) WHERE NOT x:Document)
+            RETURN collect(DISTINCT m) AS reachable_nodes
+        }
+
+        UNWIND reachable_nodes AS member
+        WITH min(elementId(member)) AS component_id,
+             collect(DISTINCT member) AS component_nodes
+
+        WHERE size(component_nodes) >= $min_size
+
+        RETURN component_id,
+               [member IN component_nodes |
                 {
-                  id: elementId(n),
-                  labels: labels(n),
+                  id: elementId(member),
+                  labels: labels(member),
                   value: CASE
-                    WHEN n:Person THEN n.person_name
-                    WHEN n:Phone THEN n.phone_number
-                    WHEN n:Vehicle THEN n.registration_number
-                    WHEN n:BankAccount THEN n.account_number
-                    WHEN n:Organization THEN n.name
-                    WHEN n:Location THEN n.name
-                    ELSE 'Unknown'
-                  end
+                    WHEN member:Person THEN member.person_name
+                    WHEN member:Phone THEN member.phone_number
+                    WHEN member:Vehicle THEN member.registration_number
+                    WHEN member:BankAccount THEN member.account_number
+                    WHEN member:Organization THEN member.name
+                    WHEN member:Location THEN member.name
+                    WHEN member:Case THEN coalesce(member.case_id, member.title, member.name)
+                    WHEN member:Document THEN coalesce(member.document_id, member.file_name, member.title)
+                    ELSE coalesce(member.name, member.id, 'Unknown')
+                  END
                 }
                ] AS members,
-               size(nodes) AS size
+               size(component_nodes) AS size
         ORDER BY size DESC
         """
 
-        result = neo4j_connector.run_query(query, {"min_size": min_size})
+        result = neo4j_connector.run_query(
+            query,
+            {"min_size": min_size}
+        )
 
         components = []
         for record in result:
@@ -122,9 +152,15 @@ async def get_connected_components(
             "components": components,
             "count": len(components)
         }
+
+    except HTTPException:
+        raise
     except Exception as e:
-        # If APOC is not available, fall back to a simpler implementation
-        raise HTTPException(status_code=500, detail=f"Connected components analysis requires APOC plugin: {str(e)}")
+        raise HTTPException(
+            status_code=500,
+            detail=f"Connected components analysis failed: {str(e)}"
+        )
+
 
 @router.get("/clustering-coefficient/{entity_id}")
 async def get_clustering_coefficient(entity_id: str):
@@ -164,7 +200,6 @@ async def get_clustering_coefficient(entity_id: str):
             raise HTTPException(status_code=404, detail="Entity not found")
 
         record = result[0]
-        # Handle case where there are less than 2 neighbors (coefficient is undefined, treat as 0)
         if record["total_neighbors"] < 2:
             coefficient = 0.0
         else:
