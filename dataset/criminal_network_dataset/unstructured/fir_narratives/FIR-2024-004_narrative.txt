@@ -1,0 +1,51 @@
+DOCUMENT_ID: FIR-2024-004-NARR-001
+CASE_ID: FIR-2024-004
+DATE: 2024-03-25
+SOURCE_TYPE: FIR Narrative
+SOURCE: Kotwali Police Station, Lucknow
+
+FIRST INFORMATION REPORT NARRATIVE
+
+On 25th March 2024, at approximately 04:30 hours, a joint team of Lucknow Police and Uttar Pradesh ATS intercepted a truck bearing registration UP-32-BN-5678 on National Highway 27 near Lucknow, Uttar Pradesh, based on specific intelligence regarding illegal firearms transportation.
+
+The truck was driven by Ravi Shankar (approx. 36 years), resident of Lucknow. On search of the vehicle, the following contraband was recovered from a specially fabricated cavity beneath the cargo floor:
+- 12 (twelve) semi-automatic pistols (9mm and .32 bore)
+- 500 (five hundred) rounds of live ammunition
+- 2 (two) country-made revolvers
+
+The driver Ravi Shankar was arrested on the spot. During interrogation, he disclosed:
+1. The firearms were supplied by Baldev Raj (approx. 48 years), resident of Munger, Bihar, who operates an illegal arms manufacturing unit in Munger.
+2. The intended destination was Vikram Singh (approx. 42 years), resident of Amritsar, Punjab, who had placed the order for the consignment.
+3. Mohammed Farooq (Delhi) facilitated the financial transaction through hawala channels.
+4. The truck GPS history shows routes covering Amritsar, Srinagar, Jammu, and Lucknow over the past 3 months, indicating this was a regular smuggling route.
+
+Analysis of Ravi Shankar's seized mobile phone (number 8899001122) revealed:
+- Contacts saved for Baldev Raj (7788990011), Vikram Singh (9123456789), and an unknown number
+- Call logs showing 29 calls to Baldev Raj, 18 calls to Vikram Singh, 33 calls to Mohammed Farooq (9111222333) in past 60 days
+- WhatsApp messages discussing "consignment", "route", "payment", "Baldev bhai", "Vikram bhai"
+- Priya Sharma's number (9900112233) found in contact list - 7 calls in past 60 days
+
+GPS tracker data from truck UP-32-BN-5678 confirms:
+- Regular trips: Lucknow -> Delhi -> Amritsar (via NH44)
+- Detours to Srinagar and Jammu on 3 occasions in past 2 months
+- Average 2 trips per month
+
+Financial investigation revealed:
+- Baldev Raj received payments through Northern Trading Co. (Lucknow), SBI account 22222222222222
+- Northern Trading Co. linked to Sunil Verma's network (FIR-2024-002) - Sunil Verma's ICICI account transferred Rs. 30 lakhs to Northern Trading Co. on 2024-03-25 (TXN035)
+- Vikram Singh's PNB account transferred Rs. 20 lakhs to Northern Trading Co. on 2024-04-08 (TXN041)
+- Ravi Shankar's SBI account received Rs. 2 lakhs from Mohammed Farooq on 2024-02-08 (TXN013) and Rs. 3.5 lakhs on 2024-04-28 (TXN051)
+
+Vehicles identified in the network:
+- Truck UP-32-BN-5678 (primary transport)
+- Mahindra Scorpio HR-26-DK-9876 (pilot vehicle, registered to Ravi Shankar)
+- Toyota Innova DL-1C-MN-4567 (backup transport, registered to Mohammed Farooq, used by Ravi Shankar)
+
+The accused Ravi Shankar and Baldev Raj have been arrested under Arms Act Section 25 and UAPA. Vikram Singh named as intended recipient. Mohammed Farooq, Sunil Verma, and Priya Sharma named as facilitators/network links.
+
+Chargesheet filed on 2024-05-15. Investigation ongoing for additional recoveries and identification of end-users of the firearms in Punjab and Jammu & Kashmir.
+
+ACP Lucknow
+Kotwali PS
+Lucknow Police
+Date: 2024-03-25

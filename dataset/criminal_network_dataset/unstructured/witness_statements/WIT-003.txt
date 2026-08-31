@@ -1,0 +1,43 @@
+DOCUMENT_ID: WIT-003
+CASE_ID: FIR-2024-002
+DATE: 2024-02-22
+SOURCE_TYPE: Witness Statement
+WITNESS: Former Call Center Employee, Malad
+
+WITNESS STATEMENT
+
+Case: FIR-2024-002 (Online Fraud)
+Date of Statement: 22nd February 2024
+Recorded by: ACP Cyber Crime, Mumbai
+Witness: Former employee at Malad call center (Name withheld, identity protected)
+
+STATEMENT:
+
+I worked at the call center in Malad West for about 6 months, from August 2023 to January 2024. I quit because I realized what we were doing was illegal.
+
+The center was run by Sunil Verma - he came in maybe twice a week, drove a BMW X5 (MH-04-ST-7890). He had an office on the second floor. Day-to-day operations were managed by a floor supervisor.
+
+There were about 20-25 of us on each shift. We worked 12-hour shifts. We were given scripts - mostly tech support scams. We'd call people in America, UK, Canada, Australia. Pretend to be from Microsoft, Apple, Amazon, banks. Tell them their computer has a virus, or their account is compromised, or they're owed a refund.
+
+We used VoIP systems with US/UK numbers showing on caller ID. The numbers changed daily. Sunil Verma's associate Amit Patel (from Surat) would bring new SIM cards every week - boxes of them. He'd come in a Hyundai Creta (MH-02-AB-9012).
+
+The money - victims paid via gift cards (Apple, Google Play, Amazon), bank transfers, sometimes crypto. The gift card codes were entered into a system. Bank transfers went to accounts opened by Amit Patel - he had dozens of accounts in different banks (ICICI, HDFC, BOB, SBI, YES, KOTAK).
+
+A lady named Deepa Nair would come sometimes - she handled the "conversion" part. She'd take the gift card codes and bank details and convert to cryptocurrency. She talked about "Farooq bhai in Delhi" who handles the "hawala" to send money to Dubai.
+
+Once, around November 2023, a guy named Rajesh Kumar came to the center. He met with Sunil Verma in the office for about 2 hours. I heard them mention "Dwarka", "consignment", "50 lakhs". Sunil looked stressed after that meeting.
+
+Another time, a lady named Priya Sharma came with a man (Kiran Desai maybe). They met Sunil Verma and discussed "Tech Solutions", "Bangalore", "property papers". Priya Sharma seemed to be in charge - Sunil was deferential to her.
+
+We were told never to discuss work outside. Phones were collected at entry. If anyone asked, we were doing "customer support for US companies".
+
+The center in Goregaon started around December 2023 - same setup, about 15 people. Sunil Verma said they were expanding.
+
+I quit in January 2024 after a victim called back crying - she was an elderly lady who lost her life savings. I couldn't do it anymore.
+
+I'm willing to testify in court. I have screenshots of the scripts and VoIP system on my personal phone (which I hid).
+
+Signature of Witness: [REDACTED]
+Date: 2024-02-22
+Recorded by: ACP Cyber Crime
+Mumbai Police

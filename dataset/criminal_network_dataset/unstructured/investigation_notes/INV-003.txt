@@ -1,0 +1,93 @@
+DOCUMENT_ID: INV-003
+CASE_ID: FIR-2024-003
+DATE: 2024-03-15
+SOURCE_TYPE: Investigation Notes
+OFFICER: Inspector Singh
+
+INVESTIGATION NOTES
+
+Case: FIR-2024-003 - Hawala Operation
+Officer: Inspector Singh, Sadar Bazaar PS
+Date: 15th March 2024
+
+NOTES:
+
+1. RAID OUTCOME (10 Mar - Shop No. 78):
+   - Mohammed Farooq arrested
+   - Ledgers seized (Jan 2022 - Mar 2024) - 27 registers
+   - Cash: Rs. 45L (INR 35L, USD 12k, AED 45k)
+   - Vehicles seized: Scorpio HR-26-DK-9876, Innova DL-1C-MN-4567
+   - Phones: 9111222333 (Farooq), +971-50-1234567 (Hassan Ali), 2 burners
+   - Diary with codes for international settlements
+
+2. MOHAMMED FAROOQ INTERROGATION (10-14 Mar):
+   - Admits hawala operation since 2020 (~Rs. 100Cr turnover)
+   - Clients: Vikram Singh (~15Cr), Deepa Nair (~8Cr), Sunil Verma (~5Cr), Amit Patel (~3Cr), Priya Sharma (~12Cr), Baldev Raj (~2Cr)
+   - Settlement: Daily via Hassan Ali (Dubai, Emirates NBD)
+   - AXIS 3333... primary, 9999... Dubai route, 8888... Mauritius route
+   - Transporter: Ravi Shankar (Scorpio HR-26-DK-9876, Innova DL-1C-MN-4567)
+   - Routes: Delhi-Chandni Chowk-Lucknow-Amritsar-Srinagar-Jammu
+   - Priya Sharma visits: 3 confirmed (Nov 2023, Jan 2024, Feb 2024) - shell company coordination
+   - Coded ledger: "Party"=client, "Consignment"=cash, "Delivery"=transfer, "Rate"=commission%
+   - Commission: 1-2% domestic, 3-5% international
+   - Hassan Ali contact: +971-50-1234567, 87 calls in 90 days
+
+3. LEDGER ANALYSIS (Preliminary):
+   - Jan 2024: Vikram Singh 1.5Cr, Deepa Nair 80L, Amit Patel 30L, Ravi Shankar transport 2L
+   - Feb 2024: Vikram Singh 1.8Cr, Deepa Nair 1.2Cr, Sunil Verma 50L, Ravi transport 3.5L
+   - Mar 2024 (till 10th): Vikram 2.5Cr, Deepa 1.5Cr, Priya 40L, Ravi 5L
+   - Total traced: ~Rs. 85Cr in ledgers (matches 100Cr+ estimate with gaps)
+
+4. BANKING TRAIL:
+   - AXIS 33333333333333 (Farooq): Credits from PNB 9876... (Vikram), ICICI 5555... (Sunil), FED 4444... (Deepa), BOB 6666... (Amit)
+   - Debits to: FED 4444... (Deepa), SBI 1010... (Ravi), BOB 6666... (Amit), ICICI 7777... (Priya)
+   - AXIS 99999999999999 (Dubai shell): -> Emirates NBD (Hassan Ali) via SWIFT
+   - AXIS 88888888888888 (Mauritius shell): -> Oceanic Holdings (Mauritius)
+   - PNB 98765432101234 (Vikram): Credits from HDFC 1234... (Rajesh), Unknown shells
+   - ICICI 55555555555555 (Sunil): Credits from fraud mules, Debits to Farooq, Amit, Northern Trading
+
+5. HASSAN ALI (DUBAI) PROFILE:
+   - Emirates NBD account holder
+   - Desert Gold Trading (Dubai) - gold/hawala settlement
+   - Gulf Money Exchange (Dubai) - hawala settlement
+   - +971-50-1234567 - primary contact
+   - Diplomatic channels used for high-value coordination (Goa meeting)
+   - Interpol Red Notice recommended
+
+6. RAVI SHANKAR ROLE:
+   - Primary cash transporter
+   - Scorpio HR-26-DK-9876 (registered to him) - primary
+   - Innova DL-1C-MN-4567 (registered to Farooq, used by Ravi) - backup
+   - Also transports arms (FIR-004) - SAME vehicles, SAME routes
+   - GPS data confirms: Delhi-Lucknow-Amritsar-Srinagar-Jammu
+   - CDR: 33 calls to Farooq, 29 to Baldev, 18 to Vikram in 60 days
+
+7. CROSS-CASE NEXUS - THE FINANCIAL BACKBONE:
+   This hawala operation is the SINGLE FINANCIAL INFRASTRUCTURE for:
+   - FIR-001 Drug: Rajesh->Vikram proceeds -> Farooq -> Hassan -> Offshore
+   - FIR-002 Fraud: Sunil->Deepa crypto -> Farooq -> Hassan -> Offshore
+   - FIR-004 Arms: Vikram->Northern Trading->Baldev payments -> Farooq -> Hassan
+   - FIR-005 Laundering: Priya/Kiran shells -> Tech Solutions -> Farooq -> Offshore
+
+   DISRUPTING FAROOQ/HASSAN CHANNEL WOULD CASCADE ACROSS ALL CASES.
+
+8. ANOMALIES:
+   - Priya Sharma's 3 visits to Chandni Chowk shop - unusual for "shell company coordinator"
+   - Diplomatic vehicle at Goa meeting (March 15) - Farooq aware, "high-level coordination"
+   - Ravi Shankar's dual role: cash transport + arms transport - SAME vehicles
+   - Baldev Raj (arms) in Farooq's client list - hawala for arms payments
+
+9. NEXT STEPS:
+   - [ ] Interpol Red Notice for Hassan Ali (Dubai)
+   - [ ] MLA UAE (Emirates NBD, Desert Gold, Gulf Money Exchange)
+   - [ ] MLA Mauritius (Oceanic Holdings, Island Finance, Pacific Rim)
+   - [ ] Arrest Ravi Shankar (transporter - links drug, hawala, arms)
+   - [ ] Arrest Baldev Raj (Munger - arms supplier, hawala client)
+   - [ ] Deepa Nair arrest (Kochi - crypto converter, hawala client)
+   - [ ] Priya Sharma arrest (Bangalore - shell architect, hawala client)
+   - [ ] Full ledger digitization and network analysis
+   - [ ] Joint ED/Police operation for PMLA/FEMA
+
+Inspector Singh
+Sadar Bazaar PS
+Date: 2024-03-15

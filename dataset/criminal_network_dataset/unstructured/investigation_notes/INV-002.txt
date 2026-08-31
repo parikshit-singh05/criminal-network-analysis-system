@@ -1,0 +1,84 @@
+DOCUMENT_ID: INV-002
+CASE_ID: FIR-2024-002
+DATE: 2024-02-25
+SOURCE_TYPE: Investigation Notes
+OFFICER: ACP Cyber Crime
+
+INVESTIGATION NOTES
+
+Case: FIR-2024-002 - Online Fraud Ring
+Officer: ACP Cyber Crime, Mumbai
+Date: 25th February 2024
+
+NOTES:
+
+1. RAID OUTCOMES (20 Feb - Malad & Goregaon):
+   - 37 persons detained (20 Malad, 17 Goregaon)
+   - 3 key accused arrested: Sunil Verma, Amit Patel, Deepa Nair
+   - 34 low-level workers released after verification (coerced/unknowing)
+   - Evidence seized: 42 laptops, 3 servers, 312 SIMs, 47 bank kits, crypto wallets
+
+2. SUNIL VERMA INTERROGATION:
+   - Admits operating call centers since June 2023
+   - Claims "business partnership" with Rajesh Kumar (Delhi) - but TXN010 (10L) shows fraud->drug flow
+   - Names Amit Patel as SIM/account provider (Surat)
+   - Names Deepa Nair as crypto converter (Kochi)
+   - Names Mohammed Farooq (Delhi) as hawala for Dubai/Mauritius
+   - Names Priya Sharma (Bangalore) as shell company operator (Tech Solutions)
+   - Claims Vikram Singh (Amritsar) is "investor" - but TXN004, TXN021, TXN049 show payments TO Vikram
+   - Uses 12+ burner numbers in 6 months (procured via Amit Patel)
+   - Encrypted comms: Signal (primary), Telegram (groups), WhatsApp (burners only)
+
+3. AMIT PATEL INTERROGATION:
+   - Surat diamond trader cover - uses Surat Diamond Exports license
+   - Procures SIMs via forged documents (college IDs, fake addresses)
+   - Opens bank accounts using synthetic identities (mules)
+   - 50+ accounts across ICICI, HDFC, BOB, SBI, YES, KOTAK, AXIS
+   - Delivers SIMs/account kits to Mumbai weekly (Hyundai Creta MH-02-AB-9012)
+   - Coordinates with Kiran Desai (Bangalore) for shell company registration docs
+   - Coordinates with Mohammed Farooq for gold purchases (hawala settlement)
+   - CDR: 156 calls/month to Sunil, 34 to Kiran, 19 to Farooq
+
+4. DEEPA NAIR INTERROGATION:
+   - Kochi-based, uses Kochi Spice Traders cover
+   - Crypto conversion: Gift cards -> USDT/BTC -> Exchange -> Offshore wallets
+   - Shell accounts: FED 4444..., KOTAK 1111..., HDFC 3333..., YES 1212...
+   - Monthly volume: Rs. 5-10 Cr
+   - Receives commissions from Farooq (hawala) - TXN005 (8L), TXN027 (12L), TXN055 (15L)
+   - Reports to Priya Sharma (profit sharing) - TXN008 (50L property), TXN017 (35L return), TXN028 (40L), TXN045 (30L), TXN056 (35L), TXN073 (40L)
+   - Encrypted Telegram group: "Core Team" - Priya, Sunil, Deepa, Amit, Farooq
+
+5. TECH SOLUTIONS PVT LTD ANALYSIS:
+   - Registered 123 MG Road, Bangalore
+   - Director: Priya Sharma
+   - Bank accounts: ICICI 1111..., ICICI 9999..., HDFC 3333...
+   - Audit shows Rs. 1.4 Cr legitimate revenue (layering)
+   - Actual: Receives drug proceeds (Rajesh via Island Finance), fraud proceeds (Sunil via Pacific Rim), hawala (Farooq via Gulf Money)
+   - Capital infusion: TXN032 (14L from Rajesh's offshore), TXN046 (25L from Priya), TXN060 (18L from Rajesh's offshore), TXN074 (30L from Priya)
+
+6. CROSS-CASE FINANCIAL FLOWS:
+   - Sunil -> Rajesh: TXN010 (10L), TXN030 (20L), TXN058 (15L) = 45L fraud->drug
+   - Sunil -> Vikram: TXN004 (15L via Vikram->Farooq), TXN021 (25L shell->Vikram), TXN049 (30L Rajesh->Vikram)
+   - Sunil -> Northern Trading: TXN035 (30L), TXN063 (40L) = 70L fraud->arms
+   - Amit -> Farooq: TXN007 (30L gold), TXN026 (25L gold), TXN044 (20L gold), TXN054 (20L gold)
+   - Deepa -> Priya: Multiple property/crypto transfers (100L+)
+
+7. ANOMALIES DETECTED:
+   - Sudden spike in TXN016 (50L Unknown-Shell3->Sunil) - new shell, no prior history
+   - Crypto conversion via KOTAK 1111... (new shell, Feb 2024)
+   - Diplomatic vehicle at Goa meeting (March 15) - escalation
+   - Burner rotation accelerated: 3/month -> 8/month post-Feb raids
+
+8. NEXT STEPS:
+   - [ ] Freeze all 50+ mule accounts and 12 shell company accounts
+   - [ ] MLA request to Mauritius (Oceanic Holdings, Island Finance, Pacific Rim)
+   - [ ] MLA request to UAE (Desert Gold, Gulf Money, Emirates NBD)
+   - [ ] Arrest Priya Sharma (Bangalore) - shell company architect
+   - [ ] Arrest Kiran Desai (Bangalore/Goa) - property front
+   - [ ] Seize Tech Solutions Pvt Ltd servers and audit trail
+   - [ ] Investigate telecom/banking insiders enabling SIM/account procurement
+   - [ ] Joint operation with Delhi (Farooq), UP (Northern Trading), Punjab (Vikram)
+
+ACP Cyber Crime
+Mumbai Police
+Date: 2024-02-25

@@ -1,0 +1,26 @@
+vehicle_id,registration_number,make_model,color,registered_owner,associated_person,city,status,source_case_id
+VEH001,DL-5C-AB-1234,Toyota Fortuner,White,Rajesh Kumar,Rajesh Kumar,Delhi,Active,FIR-2024-001
+VEH002,HR-26-DK-9876,Mahindra Scorpio,Silver,Ravi Shankar,Ravi Shankar,Delhi,Active,FIR-2024-004
+VEH003,DL-1C-MN-4567,Toyota Innova,Black,Mohammed Farooq,Ravi Shankar,Delhi,Active,FIR-2024-003
+VEH004,UP-32-BN-5678,Truck,Blue,Northern Trading Co.,Ravi Shankar,Lucknow,Active,FIR-2024-004
+VEH005,DL-8C-EF-5678,Honda City,Grey,Sunil Verma,Sunil Verma,Mumbai,Active,FIR-2024-002
+VEH006,MH-02-AB-9012,Hyundai Creta,Red,Amit Patel,Amit Patel,Surat,Active,FIR-2024-002
+VEH007,KA-03-CD-3456,Maruti Suzuki Ertiga,White,Priya Sharma,Priya Sharma,Bangalore,Active,FIR-2024-005
+VEH008,PB-10-GH-7890,Tata Harrier,Black,Vikram Singh,Vikram Singh,Amritsar,Active,FIR-2024-001
+VEH009,HR-55-JK-1234,Mahindra XUV700,Silver,Baldev Raj,Baldev Raj,Munger,Active,FIR-2024-004
+VEH010,DL-3C-LM-5678,Toyota Camry,White,Mohammed Farooq,Mohammed Farooq,Delhi,Active,FIR-2024-003
+VEH011,GA-07-NP-9012,Ford Endeavour,Blue,Kiran Desai,Kiran Desai,Goa,Active,FIR-2024-005
+VEH012,UP-32-QR-3456,Truck,Green,Northern Trading Co.,Ravi Shankar,Lucknow,Active,FIR-2024-004
+VEH013,MH-04-ST-7890,BMW X5,Black,Sunil Verma,Sunil Verma,Mumbai,Active,FIR-2024-002
+VEH014,KA-01-UV-1234,Mercedes E-Class,White,Tech Solutions Pvt Ltd,Priya Sharma,Bangalore,Active,FIR-2024-005
+VEH015,PB-08-WX-5678,Toyota Fortuner,Silver,Vikram Singh,Vikram Singh,Amritsar,Active,FIR-2024-001
+VEH016,DL-9C-YZ-9012,Honda Accord,Grey,Rajesh Kumar,Rajesh Kumar,Delhi,Active,FIR-2024-001
+VEH017,HR-26-AB-3456,Mahindra Bolero,White,Ravi Shankar,Ravi Shankar,Delhi,Active,FIR-2024-004
+VEH018,MH-12-CD-7890,Hyundai Verna,Red,Amit Patel,Amit Patel,Surat,Active,FIR-2024-002
+VEH019,KA-05-EF-1234,Tata Safari,Black,Priya Sharma,Priya Sharma,Bangalore,Active,FIR-2024-005
+VEH020,UP-32-GH-5678,Truck,Blue,Northern Trading Co.,Ravi Shankar,Lucknow,Active,FIR-2024-004
+VEH021,DL-1C-IJ-9012,Toyota Innova Crysta,White,Mohammed Farooq,Mohammed Farooq,Delhi,Active,FIR-2024-003
+VEH022,MH-01-KL-3456,Mahindra Thar,Green,Sunil Verma,Sunil Verma,Mumbai,Active,FIR-2024-002
+VEH023,PB-02-MN-7890,Hyundai Tucson,Silver,Vikram Singh,Vikram Singh,Amritsar,Active,FIR-2024-001
+VEH024,HR-26-OP-1234,Maruti Suzuki Brezza,Red,Ravi Shankar,Ravi Shankar,Delhi,Active,FIR-2024-004
+VEH025,GA-03-QR-5678,Toyota Fortuner,Black,Kiran Desai,Kiran Desai,Goa,Active,FIR-2024-005

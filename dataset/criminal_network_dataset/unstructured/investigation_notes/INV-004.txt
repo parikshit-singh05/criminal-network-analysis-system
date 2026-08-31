@@ -1,0 +1,97 @@
+DOCUMENT_ID: INV-004
+CASE_ID: FIR-2024-004
+DATE: 2024-04-01
+SOURCE_TYPE: Investigation Notes
+OFFICER: ACP Lucknow
+
+INVESTIGATION NOTES
+
+Case: FIR-2024-004 - Arms Smuggling
+Officer: ACP Lucknow, Kotwali PS
+Date: 1st April 2024
+
+NOTES:
+
+1. INTERCEPTION (25 Mar) & ARRESTS:
+   - Truck UP-32-BN-5678 intercepted near Lucknow
+   - 12 pistols, 500 rounds, 2 revolvers seized
+   - Driver Ravi Shankar arrested
+   - GPS tracker active - full route history recovered
+
+2. RAVI SHANKAR INTERROGATION (25-31 Mar):
+   - Admits 15+ trips Munger->Amritsar in past 18 months
+   - Confirms Baldev Raj (Munger) as supplier
+   - Confirms Vikram Singh (Amritsar) as recipient
+   - Confirms Mohammed Farooq (Delhi) handles hawala payments
+   - Confirms Northern Trading Co. (Lucknow) as front for payments
+   - Reveals 3 detours to Srinagar/Jammu in past 60 days - "Vikram bhai ke aadmi the wahan"
+   - Scorpio HR-26-DK-9876 (his) used as pilot vehicle
+   - Innova DL-1C-MN-4567 (Farooq's) used as backup
+   - Phone 8899001122: Contacts for Baldev (7788990011), Vikram (9123456789), Farooq (9111222333), Unknown, Priya Sharma (9900112233 - 7 calls)
+   - WhatsApp: "Consignment loaded", "Route clear", "Vikram bhai waiting", "Baldev ji payment bhej diya"
+
+3. BALDEV RAJ (MUNGER) - SUPPLIER:
+   - Illegal arms manufacturing unit in Munger, Bihar
+   - Known for quality 9mm/.32 pistols (copied ordnance designs)
+   - Historical links to Kashmir militancy supply (per IB)
+   - Northern Trading Co. payments: UNION 9999... account
+   - CDR: 29 calls to Ravi, 18 to Vikram, 12 to Farooq in 60 days
+   - GPS: Munger workshop -> Lucknow (handoff to Ravi)
+
+4. VIKRAM SINGH (AMRITSAR) - RECIPIENT:
+   - Receives arms for distribution in Punjab + possible Kashmir diversion
+   - PNB 98765432101234 payments to Northern Trading (TXN012: 7.5L, TXN041: 20L)
+   - Hawala via Farooq for Baldev payments
+   - CDR: 18 calls to Ravi, 31 to Farooq, 18 to Baldev in 60 days
+   - SURV-002 (1 Feb): Box transfer from Baldev/Ravi's Scorpio to Vikram's Tata Harrier
+   - INTL-006: Kashmir corridor activity, 5 Srinagar/Jammu trips in 90 days
+
+5. MOHAMMED FAROOQ - FINANCIAL FACILITATOR:
+   - Hawala settlements for arms payments (Baldev Raj)
+   - AXIS 3333... -> UNION 9999... (Baldev) via hawala
+   - Northern Trading Co. payments routed through Farooq's shells
+   - CDR: 33 calls to Ravi in 60 days (coordination)
+
+6. SUNIL VERMA - NETWORK LINK:
+   - Northern Trading Co. linked to Sunil's fraud network
+   - TXN035: Sunil ICICI 5555... -> Northern Trading SBI 2222... (30L)
+   - TXN063: Sunil -> Northern Trading (40L)
+   - Sunil's fraud proceeds funding arms procurement
+   - CDR: Sunil (8877665544) to Northern Trading contacts
+
+7. PRIYA SHARMA - CONTACT:
+   - Phone 9900112233 in Ravi's contacts (7 calls in 60 days)
+   - Purpose unclear - possibly shell company coordination for arms proceeds
+   - Taj Hotel Goa meeting (March 15) - Priya leading, Sunil present
+
+8. GPS/ROUTE ANALYSIS:
+   - Primary: Munger -> Lucknow (NH27) -> Kanpur -> Delhi (NH44) -> Amritsar
+   - Detours: Srinagar (3x), Jammu (2x) in 60 days
+   - Average: 2 trips/month, 3-4 days per round trip
+   - Scorpio HR-26-DK-9876 leads, Truck follows, Innova DL-1C-MN-4567 rear
+
+9. UAPA INVOCATION:
+   - J&K detours + arms + Kashmir militant link (IB) = UAPA applicable
+   - Chargesheet filed 15 May 2024
+   - Sections: Arms Act 25, UAPA 16, 18, 20, 38, 39
+
+10. ANOMALIES:
+    - Same vehicles (Scorpio, Innova, Truck) used for DRUGS (FIR-001) and ARMS (FIR-004)
+    - Same transporter (Ravi Shankar) for both
+    - Same hawala (Farooq) for both
+    - Same recipient (Vikram Singh) for both
+    - Northern Trading Co. (Sunil's front) financing arms
+    - This is a UNIFIED CRIMINAL ENTERPRISE - not separate cases
+
+11. NEXT STEPS:
+    - [ ] Arrest Baldev Raj (Munger) - production source
+    - [ ] Arrest Vikram Singh (Amritsar) - recipient
+    - [ ] Seize Northern Trading Co. records (Lucknow)
+    - [ ] Investigate Srinagar/Jammu delivery points - coordinate J&K Police/IB
+    - [ ] NSA for Vikram Singh if Kashmir militant link confirmed
+    - [ ] ED attachment: Northern Trading, Baldev Raj assets
+    - [ ] Joint Punjab-UP-Delhi operation for Ravi/Baldev/Vikram/Farooq nexus
+
+ACP Lucknow
+Kotwali PS
+Date: 2024-04-01

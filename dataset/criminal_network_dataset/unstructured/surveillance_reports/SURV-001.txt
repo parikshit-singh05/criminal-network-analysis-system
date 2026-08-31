@@ -1,0 +1,51 @@
+DOCUMENT_ID: SURV-001
+CASE_ID: FIR-2024-001
+DATE: 2024-01-14
+SOURCE_TYPE: Surveillance Report
+OFFICER: Inspector Sharma
+SUBJECT: Rajesh Kumar
+LOCATION: House No. 45, Sector 12, Dwarka, Delhi
+
+SURVEILLANCE REPORT
+
+Date: 14th January 2024
+Time: 10:00 hrs to 18:30 hrs
+Officer: Inspector Sharma
+Subject: Rajesh Kumar
+Location: House No. 45, Sector 12, Dwarka, Delhi
+
+OBSERVATIONS:
+
+10:00 hrs - Surveillance team positioned at vantage point overlooking House No. 45, Sector 12, Dwarka.
+
+10:15 hrs - Subject Rajesh Kumar observed leaving residence in white Toyota Fortuner bearing registration DL-5C-AB-1234. Subject alone in vehicle.
+
+10:45 hrs - Vehicle arrived at a coffee shop in Karol Bagh market area. Subject entered and met with a female individual identified as Priya Sharma (known associate, approx. 32 years). Meeting duration approximately 45 minutes.
+
+11:30 hrs - During meeting, subject and Priya Sharma observed exchanging a brown envelope. Contents unknown. Both parties appeared cautious, checking surroundings.
+
+12:15 hrs - Subject departed coffee shop in Fortuner DL-5C-AB-1234. Priya Sharma left separately in an auto-rickshaw.
+
+12:45 hrs - Subject's vehicle observed proceeding towards Chandni Chowk area via Ring Road.
+
+13:20 hrs - Vehicle entered Chandni Chowk market. Subject parked near Shop No. 78 and entered the premises. Shop identified as operated by Mohammed Farooq (hawala operator).
+
+14:10 hrs - Subject exited Shop No. 78 after approximately 50 minutes. No visible items carried.
+
+14:30 hrs - Subject departed Chandni Chowk in Fortuner DL-5C-AB-1234, heading towards Dwarka via Ring Road.
+
+15:10 hrs - Vehicle arrived back at House No. 45, Sector 12, Dwarka.
+
+15:15 hrs to 18:30 hrs - No further movement observed. Subject remained at residence.
+
+NOTES:
+- The brown envelope exchange at Karol Bagh coffee shop is consistent with hawala cash handoffs.
+- Visit to Mohammed Farooq's shop at Chandni Chowk confirms hawala channel usage.
+- Priya Sharma's presence links to Hotel Grand Palace meetings with Sunil Verma (see SURV-003).
+- Vehicle DL-5C-AB-1234 confirmed as primary transport for subject.
+- Recommend continued surveillance and CDR correlation.
+
+Inspector Sharma
+Rajouri Garden PS
+Delhi Police
+Date: 2024-01-14

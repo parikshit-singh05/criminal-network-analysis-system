@@ -1,0 +1,21 @@
+organization_id,organization_name,organization_type,registration_city,registration_address,director_name,status,source_case_id
+ORG001,Tech Solutions Pvt Ltd,Shell Company,Bangalore,123 MG Road, Bangalore, Priya Sharma,Active,FIR-2024-005
+ORG002,Northern Trading Co.,Front Company,Lucknow,45 Civil Lines, Lucknow, Sunil Verma,Active,FIR-2024-004
+ORG003,Global Exports India,Shell Company,Kolkata,78 Park Street, Kolkata, Rajesh Kumar,Active,FIR-2024-001
+ORG004,Metro Traders Ltd,Shell Company,Kolkata,45 Salt Lake, Kolkata, Vikram Singh,Active,FIR-2024-001
+ORG005,Sunrise Enterprises,Shell Company,Mumbai,201 Andheri East, Mumbai, Sunil Verma,Active,FIR-2024-002
+ORG006,Capital Ventures,Shell Company,Delhi,12 Connaught Place, Delhi, Mohammed Farooq,Active,FIR-2024-003
+ORG007,Oceanic Holdings Ltd,Offshore Company,Mauritius,Port Louis, Mauritius, Priya Sharma,Active,FIR-2024-005
+ORG008,Desert Gold Trading,Shell Company,Dubai,Al Ras, Dubai, Hassan Ali,Active,FIR-2024-003
+ORG009,Crypto Solutions Inc,Shell Company,Mumbai,Bandra Kurla Complex, Mumbai, Deepa Nair,Active,FIR-2024-002
+ORG010,Island Finance Corp,Offshore Company,Mauritius,Ebene, Mauritius, Rajesh Kumar,Active,FIR-2024-001
+ORG011,Gulf Money Exchange,Shell Company,Dubai,Deira, Dubai, Mohammed Farooq,Active,FIR-2024-003
+ORG012,Pacific Rim Investments,Offshore Company,Mauritius,Port Louis, Mauritius, Sunil Verma,Active,FIR-2024-002
+ORG013,Delhi Logistics Pvt Ltd,Legitimate Business,Delhi,50 Okhla Industrial Area, Delhi, Ravi Shankar,Active,FIR-2024-004
+ORG014,Mumbai Call Center Solutions,Front Company,Mumbai,302 Malad West, Mumbai, Amit Patel,Active,FIR-2024-002
+ORG015,Bangalore Realty Group,Front Company,Bangalore,88 Koramangala, Bangalore, Kiran Desai,Active,FIR-2024-005
+ORG016,Amritsar Trading Corporation,Legitimate Business,Amritsar,12 Hall Bazaar, Amritsar, Vikram Singh,Active,FIR-2024-001
+ORG017,Surat Diamond Exports,Legitimate Business,Surat,55 Varachha Road, Surat, Amit Patel,Active,FIR-2024-002
+ORG018,Kochi Spice Traders,Legitimate Business,Kochi,22 Mattancherry, Kochi, Deepa Nair,Active,FIR-2024-003
+ORG019,Goa Hospitality Ventures,Front Company,Goa,15 Calangute, Goa, Kiran Desai,Active,FIR-2024-005
+ORG020,Lucknow Construction Co,Legitimate Business,Lucknow,33 Hazratganj, Lucknow, Baldev Raj,Active,FIR-2024-004

@@ -1,0 +1,60 @@
+DOCUMENT_ID: SURV-008
+CASE_ID: FIR-2024-005
+DATE: 2024-04-20
+SOURCE_TYPE: Surveillance Report
+OFFICER: SI Bangalore
+SUBJECT: Priya Sharma
+LOCATION: Bangalore, Karnataka
+
+SURVEILLANCE REPORT
+
+Date: 20th April 2024
+Time: 09:00 hrs to 18:00 hrs
+Officer: SI Bangalore
+Subject: Priya Sharma
+Location: Bangalore, Karnataka
+
+OBSERVATIONS:
+
+09:00 hrs - Subject Priya Sharma observed leaving residence in Koramangala in Mercedes E-Class (KA-01-UV-1234, Tech Solutions Pvt Ltd).
+
+09:30 hrs - Arrived at Tech Solutions Pvt Ltd office, 123 MG Road, Bangalore. Entered office.
+
+10:00 hrs - Kiran Desai arrived in Ford Endeavour (GA-07-NP-9012). Entered Tech Solutions office. Meeting duration approx. 2 hours.
+
+12:00 hrs - Amit Patel arrived in flight (Surat-Bangalore, 11:30 arrival). Took taxi to Tech Solutions. Entered office. Meeting with Priya and Kiran approx. 90 minutes.
+
+13:30 hrs - Lunch at high-end restaurant on MG Road. Priya, Kiran, Amit. Discussion observed - documents exchanged.
+
+15:00 hrs - Amit Patel departed for airport (Bangalore-Surat, 16:30 flight).
+
+15:30 hrs - Priya Sharma and Kiran Desai visited Sub-Registrar Office, Koramangala. Property registration documents submitted.
+
+16:30 hrs - Returned to Tech Solutions office. Deepa Nair joined via video call (observed on conference room screen). Discussion approx. 60 minutes.
+
+17:30 hrs - Priya Sharma made multiple phone calls. CDR confirms calls to: Sunil Verma (Mumbai), Mohammed Farooq (Delhi), Rajesh Kumar (Delhi), Hassan Ali (Dubai).
+
+18:00 hrs - Subject departed office. Surveillance concluded.
+
+PERSONS OBSERVED:
+- Priya Sharma (Subject)
+- Kiran Desai (Property front, Bangalore Realty/Goa Hospitality)
+- Amit Patel (Surat - SIM/docs/gold)
+- Deepa Nair (Kochi - Crypto, via video)
+
+VEHICLES:
+- Mercedes E-Class KA-01-UV-1234 (Tech Solutions / Priya)
+- Ford Endeavour GA-07-NP-9012 (Kiran Desai / Goa Hospitality)
+
+NOTES:
+- Tech Solutions office operates as shell company coordination hub
+- Daily coordination between Priya (architect), Kiran (property), Amit (infrastructure), Deepa (crypto)
+- Sub-Registrar visit confirms property transactions (Koramangala property)
+- Video call with Deepa Nair shows crypto/hawala coordination
+- Multiple calls to core network members (Sunil, Farooq, Rajesh, Hassan) confirm central hub role
+- Recommend: Search Tech Solutions office, seize devices, arrest Priya/Kiran
+
+SI Bangalore
+Koramangala PS
+Bangalore Police
+Date: 2024-04-20

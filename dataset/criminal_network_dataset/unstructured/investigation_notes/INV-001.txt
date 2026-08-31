@@ -1,0 +1,67 @@
+DOCUMENT_ID: INV-001
+CASE_ID: FIR-2024-001
+DATE: 2024-01-18
+SOURCE_TYPE: Investigation Notes
+OFFICER: Inspector Sharma
+
+INVESTIGATION NOTES
+
+Case: FIR-2024-001 - Drug Trafficking Network
+Officer: Inspector Sharma, Rajouri Garden PS
+Date: 18th January 2024
+
+NOTES:
+
+1. POST-ARREST INTERROGATION - RAJESH KUMAR (16-17 Jan):
+   - Admits to receiving 5kg heroin from Vikram Singh via courier on ~12 Jan
+   - Confirms Fortuner DL-5C-AB-1234 used for transport from Amritsar
+   - Names Mohammed Farooq (Shop 78, Chandni Chowk) as hawala operator
+   - Confirms regular communication with Vikram Singh (9123456789) and Unknown Ludhiana (9988776655)
+   - Claims Priya Sharma was only visiting for "property advice" - but CDR shows 15 calls in 30 days
+   - Claims Sunil Verma is "old friend from Mumbai" - but CDR shows 15 calls in 30 days + TXN010 (10L transfer)
+   - Refuses to name Ludhiana contact (9988776655) - says "just a courier contact"
+   - HDFC 12345678901234 deposits: claims "business investments from Kolkata partners" - but accounts are shell companies (BOI 1111..., SBI 2222...)
+
+2. CDR ANALYSIS UPDATE (Jan 1-17):
+   - 9876543210 (Rajesh) to 9123456789 (Vikram): 47 calls, avg 8 min, mostly 2200-2330 hrs
+   - 9876543210 to 9988776655 (Unknown): 23 calls, avg 3 min, exclusively 2300-2345 hrs (night ops)
+   - 9876543210 to 8877665544 (Sunil): 15 calls, avg 12 min, business hours
+   - 9123456789 (Vikram) to 9111222333 (Farooq): 31 calls, avg 10 min, 1000-1100 hrs (morning settlement)
+   - 9123456789 to 7788990011 (Baldev): 18 calls - ARMS LINK CONFIRMED
+   - 9111222333 (Farooq) to 8899001122 (Ravi): 28 calls - TRANSPORT LINK
+   - Network density: HIGH. All core nodes interconnected.
+
+3. FINANCIAL TRAIL:
+   - TXN001 (5L): Rajesh -> Vikram (NEFT) - "Business payment" = consignment payment
+   - TXN002 (15L): Shell1 (BOI Kolkata) -> Rajesh (RTGS) - "Investment return" = drug proceeds layering
+   - TXN003 (20L): Shell2 (SBI Kolkata) -> Rajesh (RTGS) - "Consultancy fee" = drug proceeds layering
+   - TXN004 (15L): Vikram -> Farooq (NEFT) - "Trade payment" = hawala settlement
+   - TXN010 (10L): Sunil -> Rajesh (NEFT) - "Loan repayment" = fraud proceeds to drug network
+   - Total suspicious credits to Rajesh HDFC: ~50L in 6 months from 7 shell accounts
+
+4. PRIYA SHARMA ROLE:
+   - Present at raid location (House 45, Dwarka)
+   - Coffee shop meeting with Rajesh (14 Jan) - envelope exchange (SURV-001)
+   - Hotel Grand Palace meetings with Sunil Verma (Dec 2023)
+   - Visited Farooq's shop 3x in 6 months (SURV-006)
+   - CDR links to Rajesh, Sunil, Kiran, Farooq
+   - ASSESSMENT: Not a bystander. Active coordinator between drug, fraud, and shell company networks.
+
+5. LUDHIANA NUMBER (9988776655):
+   - Traced to Ludhiana tower location
+   - Only communicates with Rajesh Kumar (23 calls) and Vikram Singh (8 calls)
+   - Night-only pattern (2300-2345)
+   - ASSESSMENT: Likely a burner/courier phone. Subscriber unknown. Possible cross-border link (Pakistan border proximity).
+
+6. NEXT STEPS:
+   - [ ] Raid Mohammed Farooq Shop No. 78 (coordinate with Sadar Bazaar PS)
+   - [ ] Surveillance on Vikram Singh (Amritsar) - request Punjab Police
+   - [ ] Financial investigation: Kolkata shell companies (BOI 1111..., SBI 2222...)
+   - [ ] Ludhiana number: Request IMEI/IMSI, tower dump for 90 days
+   - [ ] Priya Sharma: Formal questioning re: envelope exchange, Hotel Grand Palace meetings
+   - [ ] Sunil Verma: Mumbai coordination - request Cyber Crime PS
+   - [ ] Cross-case task force: Link FIR-001, 002, 003, 004, 005
+
+Inspector Sharma
+Rajouri Garden PS
+Date: 2024-01-18

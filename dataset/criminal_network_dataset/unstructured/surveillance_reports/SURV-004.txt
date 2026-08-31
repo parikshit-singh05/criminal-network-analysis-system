@@ -1,0 +1,70 @@
+DOCUMENT_ID: SURV-004
+CASE_ID: FIR-2024-005
+DATE: 2024-03-15
+SOURCE_TYPE: Surveillance Report
+OFFICER: ACP Reddy
+SUBJECT: Group Meeting
+LOCATION: Taj Hotel, Goa
+
+SURVEILLANCE REPORT
+
+Date: 15th March 2024
+Time: 10:00 hrs to 16:00 hrs
+Officer: ACP Reddy
+Subject: Group Meeting
+Location: Taj Hotel, Goa (Taj Fort Aguada Resort)
+
+OBSERVATIONS:
+
+10:00 hrs - Surveillance team positioned at Taj Hotel, Goa. Room 342 (private conference room) booked under "Corporate Solutions" - traced to Tech Solutions Pvt Ltd.
+
+10:30 hrs - Priya Sharma arrived at hotel in a Mercedes E-Class (KA-01-UV-1234, registered to Tech Solutions Pvt Ltd). Entered conference room.
+
+10:45 hrs - Sunil Verma arrived in a BMW X5 (MH-04-ST-7890). Entered conference room.
+
+11:00 hrs - Kiran Desai arrived in a Ford Endeavour (GA-07-NP-9012). Entered conference room.
+
+11:15 hrs - A black sedan with diplomatic plates (CD 45 XXXX) arrived at hotel entrance. An unidentified foreign national (male, approx. 50 years, Western appearance) exited and was escorted to conference room by hotel staff. Vehicle had diplomatic immunity markings.
+
+11:20 hrs to 14:15 hrs - Meeting in progress (approx. 3 hours). Through visual observation (partial visibility through conference room glass door):
+- Priya Sharma appeared to be leading the discussion
+- Multiple documents and laptops on table
+- All participants made multiple phone calls during meeting
+- Foreign national appeared to be briefing the group
+- Sunil Verma took notes
+- Kiran Desai presented documents
+
+14:20 hrs - Meeting concluded. Participants exited conference room.
+
+14:30 hrs - Foreign national departed in diplomatic-plated vehicle.
+
+14:45 hrs - Priya Sharma, Sunil Verma, and Kiran Desai had lunch at hotel restaurant. Continued discussion.
+
+15:30 hrs - All three departed separately:
+- Priya Sharma in Mercedes E-Class (KA-01-UV-1234) - heading towards Calangute (Goa property)
+- Sunil Verma in BMW X5 (MH-04-ST-7890) - heading towards airport
+- Kiran Desai in Ford Endeavour (GA-07-NP-9012) - heading towards Panaji
+
+PERSONS IDENTIFIED:
+1. Priya Sharma - Director, Tech Solutions Pvt Ltd / Shell company operator
+2. Sunil Verma - Mumbai fraud network operator (FIR-2024-002)
+3. Kiran Desai - Property front, Bangalore Realty Group / Goa Hospitality Ventures
+4. Unidentified Foreign National - Diplomatic vehicle, possible Hassan Ali associate or Mauritius/Dubai channel contact
+
+VEHICLES:
+- Mercedes E-Class KA-01-UV-1234 (Tech Solutions Pvt Ltd / Priya Sharma)
+- BMW X5 MH-04-ST-7890 (Sunil Verma)
+- Ford Endeavour GA-07-NP-9012 (Kiran Desai / Goa Hospitality Ventures)
+- Diplomatic vehicle CD 45 XXXX (Foreign national)
+
+NOTES:
+- This meeting brings together the key figures from FIR-2024-001 (Priya Sharma linked to Rajesh Kumar), FIR-2024-002 (Sunil Verma), FIR-2024-003 (Priya Sharma visited Farooq's shop), and FIR-2024-005 (Kiran Desai property front).
+- Foreign national with diplomatic plates is highly significant - suggests state-level or intelligence agency connection, or misuse of diplomatic cover.
+- Priya Sharma leading the meeting indicates her central role in the network coordination.
+- Meeting date (March 15) coincides with financial transactions: TXN035 (Sunil to Northern Trading), TXN036 (Northern Trading to Baldev), TXN037 (Baldev to Ravi).
+- Recommend: Identify foreign national through diplomatic channels, obtain hotel CCTV, seize conference room devices, monitor all three participants' communications.
+
+ACP Reddy
+Koramangala PS
+Bangalore Police
+Date: 2024-03-15

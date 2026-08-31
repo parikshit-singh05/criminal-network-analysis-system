@@ -1,0 +1,90 @@
+DOCUMENT_ID: INTL-007
+CASE_ID: FIR-2024-002
+DATE: 2024-05-20
+SOURCE_TYPE: Intelligence Report
+SOURCE: Mumbai Police Cyber Cell / CERT-In
+
+INTELLIGENCE REPORT
+
+Subject: Evolving Fraud Infrastructure - Post-Raid Adaptation
+Classification: CONFIDENTIAL
+Date: 20th May 2024
+Source: Mumbai Police Cyber Cell / CERT-In / Telecom Intelligence
+
+SUMMARY:
+Post-raid (Feb 2024) technical intelligence reveals rapid infrastructure regeneration by Sunil Verma's fraud network. New call centers, burner procurement, and crypto pipelines activated within weeks.
+
+KEY FINDINGS:
+
+1. NEW CALL CENTER LOCATIONS:
+   - Goregaon Center (pre-raid): Expanded to 30 seats (was 15)
+   - New: Borivali West Center - 20 seats (operational since Mar 2024)
+   - New: Navi Mumbai (Vashi) Center - 15 seats (operational since Apr 2024)
+   - Total capacity: ~65 seats (vs 35 pre-raid)
+   - Infrastructure: Laptops, VoIP, scripts identical to seized Malad setup
+
+2. BURNER PROCUREMENT ACCELERATION:
+   - Pre-raid: ~3 burners/month via Amit Patel
+   - Post-raid: ~8 burners/month via Amit Patel + new Surat contact
+   - New Surat contact: "Rajesh Bhai" (different from Rajesh Kumar) - SIM supplier
+   - Activation: Bulk activation via forged KYC at 3 telecom circles (Mumbai, Gujarat, Karnataka)
+   - Disposal: 7-10 day rotation (was 14-21 days)
+
+3. CRYPTO PIPELINE EVOLUTION:
+   - Pre-raid: Deepa Nair (Kochi) - FED/KOTAK/HDFC shells
+   - Post-raid: Deepa + New converter "Anjali" (Bangalore) - 4 new shells (YES, ICICI, AXIS, IDFC)
+   - Exchanges: Added KuCoin, Huobi, Gate.io to existing Binance/WazirX/CoinDCX
+   - DeFi: Started using Uniswap, PancakeSwap for cross-chain (ETH->BSC->Tron)
+   - Privacy coins: XMR, ZEC introduced for final hop (5% of volume)
+
+4. MULE ACCOUNT REGENERATION:
+   - 50+ accounts frozen post-raid
+   - 80+ new accounts opened Apr-May 2024
+   - Banks: ICICI, HDFC, AXIS, IDFC, YES, KOTAK, INDUSIND, RBL
+   - Synthetic identities: Aadhaar/PAN generated via "Amit's new guy in Surat"
+   - Cost per kit: Rs. 15,000 (was Rs. 8,000 pre-raid)
+
+5. COMMUNICATION SECURITY UPGRADE:
+   - Signal: Primary (unchanged)
+   - Telegram: Groups disbanded, moved to 1-on-1 + channel broadcasts
+   - New: Session (decentralized messenger) for core coordination
+   - WhatsApp: Burners only, auto-delete 24hrs
+   - Email: ProtonMail/Tutanota for document sharing
+
+6. SHELL COMPANY ACTIVATION:
+   - Kolkata shells (Global Exports, Metro Traders) activated Mar 2024
+   - New: Hyderabad shell "Deccan Traders" (incorporated Apr 2024)
+   - New: Chennai shell "Coromandel Imports" (incorporated May 2024)
+   - Directors: Priya Sharma proxies (nominee directors)
+   - Bank accounts: 12 new current accounts across 6 banks
+
+7. FINANCIAL VOLUME (Post-Raid Mar-May 2024):
+   - Fraud proceeds: ~Rs. 1.8 Cr (vs Rs. 2.5 Cr in prior 6 months)
+   - Crypto conversion: ~Rs. 1.5 Cr
+   - Hawala settlement: ~Rs. 1.2 Cr (via Farooq)
+   - Shell layering: ~Rs. 1 Cr (Tech Solutions + new shells)
+   - Total: ~Rs. 5.5 Cr in 3 months (accelerated pace)
+
+8. ATTRIBUTION:
+   All adaptations traceable to core network:
+   - Amit Patel (Surat) - SIMs, accounts, docs, gold
+   - Deepa Nair (Kochi) - Crypto conversion
+   - Priya Sharma (Bangalore) - Shell companies, strategy
+   - Sunil Verma (Mumbai) - Operations, recruitment
+   - Mohammed Farooq (Delhi) - Hawala settlement
+   - Rajesh Kumar (Delhi) - Drug proceeds integration
+
+ASSESSMENT:
+The network demonstrated remarkable resilience - 65 seats operational within 4 weeks of raid, 80+ mule accounts in 60 days. The acceleration suggests pre-positioned contingency infrastructure. The Kolkata/Hyderabad/Chennai shell expansion indicates geographic diversification to reduce single-point-of-failure (Chandni Chowk).
+
+RECOMMENDATIONS:
+1. Immediate surveillance on Borivali, Vashi centers
+2. Target Amit Patel's new Surat SIM contact ("Rajesh Bhai")
+3. Freeze 80+ new mule accounts (coordinate with 8 banks)
+4. CERT-In takedown of VoIP infrastructure
+5. Exchange cooperation: Freeze 4 new shell crypto accounts
+6. ROC: Strike off Hyderabad/Chennai shells
+7. Monitor Session/ProtonMail adoption - metadata collection
+
+Mumbai Police Cyber Cell / CERT-In
+Date: 2024-05-20

@@ -1,0 +1,84 @@
+DOCUMENT_ID: FIR-2024-005-NARR-001
+CASE_ID: FIR-2024-005
+DATE: 2024-04-05
+SOURCE_TYPE: FIR Narrative
+SOURCE: Koramangala Police Station, Bangalore
+
+FIRST INFORMATION REPORT NARRATIVE
+
+On 5th April 2024, based on a Suspicious Transaction Report (STR) filed by the Financial Intelligence Unit (FIU-IND) regarding Tech Solutions Pvt Ltd (123 MG Road, Bangalore), a team led by ACP Bangalore initiated an investigation into suspected money laundering through shell companies.
+
+The investigation revealed a complex web of shell companies and financial transactions estimated at over Rs. 75 crores, connecting multiple criminal networks across India and offshore jurisdictions.
+
+Key findings from the investigation:
+
+1. TECH SOLUTIONS PVT LTD (Bangalore)
+   - Registered address: 123 MG Road, Bangalore
+   - Director: Priya Sharma (also director of multiple shell entities)
+   - Flagged by FIU for: High-value RTGS/NEFT transactions with no apparent business rationale, frequent cash deposits/withdrawals, transactions with offshore entities
+   - Bank accounts: ICICI Bank (11111111111111, 99999999999999), HDFC Bank (33333333333333)
+
+2. PRIYA SHARMA - Central figure in shell company operations
+   - Linked to: Tech Solutions Pvt Ltd, Oceanic Holdings Ltd (Mauritius), Bangalore Realty Group, Goa Hospitality Ventures
+   - Bank accounts: ICICI 77777777777777, HDFC 44444444444444, HDFC 88888888888888
+   - Property purchases in Koramangala (Bangalore) and Calangute (Goa) through fronts
+
+3. SUNIL VERMA - Fund source from fraud operations
+   - Mumbai fraud network (FIR-2024-002) proceeds routed through Tech Solutions
+   - ICICI account 55555555555555 transferred Rs. 50 lakhs to Tech Solutions (TXN016, TXN043, TXN071)
+   - Crypto conversion pipeline via Deepa Nair and shell company accounts
+
+4. RAJESH KUMAR - Drug proceeds source
+   - HDFC account 12345678901234 transferred Rs. 15 lakhs to offshore shell (HDFC 99999999999999) which funded Tech Solutions (TXN031, TXN032)
+   - Drug trafficking network (FIR-2024-001) proceeds laundered through this structure
+
+5. KIRAN DESAI - Property front
+   - HDFC account 88888888888888 used for property transactions
+   - Goa property (Calangute) purchased for Rs. 75 lakhs (TXN009), sold for Rs. 1 crore (TXN014)
+   - Bangalore property acquired through Bangalore Realty Group front company
+   - Phone 9900112233 - frequent communication with Priya Sharma, Sunil Verma, Amit Patel
+
+6. DEEPA NAIR - Fund router
+   - Federal Bank account 44444444444444 (Kochi)
+   - Crypto conversion via exchanges, routing through KOTAK shell (11111111111111)
+   - Received commissions from Mohammed Farooq's hawala operations (FIR-2024-003)
+
+7. MOHAMMED FAROOQ - International transfer facilitator
+   - Hawala operator (FIR-2024-003) providing Dubai-Mauritius corridor
+   - AXIS account 33333333333333 and shell accounts (99999999999999, 88888888888888)
+   - Hassan Ali (Dubai, Emirates NBD) - international settlements
+
+8. AMIT PATEL - Document forger
+   - Provided forged registration documents for shell companies
+   - Surat diamond export license used as cover for gold movement
+   - BOB account 66666666666666 and 77777777777777
+
+KEY EVENT - TAJ HOTEL GOA MEETING (2024-03-15):
+Surveillance confirmed a meeting at Taj Hotel, Goa on 15th March 2024 attended by:
+- Priya Sharma (appeared to lead the meeting)
+- Sunil Verma
+- Kiran Desai
+- Unidentified foreign national (arrived in diplomatic-plated vehicle)
+- Meeting held in private conference room for approximately 3 hours
+- Multiple phone calls made during meeting
+- CCTV footage and hotel records seized
+
+Financial trail summary (partial):
+- Rs. 75+ crores estimated laundered through the structure
+- Layering: Fraud proceeds (Sunil) + Drug proceeds (Rajesh) -> Shell companies -> Property/Gold/Crypto -> Offshore (Mauritius/Dubai)
+- Tech Solutions Pvt Ltd showed legitimate revenue of Rs. 1.4 crores in audit (layering)
+- Mauritius entities: Oceanic Holdings Ltd, Island Finance Corp, Pacific Rim Investments
+- Dubai entities: Desert Gold Trading, Gulf Money Exchange, Emirates NBD (Hassan Ali)
+
+The network used:
+- Encrypted messaging (Signal, Telegram, WhatsApp)
+- Frequent phone number changes (12+ burners in 12 months)
+- Coded language in communications
+- Diplomatic channels for international movement
+
+Priya Sharma, Sunil Verma, Rajesh Kumar, Kiran Desai, Deepa Nair, Mohammed Farooq, and Amit Patel named as accused under PMLA Act and Companies Act violations. Investigation ongoing for attachment of properties, identification of beneficial owners, and international cooperation with Mauritius and UAE authorities.
+
+ACP Bangalore
+Koramangala PS
+Bangalore Police
+Date: 2024-04-05

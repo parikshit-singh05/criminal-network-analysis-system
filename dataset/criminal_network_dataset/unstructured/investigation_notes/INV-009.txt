@@ -1,0 +1,104 @@
+DOCUMENT_ID: INV-009
+CASE_ID: FIR-2024-004
+DATE: 2024-06-10
+SOURCE_TYPE: Investigation Notes
+OFFICER: ACP Lucknow
+
+INVESTIGATION NOTES
+
+Case: FIR-2024-004 - Arms Smuggling (Follow-up - J&K Nexus)
+Officer: ACP Lucknow, Kotwali PS
+Date: 10th June 2024
+
+NOTES:
+
+1. J&K DELIVERY POINTS IDENTIFIED:
+   Based on Ravi Shankar's GPS data (truck UP-32-BN-5678) and IB intelligence, 3 delivery points in Kashmir confirmed:
+
+   A. SHOPIAN - "Apple Orchard" (coordinates: 33.7182, 74.8321)
+      - 2 deliveries confirmed (Apr 10, May 15, 2024)
+      - Receiver: "Khan Sahab" - suspected Hizbul Mujahideen logistics
+      - Arms: 4 pistols + 200 rounds per delivery
+      - Payment: Hawala via Farooq -> Hassan -> Kashmir handler
+
+   B. PULWAMA - "Truck Yard, NH44 Bypass" (33.8737, 74.9212)
+      - 1 delivery confirmed (May 28, 2024)
+      - Receiver: "Major Sb" - suspected Jaish-e-Mohammed contact
+      - Arms: 6 pistols + 300 rounds
+      - Truck returned empty to Lucknow
+
+   C. SRINAGAR - "Houseboat, Dal Lake" (34.0911, 74.8198)
+      - 2 deliveries confirmed (Mar 20, Apr 25, 2024)
+      - Receiver: "Doctor Sahab" - suspected overground worker network
+      - Arms: 3 pistols + 150 rounds per delivery
+      - Payment: Cash via Ravi Shankar (Scorpio)
+
+2. VIKRAM SINGH'S KASHMIR NETWORK:
+   - CDR analysis: 4 Kashmir numbers in Vikram's phone (not in our database)
+   - Calls: 15-20/month to each, mostly 2000-2200 hrs
+   - Names in contacts: "Khan Shopian", "Major Pulwama", "Doc Srinagar", "Handler Jmu"
+   - Physical visits: Vikram traveled to Srinagar 3x in 90 days (flight Delhi-Srinagar)
+   - Hotel stays: Lalit Srinagar, Vivanta Dal View - paid via shell company cards
+
+3. BALDEV RAJ'S HISTORICAL LINKS (IB Records):
+   - 1990s: Supplied arms to Kashmir militants via Munger-Punjab-Kashmir route
+   - 2005: Arrested under TADA, acquitted 2008 (witnesses turned hostile)
+   - 2015: Name in NIA chargesheet for Punjab-Kashmir arms pipeline
+   - Current: Munger workshop produces 20-30 pistols/month (capacity)
+   - Quality: 9mm copies indistinguishable from OFB issue (per FSL)
+
+4. FINANCIAL TRAIL - KASHMIR ARMS:
+   - Vikram PNB 9876... -> Northern Trading SBI 2222... (TXN041: 20L, TXN069: 25L)
+   - Northern Trading -> Baldev UNION 9999... (TXN036: 25L, TXN064: 35L)
+   - Baldev -> Ravi SBI 1010... (TXN037: 5L, TXN065: 8L) - transport
+   - Farooq AXIS 3333... -> Baldev UNION 9999... (hawala, estimated 15L/month)
+   - Kashmir handlers -> Farooq (reverse hawala, estimated 10L/month)
+
+5. RAVI SHANKAR'S STATEMENT (Supplementary, 05 June):
+   - Confirmed 5 Kashmir deliveries since Jan 2024
+   - "Vikram bhai ne bola - Kashmir side bhi dena hai, Paisa aayega"
+   - Scorpio HR-26-DK-9876 used for Kashmir legs (not truck)
+   - Innova DL-1C-MN-4567 backup
+   - Kashmir receivers: "Bahut dangerous log hain, baat nahi karte, sirf maal lete hain"
+   - Payment: Sometimes cash (Ravi carries), sometimes hawala (Farooq settles)
+
+6. UAPA EVIDENCE MATRIX:
+   Section 16 (Terrorist act): Arms delivery to proscribed org areas (Shopian, Pulwama)
+   Section 18 (Conspiracy): Vikram-Baldev-Ravi-Farooq-Kashmir handlers
+   Section 20 (Member of terrorist gang): Vikram (recruiter), Ravi (logistics), Baldev (source)
+   Section 38 (Membership): Organized crime syndicate with terror nexus
+   Section 39 (Support): Sunil (finance via Northern Trading), Priya (shell companies), Farooq (hawala)
+
+7. NIA REFERRAL:
+   Case referred to NIA on 2024-06-05 (UAPA + Kashmir nexus)
+   NIA team visited Lucknow 2024-06-08, took custody of:
+   - Ravi Shankar (transporter)
+   - Truck UP-32-BN-5678 GPS data
+   - CDR of Vikram, Baldev, Farooq, Ravi
+   - Ledger entries (Farooq) showing Kashmir payments
+
+8. NETWORK IMPACT - KASHMIR NEXUS:
+   This transforms the case from "interstate arms smuggling" to "terror financing".
+   The SAME network (Vikram, Ravi, Baldev, Farooq, Sunil, Priya) that moves:
+   - Drugs (FIR-001)
+   - Fraud proceeds (FIR-002)
+   - Hawala (FIR-003)
+   - Shell companies (FIR-005)
+
+   IS NOW CONFIRMED TO MOVE ARMS TO KASHMIR MILITANTS.
+
+   This demands UNIFIED PROSECUTION under UAPA + PMLA + NDPS + Arms Act + MCOCA.
+
+9. NEXT STEPS:
+   - [ ] NIA to lead Kashmir investigation (J&K Police coordination)
+   - [ ] Identify "Khan Sahab", "Major Sb", "Doctor Sahab" - target for arrest
+   - [ ] Freeze Vikram's PNB account, Northern Trading, Baldev's UNION account
+   - [ ] Interpol for Hassan Ali (Dubai) - terror financing angle
+   - [ ] MHA: Diplomatic note for Goa meeting foreign national (terror link?)
+   - [ ] NSA detention for Vikram Singh, Baldev Raj, Ravi Shankar
+   - [ ] ED: PMLA attachment including terror proceeds
+   - [ ] Unified chargesheet: NIA (UAPA) + ED (PMLA) + State (NDPS/Arms)
+
+ACP Lucknow
+Kotwali PS
+Date: 2024-06-10

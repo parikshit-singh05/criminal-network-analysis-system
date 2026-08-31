@@ -1,0 +1,51 @@
+location_id,name,type,city,state,country,latitude,longitude,aliases
+LOC001,Dwarka,Neighborhood,Delhi,Delhi,India,28.5921,77.0460,"Sector 12, Dwarka"
+LOC002,Rajouri Garden,Neighborhood,Delhi,Delhi,India,28.6419,77.1209,"Rajouri Garden PS"
+LOC003,Karol Bagh,Neighborhood,Delhi,Delhi,India,28.6519,77.1909,"Karol Bagh Market"
+LOC004,Chandni Chowk,Market Area,Delhi,Delhi,India,28.6562,77.2310,"Old Delhi, Shop No. 78"
+LOC005,Amritsar,City,Amritsar,Punjab,India,31.6340,74.8723,"Golden Temple Road"
+LOC006,Ludhiana,City,Ludhiana,Punjab,India,30.9010,75.8573,
+LOC007,Mumbai,City,Mumbai,Maharashtra,India,19.0760,72.8777,
+LOC008,Andheri,Neighborhood,Mumbai,Maharashtra,India,19.1197,72.8464,"Andheri East, Andheri West"
+LOC009,Malad,Neighborhood,Mumbai,Maharashtra,India,19.1885,72.8430,"Malad West, Malad East"
+LOC010,Goregaon,Neighborhood,Mumbai,Maharashtra,India,19.1667,72.8523,
+LOC011,Surat,City,Surat,Gujarat,India,21.1702,72.8311,
+LOC012,Kochi,City,Kochi,Kerala,India,9.9312,76.2673,
+LOC013,Lucknow,City,Lucknow,Uttar Pradesh,India,26.8467,80.9462,
+LOC014,Munger,City,Munger,Bihar,India,25.3801,86.4693,
+LOC015,Bangalore,City,Bangalore,Karnataka,India,12.9716,77.5946,
+LOC016,Goa,State,Panaji,Goa,India,15.2993,74.1240,"Panaji, North Goa, South Goa"
+LOC017,Kolkata,City,Kolkata,West Bengal,India,22.5726,88.3639,
+LOC018,Srinagar,City,Srinagar,Jammu and Kashmir,India,34.0837,74.7973,
+LOC019,Jammu,City,Jammu,Jammu and Kashmir,India,32.7266,74.8570,
+LOC020,Dubai,City,Dubai,Dubai,UAE,25.2048,55.2708,
+LOC021,Mauritius,Country,Port Louis,Mauritius,Mauritius,-20.1609,57.5012,
+LOC022,Hotel Grand Palace,Hotel,Delhi,Delhi,India,28.6519,77.1909,"Grand Palace, Karol Bagh Hotel"
+LOC023,Taj Hotel Goa,Hotel,Panaji,Goa,India,15.4909,73.8278,"Taj Fort Aguada, Taj Goa"
+LOC024,Shop No. 78,Commercial,Delhi,Delhi,India,28.6562,77.2310,"Chandni Chowk Shop 78"
+LOC025,House No. 45 Sector 12 Dwarka,Residential,Delhi,Delhi,India,28.5921,77.0460,"Rajesh Kumar Residence"
+LOC026,123 MG Road Bangalore,Commercial,Bangalore,Karnataka,India,12.9716,77.5946,"MG Road, Tech Solutions Office"
+LOC027,45 Civil Lines Lucknow,Commercial,Lucknow,Uttar Pradesh,India,26.8467,80.9462,"Northern Trading Co Office"
+LOC028,Highway NH44,Highway,Multiple,Multiple,India,28.7041,77.1025,"National Highway 44, Delhi-Amritsar"
+LOC029,Bhendi Bazaar,Market Area,Mumbai,Maharashtra,India,18.9547,72.8320,
+LOC030,Golden Temple Road,Religious Site,Amritsar,Punjab,India,31.6200,74.8765,
+LOC031,Office Complex Malad West,Commercial,Mumbai,Maharashtra,India,19.1885,72.8430,"Malad Office Complex"
+LOC032,Private Conference Room Taj Goa,Meeting Room,Panaji,Goa,India,15.4909,73.8278,"Taj Goa Conference"
+LOC033,Chandni Chowk Delhi,Market Area,Delhi,Delhi,India,28.6562,77.2310,"Old Delhi Market"
+LOC034,Karol Bagh Coffee Shop,Commercial,Delhi,Delhi,India,28.6519,77.1909,"Coffee Shop Karol Bagh"
+LOC035,White Toyota Fortuner,Vehicle,Mobile,Mobile,India,0,0,"DL-5C-AB-1234"
+LOC036,Mahindra Scorpio HR-26-DK-9876,Vehicle,Mobile,Mobile,India,0,0,"Scorpio"
+LOC037,Mahindra Scorpio HR-26-DK-9876,Vehicle,Mobile,Mobile,India,0,0,"HR-26-DK-9876"
+LOC038,Toyota Innova DL-1C-MN-4567,Vehicle,Mobile,Mobile,India,0,0,"Innova"
+LOC039,Truck UP-32-BN-5678,Vehicle,Mobile,Mobile,India,0,0,"Northern Trading Truck"
+LOC040,Phone 9988776655,Phone Number,Ludhiana,Punjab,India,30.9010,75.8573,"Unknown Ludhiana Number"
+LOC041,Phone +971-50-1234567,Phone Number,Dubai,Dubai,UAE,25.2048,55.2708,"Hassan Ali Dubai"
+LOC042,Phone 8899001122,Phone Number,Lucknow,Uttar Pradesh,India,26.8467,80.9462,"Ravi Shankar"
+LOC043,Phone 7788990011,Phone Number,Munger,Bihar,India,25.3801,86.4693,"Baldev Raj"
+LOC044,Phone 9900112233,Phone Number,Bangalore,Karnataka,India,12.9716,77.5946,"Kiran Desai"
+LOC045,Phone 9111222333,Phone Number,Delhi,Delhi,India,28.6562,77.2310,"Mohammed Farooq"
+LOC046,Phone 9123456789,Phone Number,Amritsar,Punjab,India,31.6340,74.8723,"Vikram Singh"
+LOC047,Phone 9876543210,Phone Number,Delhi,Delhi,India,28.5921,77.0460,"Rajesh Kumar"
+LOC048,Phone 8877665544,Phone Number,Mumbai,Maharashtra,India,19.0760,72.8777,"Sunil Verma"
+LOC049,Phone 7766554433,Phone Number,Surat,Gujarat,India,21.1702,72.8311,"Amit Patel"
+LOC050,Phone 9988776655,Phone Number,Ludhiana,Punjab,India,30.9010,75.8573,"Unknown"

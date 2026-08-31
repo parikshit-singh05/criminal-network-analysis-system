@@ -1,0 +1,112 @@
+{
+  "fir_records": [
+    {
+      "fir_id": "FIR-2024-001",
+      "title": "Drug Trafficking Network Busted",
+      "date": "2024-01-15",
+      "station": "Rajouri Garden PS",
+      "city": "Delhi",
+      "sections": ["NDPS Act Section 21", "NDPS Act Section 29"],
+      "status": "Under Investigation",
+      "key_entities": {
+        "persons": ["Rajesh Kumar", "Vikram Singh", "Mohammed Farooq", "Priya Sharma", "Sunil Verma"],
+        "phone_numbers": ["9988776655"],
+        "vehicles": ["DL-5C-AB-1234"],
+        "bank_accounts": ["HDFC12345678901234"],
+        "locations": ["Hotel Grand Palace, Karol Bagh", "House No. 45, Sector 12, Dwarka", "Chandni Chowk"],
+        "organizations": ["shell companies in Kolkata"]
+      },
+      "narrative": "On 2024-01-15, acting on intelligence input, a raid was conducted at House No. 45, Sector 12, Dwarka leading to the arrest of Rajesh Kumar with 5kg of heroin. Investigation revealed that Rajesh Kumar received the consignment from Vikram Singh through a courier. The drugs were transported in a white Toyota Fortuner bearing registration DL-5C-AB-1234. Mohammed Farooq was identified as operating hawala channels for the network. Call detail records show frequent communication between Rajesh Kumar, Vikram Singh, and the unknown number 9988776655 which was traced to Ludhiana. Rajesh Kumar's HDFC account (12345678901234) received suspicious deposits totaling Rs. 50 lakhs from multiple shell company accounts. Priya Sharma was found at the premises during the raid and was seen meeting Sunil Verma at Hotel Grand Palace, Karol Bagh on multiple occasions. The investigation is ongoing to identify the source of the heroin and the full extent of the distribution network.",
+      "evidence_collected": ["5kg heroin", "Toyota Fortuner DL-5C-AB-1234", "Mobile phones", "Bank documents", "Cash Rs. 2.5 lakhs"],
+      "investigating_officer": "Inspector Sharma",
+      "source_document_id": "FIR-2024-001-DOC",
+      "created_date": "2024-01-15",
+      "last_updated": "2024-06-15"
+    },
+    {
+      "fir_id": "FIR-2024-002",
+      "title": "Online Fraud Ring Detected",
+      "date": "2024-02-20",
+      "station": "Cyber Crime PS",
+      "city": "Mumbai",
+      "sections": ["IPC 420", "IT Act Section 66D"],
+      "status": "Under Investigation",
+      "key_entities": {
+        "persons": ["Sunil Verma", "Amit Patel", "Deepa Nair", "Rajesh Kumar", "Vikram Singh"],
+        "organizations": ["Tech Solutions Pvt Ltd"],
+        "locations": ["123 MG Road, Bangalore", "Malad", "Goregaon"],
+        "financial_channels": ["crypto exchanges"]
+      },
+      "narrative": "A complaint was received regarding fraudulent transactions totaling Rs. 2.5 crore perpetrated through fake call centers. Investigation revealed that Sunil Verma operated multiple fake call centers in Malad and Goregaon areas of Mumbai. Amit Patel provided SIM cards and bank accounts for the operation. Deepa Nair handled the bank accounts and cryptocurrency conversion for laundering the proceeds. Communication records show Sunil Verma, Amit Patel, and Rajesh Kumar were in frequent contact. Significantly, Rajesh Kumar from the drug trafficking case (FIR-2024-001) is connected to this network. Tech Solutions Pvt Ltd was identified as a shell company used for layering the fraud proceeds. Financial analysis traced payments to bank accounts associated with Vikram Singh. The network used encrypted messaging applications and frequently changed phone numbers to avoid detection.",
+      "evidence_collected": ["Laptops and servers", "SIM cards", "Bank account details", "Crypto wallet addresses", "Call center scripts"],
+      "investigating_officer": "ACP Cyber Crime",
+      "source_document_id": "FIR-2024-002-DOC",
+      "created_date": "2024-02-20",
+      "last_updated": "2024-06-15"
+    },
+    {
+      "fir_id": "FIR-2024-003",
+      "title": "Hawala Operation Uncovered",
+      "date": "2024-03-10",
+      "station": "Sadar Bazaar PS",
+      "city": "Delhi",
+      "sections": ["FEMA Act", "PMLA Act"],
+      "status": "Active",
+      "key_entities": {
+        "persons": ["Mohammed Farooq", "Vikram Singh", "Deepa Nair", "Hassan Ali", "Ravi Shankar", "Amit Patel", "Priya Sharma"],
+        "locations": ["Shop No. 78, Chandni Chowk"],
+        "phone_numbers": ["+971-50-1234567"],
+        "vehicles": ["HR-26-DK-9876", "DL-1C-MN-4567"]
+      },
+      "narrative": "Based on sustained surveillance and financial intelligence, an illegal money transfer (hawala) operation run by Mohammed Farooq was uncovered at Shop No. 78, Chandni Chowk. Records seized indicate a turnover exceeding Rs. 100 crore over the past two years. Vikram Singh was identified as a major client who sent approximately Rs. 15 crore through Farooq's network. Deepa Nair routed approximately Rs. 8 crore through the same channels. Mohammed Farooq frequently contacted Hassan Ali in Dubai (+971-50-1234567) for international settlements. Ravi Shankar was identified as the primary cash transporter using vehicles including Mahindra Scorpio HR-26-DK-9876 and Toyota Innova DL-1C-MN-4567. Amit Patel received approximately Rs. 3 crore for gold purchases on behalf of the network. Priya Sharma visited Farooq's shop at least three times in the past six months, suggesting her involvement in the operation.",
+      "evidence_collected": ["Hawala ledgers", "Cash Rs. 45 lakhs", "Two vehicles", "Mobile phones", "Diary with codes"],
+      "investigating_officer": "Inspector Singh",
+      "source_document_id": "FIR-2024-003-DOC",
+      "created_date": "2024-03-10",
+      "last_updated": "2024-06-15"
+    },
+    {
+      "fir_id": "FIR-2024-004",
+      "title": "Arms Smuggling Case",
+      "date": "2024-03-25",
+      "station": "Kotwali PS",
+      "city": "Lucknow",
+      "sections": ["Arms Act Section 25", "UAPA"],
+      "status": "Chargesheet Filed",
+      "key_entities": {
+        "persons": ["Ravi Shankar", "Baldev Raj", "Vikram Singh", "Mohammed Farooq", "Sunil Verma", "Priya Sharma"],
+        "organizations": ["Northern Trading Co."],
+        "vehicles": ["UP-32-BN-5678", "HR-26-DK-9876", "DL-1C-MN-4567"],
+        "phone_numbers": ["8899001122", "7788990011"]
+      },
+      "narrative": "On 2024-03-25, a truck bearing registration UP-32-BN-5678 was intercepted near Lucknow carrying illegal firearms. The driver, Ravi Shankar, was arrested. Investigation revealed the firearms were supplied by Baldev Raj from Munger, Bihar, with the intended destination being Vikram Singh in Amritsar. Analysis of Ravi Shankar's phone revealed contacts for Baldev Raj, Vikram Singh, and an unknown number. GPS history of the truck showed routes covering Amritsar, Srinagar, and Jammu. Baldev Raj received payments through Northern Trading Co., which was linked to Sunil Verma's network from the fraud case (FIR-2024-002). Priya Sharma's phone number was found in Ravi Shankar's contact list, establishing another cross-case connection. A chargesheet has been filed in this case.",
+      "evidence_collected": ["Illegal firearms (12 pistols, 500 rounds)", "Truck UP-32-BN-5678", "Mobile phone of Ravi Shankar", "GPS device", "Cash Rs. 1.2 lakhs"],
+      "investigating_officer": "ACP Lucknow",
+      "source_document_id": "FIR-2024-004-DOC",
+      "created_date": "2024-03-25",
+      "last_updated": "2024-06-15"
+    },
+    {
+      "fir_id": "FIR-2024-005",
+      "title": "Money Laundering Through Shell Companies",
+      "date": "2024-04-05",
+      "station": "Koramangala PS",
+      "city": "Bangalore",
+      "sections": ["PMLA Act", "Companies Act violations"],
+      "status": "Under Investigation",
+      "key_entities": {
+        "persons": ["Priya Sharma", "Sunil Verma", "Rajesh Kumar", "Kiran Desai", "Deepa Nair", "Mohammed Farooq"],
+        "organizations": ["Tech Solutions Pvt Ltd", "Northern Trading Co."],
+        "bank_accounts": ["ICICI98765432101234"],
+        "phone_numbers": ["9900112233"],
+        "locations": ["Goa", "Bangalore", "Mauritius", "Taj Hotel, Goa"]
+      },
+      "narrative": "Tech Solutions Pvt Ltd was flagged by the Financial Intelligence Unit for suspicious transaction patterns. Investigation revealed Priya Sharma's deep involvement in shell company operations. The money trail connects to Sunil Verma's fraud network (FIR-2024-002) and Rajesh Kumar's drug proceeds (FIR-2024-001). The estimated laundering amount exceeds Rs. 75 crore. Kiran Desai acted as a front for property purchases in Bangalore and Goa. Bank transfers connect Priya Sharma, Deepa Nair, and offshore accounts in Mauritius. Amit Patel provided forged registration documents for the shell companies. Mohammed Farooq facilitated international transfers through his hawala channels (FIR-2024-003). The network used encrypted messaging applications and frequently changed phone numbers. Key members including Priya Sharma, Sunil Verma, and Kiran Desai met at Taj Hotel, Goa on 2024-03-15 along with an unidentified foreign national who arrived in a diplomatic-plated vehicle.",
+      "evidence_collected": ["Company documents", "Bank statements", "Property deeds", "Encrypted chat logs", "Passport copies", "Diplomatic vehicle details"],
+      "investigating_officer": "ACP Bangalore",
+      "source_document_id": "FIR-2024-005-DOC",
+      "created_date": "2024-04-05",
+      "last_updated": "2024-06-15"
+    }
+  ]
+}

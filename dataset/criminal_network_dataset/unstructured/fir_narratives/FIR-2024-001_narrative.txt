@@ -1,0 +1,46 @@
+DOCUMENT_ID: FIR-2024-001-NARR-001
+CASE_ID: FIR-2024-001
+DATE: 2024-01-15
+SOURCE_TYPE: FIR Narrative
+SOURCE: Rajouri Garden Police Station, Delhi
+
+FIRST INFORMATION REPORT NARRATIVE
+
+On 15th January 2024, at approximately 14:30 hours, acting on specific intelligence received from a reliable source, a team comprising Inspector Sharma, SI Verma, and constables conducted a raid at House No. 45, Sector 12, Dwarka, Delhi.
+
+Upon entry, the team apprehended one Rajesh Kumar (approx. 38 years), resident of the said address. During search of the premises, 5 (five) kilograms of suspected heroin, packed in 50 packets of 100 grams each, was recovered from a concealed compartment in the bedroom wardrobe. Also recovered were:
+- One white Toyota Fortuner SUV bearing registration DL-5C-AB-1234 parked in the garage
+- Two mobile phones (numbers 9876543210 and 9988776655)
+- Cash amounting to Rs. 2,50,000/-
+- Bank passbook of HDFC Bank account number 12345678901234
+- A diary containing coded entries
+
+During interrogation, Rajesh Kumar disclosed that:
+1. The heroin consignment was received from one Vikram Singh, resident of Amritsar, Punjab, through a courier approximately 3 days prior.
+2. The drugs were transported from Amritsar to Delhi in the Toyota Fortuner DL-5C-AB-1234 driven by an associate.
+3. Payment for the consignment was made through hawala channels operated by Mohammed Farooq, who runs a shop at Shop No. 78, Chandni Chowk, Delhi.
+4. Frequent communication was maintained with Vikram Singh (phone 9123456789) and an unknown number 9988776655 (traced to Ludhiana, Punjab).
+5. His HDFC account received suspicious deposits totaling approximately Rs. 50 lakhs from multiple shell company accounts based in Kolkata over the past 6 months.
+
+One Priya Sharma (approx. 32 years) was found present at the premises during the raid. She claimed to be visiting Rajesh Kumar for a property matter. However, surveillance records indicate she was seen meeting Sunil Verma at Hotel Grand Palace, Karol Bagh on multiple occasions in December 2023 and January 2024.
+
+Call Detail Record analysis of the seized phones reveals:
+- Number 9876543210 (Rajesh Kumar) had 47 calls with 9123456789 (Vikram Singh) in the past 30 days
+- Number 9876543210 had 23 calls with 9988776655 (Unknown, Ludhiana)
+- Number 9876543210 had 15 calls with 8877665544 (Sunil Verma, Mumbai)
+- Number 9123456789 (Vikram Singh) had 31 calls with 9111222333 (Mohammed Farooq)
+- Number 9123456789 had 18 calls with 7788990011 (Baldev Raj)
+
+Financial investigation of HDFC account 12345678901234 reveals credits from:
+- BOI account 11111111111111 (Unknown-Shell1, Kolkata) - Rs. 15 lakhs
+- SBI account 22222222222222 (Unknown-Shell2, Kolkata) - Rs. 20 lakhs
+- Multiple other shell company accounts
+
+The accused Rajesh Kumar has been arrested under Sections 21 and 29 of the NDPS Act. The vehicle DL-5C-AB-1234 has been seized. Investigation is ongoing to trace the source of heroin, identify the full distribution network, and establish the money trail through shell companies.
+
+The role of Priya Sharma, Sunil Verma, and the unknown Ludhiana number is under investigation. Connection to other cases (FIR-2024-002, FIR-2024-003, FIR-2024-005) is being examined.
+
+Inspector Sharma
+Rajouri Garden PS
+Delhi Police
+Date: 2024-01-15

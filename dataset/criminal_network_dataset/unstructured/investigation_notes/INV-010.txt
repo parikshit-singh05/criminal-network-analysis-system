@@ -1,0 +1,114 @@
+DOCUMENT_ID: INV-010
+CASE_ID: FIR-2024-001, FIR-2024-002, FIR-2024-003, FIR-2024-004, FIR-2024-005
+DATE: 2024-07-15
+SOURCE_TYPE: Investigation Notes
+OFFICER: Joint Task Force Coordinator
+
+INVESTIGATION NOTES
+
+Case: FINAL NETWORK ASSESSMENT - Pre-Chargesheet Consolidation
+Officer: Joint Task Force Coordinator (DCP Level)
+Date: 15th July 2024
+
+NOTES:
+
+1. INVESTIGATION STATUS - ALL 5 FIRs:
+   FIR-2024-001 (Drug): Rajesh Kumar (ARRESTED), Vikram Singh (ABSCONDING), Mohammed Farooq (ARRESTED), Priya Sharma (ABSCONDING), Sunil Verma (ARRESTED)
+   FIR-2024-002 (Fraud): Sunil Verma (ARRESTED), Amit Patel (ARRESTED), Deepa Nair (ARRESTED), Priya Sharma (ABSCONDING), Rajesh Kumar (ARRESTED), Vikram Singh (ABSCONDING)
+   FIR-2024-003 (Hawala): Mohammed Farooq (ARRESTED), Hassan Ali (ABSCONDING-Dubai), Ravi Shankar (ARRESTED), Deepa Nair (ARRESTED), Amit Patel (ARRESTED), Priya Sharma (ABSCONDING), Vikram Singh (ABSCONDING), Baldev Raj (ARRESTED)
+   FIR-2024-004 (Arms): Ravi Shankar (ARRESTED), Baldev Raj (ARRESTED), Vikram Singh (ABSCONDING), Mohammed Farooq (ARRESTED), Sunil Verma (ARRESTED), Priya Sharma (ABSCONDING) - CHARGESHEET FILED
+   FIR-2024-005 (Laundering): Tech Solutions flagged, Priya Sharma (ABSCONDING), Sunil Verma (ARRESTED), Rajesh Kumar (ARRESTED), Kiran Desai (ABSCONDING), Deepa Nair (ARRESTED), Mohammed Farooq (ARRESTED), Amit Patel (ARRESTED)
+
+   ABSCONDING (Priority): Vikram Singh, Priya Sharma, Hassan Ali, Kiran Desai
+   ARRESTED (In custody): Rajesh, Sunil, Amit, Deepa, Farooq, Ravi, Baldev
+
+2. ASSET ATTACHMENT STATUS (ED/PMLA):
+   PROVISIONAL ATTACHMENT ORDERS ISSUED (Rs. 85+ Cr):
+   - Properties (6): Dwarka house (2.5Cr), Koramangala (8Cr), Calangute villa (1.8Cr), Goa Hospitality (12Cr), Munger workshop (3Cr), Lucknow Northern Trading office (2Cr)
+   - Bank Accounts (35): 12 personal + 12 shell + 11 mule = Rs. 42 Cr frozen
+   - Vehicles (6): Fortuner, Scorpio, Innova, Truck, Tata Harrier, BMW X5 = Rs. 1.5 Cr
+   - Offshore (MLA pending): Oceanic Holdings, Island Finance, Pacific Rim, Desert Gold, Gulf Money, Emirates NBD
+   - Crypto (12 wallets): ~Rs. 5 Cr frozen (Binance, WazirX, CoinDCX cooperation)
+
+3. MLA / INTERNATIONAL COOPERATION:
+   MAURITIUS (3 MLAs sent): Oceanic Holdings, Island Finance Corp, Pacific Rim Investments
+   Status: Mauritius FIU responded - accounts frozen, beneficial ownership disclosure requested
+
+   UAE (3 MLAs sent): Desert Gold Trading, Gulf Money Exchange, Emirates NBD (Hassan Ali)
+   Status: UAE FIU responded - Emirates NBD frozen (AED 4.2M), Desert Gold/Gulf Money under investigation
+
+   INTERPOL: Red Notice for Hassan Ali (Dubai) - ISSUED
+   Red Notice for Vikram Singh - PENDING (Punjab Police request)
+   Red Notice for Priya Sharma - PENDING (Bangalore Police request)
+   Red Notice for Kiran Desai - PENDING (Goa Police request)
+
+4. DIPLOMATIC CHANNEL - GOA MEETING:
+   MHA Diplomatic Note sent to Embassy of [Country X] - 2024-05-20
+   Response received 2024-06-28: "Individual concerned recalled. Immunity waived for investigation cooperation."
+   Foreign National: [REDACTED - Name], Commercial Attache, Embassy of [Country X]
+   Role: Facilitator for Mauritius/Dubai banking channels for Priya Sharma's network
+   Statement recorded: Confirmed introducing Priya Sharma to Mauritius registered agents (Rogers Capital, MauriExperta)
+
+5. NETWORK REGENERATION ASSESSMENT (Post-Raids):
+   RESILIENCE: HIGH
+   - Core leadership (Priya, Vikram, Hassan) at large
+   - Kolkata/Hyderabad/Chennai shells activated
+   - Burner rate: 8/month sustained
+   - New crypto shells: 4 (YES, ICICI, AXIS, IDFC)
+   - Call center capacity: 65 seats (vs 35 pre-raid)
+   - Kashmir arms pipeline: ACTIVE (Ravi's associates continuing)
+
+   VULNERABILITIES:
+   - Physical logistics: Ravi Shankar arrested, Scorpio/Innova/Truck seized
+   - Hawala hub: Farooq arrested, Chandni Chowk shop sealed, ledgers seized
+   - Crypto converter: Deepa Nair arrested, 12 wallets frozen
+   - SIM/Account supply: Amit Patel arrested, 80+ mule accounts frozen
+   - Shell auditor: CA Verma under investigation
+   - Diplomatic cover: Compromised (immunity waived)
+
+6. UNIFIED PROSECUTION STRATEGY:
+   CHARGESHEET 1 - NIA (UAPA + Arms Act):
+   Accused: Vikram Singh, Baldev Raj, Ravi Shankar, Mohammed Farooq, Sunil Verma, Priya Sharma, Hassan Ali, Kashmir handlers
+   Evidence: GPS, CDR, ledgers, witness (WIT-007), Kashmir delivery points, arms recovery
+   Timeline: File by 31 July 2024
+
+   CHARGESHEET 2 - ED (PMLA):
+   Accused: Priya Sharma, Sunil Verma, Rajesh Kumar, Kiran Desai, Deepa Nair, Mohammed Farooq, Amit Patel, Vikram Singh, Hassan Ali
+   Predicate offenses: NDPS (Rajesh/Vikram), IPC 420/IT Act (Sunil/Amit/Deepa), Arms Act (Vikram/Baldev/Ravi), FEMA (Farooq/Hassan)
+   Proceeds: Rs. 100+ Cr identified, Rs. 85 Cr attached
+   Timeline: File by 15 August 2024
+
+   CHARGESHEET 3 - STATE (NDPS + IPC + Arms + Companies Act):
+   Accused: All above + CA Verma, nominee directors, telecom/banking insiders
+   Timeline: File by 31 August 2024
+
+   CHARGESHEET 4 - MAHARASHTRA MCOCA:
+   Accused: Sunil Verma, Amit Patel, Deepa Nair, Priya Sharma, Rajesh Kumar, Vikram Singh, Mohammed Farooq
+   Organized crime syndicate: 10+ members, 5+ years, multiple states, diversified revenue
+   Timeline: File by 30 September 2024
+
+7. EVIDENCE MATRIX - CROSS-CASE CORROBORATION:
+   Each piece of evidence corroborates MULTIPLE cases:
+   - Farooq's ledgers: Drug (Vikram 15Cr) + Fraud (Deepa 8Cr) + Arms (Baldev 2Cr) + Shells (Priya 12Cr)
+   - CDR: All core numbers interconnected (150 CDR records)
+   - Financial: 80 transactions linking all accused
+   - Vehicles: Scorpio/Innova/Truck used for Drug + Hawala + Arms
+   - Shell companies: 12 entities serving all revenue streams
+   - Offshore: 6 entities receiving all proceeds
+   - Witnesses: WIT-001 (Priya-Rajesh), WIT-002 (Farooq shop), WIT-003 (Sunil center), WIT-004 (Ravi truck), WIT-005 (Goa meeting), WIT-006 (Rajesh house), WIT-007 (Ravi dual role), WIT-008 (Property flip)
+   - Surveillance: SURV-001 to SURV-008 covering all hubs
+   - Intelligence: INTL-001 to INTL-007 strategic picture
+
+8. FINAL RECOMMENDATION:
+   This investigation has established a TEXTBOOK CONVERGED CRIMINAL ENTERPRISE:
+   - Horizontal diversification: Drugs + Fraud + Arms + Hawala + Laundering
+   - Vertical integration: Production (Baldev) -> Transport (Ravi) -> Distribution (Vikram) -> Finance (Farooq/Hassan) -> Layering (Priya/Kiran/Deepa/Amit) -> Offshore (Mauritius/Dubai)
+   - Unified command: Priya Sharma (strategic), Vikram Singh (operational), Mohammed Farooq (financial)
+   - Terror nexus: Kashmir arms diversion (UAPA)
+   - Diplomatic exploitation: Goa meeting (MHA channel open)
+   - Professional resilience: Contingency infrastructure pre-positioned
+
+   RECOMMENDATION: Prosecute as SINGLE ENTERPRISE under unified framework. Do not fragment into 5 separate trials. The evidence matrix proves beyond reasonable doubt that these are not 5 cases - they are 5 faces of ONE criminal enterprise.
+
+Joint Task Force Coordinator
+Date: 2024-07-15

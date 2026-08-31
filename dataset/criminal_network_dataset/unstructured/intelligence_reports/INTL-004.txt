@@ -1,0 +1,74 @@
+DOCUMENT_ID: INTL-004
+CASE_ID: FIR-2024-004
+DATE: 2024-03-05
+SOURCE_TYPE: Intelligence Report
+SOURCE: UP ATS / Lucknow Police
+
+INTELLIGENCE REPORT
+
+Subject: Interstate Arms Smuggling Pipeline - Munger to Punjab via Delhi
+Classification: SECRET
+Date: 5th March 2024
+Source: UP ATS / Lucknow Police / IB
+
+SUMMARY:
+Intelligence confirms an established arms smuggling pipeline from Munger (Bihar) to Punjab (Amritsar) via Uttar Pradesh and Delhi, using commercial trucks and pilot vehicles. The pipeline supplies illegal firearms to Punjab-based criminal networks and potentially to militant elements in Jammu & Kashmir.
+
+KEY FINDINGS:
+
+1. PIPELINE STRUCTURE:
+   - Manufacturer/Supplier: Baldev Raj (Munger, Bihar) - illegal arms unit
+   - Transporter: Ravi Shankar (Lucknow) - truck UP-32-BN-5678
+   - Pilot/Coordination: Scorpio HR-26-DK-9876 (Ravi/Baldev), Innova DL-1C-MN-4567 (Farooq/Ravi)
+   - Recipient: Vikram Singh (Amritsar, Punjab)
+   - Financial: Mohammed Farooq (Delhi hawala), Northern Trading Co. (Lucknow front)
+   - Facilitator: Sunil Verma (Mumbai network link), Priya Sharma (contact)
+
+2. ROUTE & LOGISTICS:
+   - Origin: Munger workshop (Baldev Raj)
+   - Transit: Lucknow -> Kanpur -> Delhi (NH27/NH44) -> Amritsar
+   - Detours: Srinagar, Jammu (3 confirmed trips in 60 days)
+   - Frequency: 2 trips/month average
+   - Concealment: Fabricated cavity under cargo floor
+   - GPS Tracking: Truck UP-32-BN-5678 fitted with tracker
+
+3. ARMS PROFILE:
+   - Primary: Semi-automatic pistols (9mm, .32 bore) - 10-15 per consignment
+   - Secondary: Country-made revolvers, ammunition (500-1000 rounds)
+   - Source: Munger illegal manufacturing (known for quality copies)
+   - Markings: Filed off / counterfeit ordnance factory stamps
+
+4. FINANCIAL MECHANICS:
+   - Per consignment: Rs. 15-25 lakhs
+   - Payment: Hawala via Farooq (AXIS 3333...) -> Baldev Raj (UNION 9999...)
+   - Front Company: Northern Trading Co. (SBI 2222...) - Sunil Verma linked
+   - Recent payments: TXN012 (Vikram->Baldev 7.5L), TXN035 (Sunil->Northern 30L), TXN041 (Vikram->Northern 20L)
+
+5. COMMUNICATIONS:
+   - Ravi Shankar (8899001122) to Baldev Raj (7788990011): 25-30 calls/trip
+   - Ravi Shankar to Vikram Singh (9123456789): 15-20 calls/trip
+   - Ravi Shankar to Mohammed Farooq (9111222333): 30+ calls/trip
+   - Priya Sharma (9900112233) in Ravi's contacts - 7 calls in 60 days
+   - Baldev Raj to Vikram Singh: Direct coordination
+
+6. JAMMU & KASHMIR LINK:
+   GPS data shows 3 detours to Srinagar/Jammu in past 60 days. Intelligence suggests possible diversion of arms to militant elements in Kashmir Valley. Vikram Singh's Amritsar location is a known transit point for Punjab-Kashmir arms movement. Baldev Raj's Munger units have historical links to Kashmir militancy supply chains (per IB records).
+
+7. CROSS-CASE CONVERGENCE:
+   This arms pipeline uses the SAME transport (Ravi Shankar), SAME hawala (Farooq), SAME recipient (Vikram Singh), and SAME front company (Northern Trading) as the drug and fraud networks. The convergence indicates a unified criminal enterprise with diversified revenue streams.
+
+ASSESSMENT:
+The Munger-Punjab arms pipeline is active, well-funded, and operationally mature. The J&K detours raise national security concerns (UAPA applicable). The use of Northern Trading Co. (linked to Sunil Verma's fraud network) as financial front demonstrates the fusion of conventional crime (drugs, fraud) with arms trafficking. Baldev Raj's Munger workshop is the critical production node.
+
+RECOMMENDATIONS:
+1. Intercept next consignment (intelligence suggests late March movement)
+2. Arrest Baldev Raj (Munger) - production source
+3. Arrest Ravi Shankar (transporter) - operational linchpin
+4. Target Vikram Singh (Amritsar) - end recipient
+5. Seize Northern Trading Co. records (Lucknow)
+6. Investigate Srinagar/Jammu delivery points - coordinate with J&K Police/IB
+7. UAPA invocation for J&K nexus
+8. ED attachment of Northern Trading Co. and Baldev Raj assets
+
+UP ATS / Lucknow Police
+Date: 2024-03-05

@@ -1,0 +1,53 @@
+DOCUMENT_ID: FIR-2024-002-NARR-001
+CASE_ID: FIR-2024-002
+DATE: 2024-02-20
+SOURCE_TYPE: FIR Narrative
+SOURCE: Cyber Crime Police Station, Mumbai
+
+FIRST INFORMATION REPORT NARRATIVE
+
+On 20th February 2024, a complaint was received from the Cyber Crime Cell, Mumbai regarding a large-scale online fraud operation involving fraudulent transactions totaling approximately Rs. 2.5 crores perpetrated through multiple fake call centers operating in the Malad and Goregaon areas of Mumbai.
+
+Based on the complaint and preliminary technical analysis, a team led by ACP Cyber Crime conducted raids at two locations:
+1. Office Complex, Malad West, Mumbai (approx. 20 workers found)
+2. Commercial premises, Goregaon East, Mumbai (approx. 15 workers found)
+
+The following individuals were apprehended:
+1. Sunil Verma (approx. 40 years), operator of the call centers, resident of Andheri, Mumbai
+2. Amit Patel (approx. 35 years), SIM card and bank account provider, resident of Surat, Gujarat
+3. Deepa Nair (approx. 30 years), financial handler for crypto conversion, resident of Kochi, Kerala
+
+During the raids, the following evidence was seized:
+- 42 laptops and 3 servers used for call center operations
+- 312 pre-activated SIM cards from various telecom operators
+- Bank account opening kits and cheque books for 47 accounts across multiple banks
+- Cryptocurrency wallet credentials and hardware wallets
+- Call center scripts targeting victims in USA, UK, Canada, and Australia
+- Mobile phones including numbers 8877665544 (Sunil Verma), 7766554433 (Amit Patel)
+
+Interrogation revealed the following modus operandi:
+1. Sunil Verma operated fake technical support and refund scam call centers
+2. Amit Patel procured bulk SIM cards using forged documents and opened bank accounts using synthetic identities
+3. Deepa Nair managed the money laundering layer - receiving funds in mule accounts, converting to cryptocurrency via exchanges, and transferring to offshore wallets
+4. The fraud proceeds were routed through Tech Solutions Pvt Ltd (123 MG Road, Bangalore), a shell company controlled by Priya Sharma
+
+Significantly, Call Detail Record analysis revealed communication links between:
+- Sunil Verma (8877665544) and Rajesh Kumar (9876543210) - 28 calls in past 60 days
+- Sunil Verma and Amit Patel (7766554433) - 156 calls in past 60 days
+- Sunil Verma and Mohammed Farooq (9111222333) - 22 calls in past 60 days
+- Amit Patel and Kiran Desai (9900112233) - 34 calls in past 60 days
+- Amit Patel and Mohammed Farooq - 19 calls in past 60 days
+
+Financial analysis traced payments from the fraud accounts to:
+- Vikram Singh's PNB account (98765432101234) - Rs. 45 lakhs
+- Mohammed Farooq's AXIS account (33333333333333) - Rs. 32 lakhs
+- Tech Solutions Pvt Ltd ICICI account (11111111111111) - Rs. 78 lakhs
+
+The network used encrypted messaging applications (Signal, Telegram) and frequently changed phone numbers. At least 12 burner numbers were identified in the past 6 months.
+
+The accused Sunil Verma, Amit Patel, and Deepa Nair have been arrested under IPC Section 420 and IT Act Section 66D. Investigation is ongoing to identify victims, trace the full money trail, and establish connections to the drug trafficking network (FIR-2024-001) and hawala operation (FIR-2024-003).
+
+ACP Cyber Crime
+Cyber Crime PS
+Mumbai Police
+Date: 2024-02-20

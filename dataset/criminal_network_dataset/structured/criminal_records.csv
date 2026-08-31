@@ -1,0 +1,52 @@
+record_id,person_id,person_name,case_id,offense_type,date,role,status,jurisdiction
+CR001,PER001,Rajesh Kumar,FIR-2024-001,Drug Trafficking,2024-01-15,Primary Suspect,Under Investigation,Delhi
+CR002,PER002,Vikram Singh,FIR-2024-001,Drug Trafficking,2024-01-15,Co-conspirator,Under Investigation,Delhi
+CR003,PER003,Mohammed Farooq,FIR-2024-001,Drug Trafficking,2024-01-15,Hawala Operator,Under Investigation,Delhi
+CR004,PER010,Priya Sharma,FIR-2024-001,Drug Trafficking,2024-01-15,Associate,Under Investigation,Delhi
+CR005,PER004,Sunil Verma,FIR-2024-001,Drug Trafficking,2024-01-15,Associate,Under Investigation,Delhi
+CR006,PER004,Sunil Verma,FIR-2024-002,Online Fraud,2024-02-20,Primary Suspect,Under Investigation,Mumbai
+CR007,PER005,Amit Patel,FIR-2024-002,Online Fraud,2024-02-20,Co-conspirator,Under Investigation,Mumbai
+CR008,PER009,Deepa Nair,FIR-2024-002,Online Fraud,2024-02-20,Financial Handler,Under Investigation,Mumbai
+CR009,PER001,Rajesh Kumar,FIR-2024-002,Online Fraud,2024-02-20,Connected Party,Under Investigation,Mumbai
+CR010,PER002,Vikram Singh,FIR-2024-002,Online Fraud,2024-02-20,Financial Beneficiary,Under Investigation,Mumbai
+CR011,PER003,Mohammed Farooq,FIR-2024-003,Hawala Operation,2024-03-10,Primary Operator,Active,Delhi
+CR012,PER002,Vikram Singh,FIR-2024-003,Hawala Operation,2024-03-10,Major Client,Active,Delhi
+CR013,PER009,Deepa Nair,FIR-2024-003,Hawala Operation,2024-03-10,Fund Router,Active,Delhi
+CR014,PER011,Hassan Ali,FIR-2024-003,Hawala Operation,2024-03-10,International Contact,Active,Dubai
+CR015,PER006,Ravi Shankar,FIR-2024-003,Hawala Operation,2024-03-10,Cash Transporter,Active,Delhi
+CR016,PER005,Amit Patel,FIR-2024-003,Hawala Operation,2024-03-10,Gold Purchaser,Active,Delhi
+CR017,PER010,Priya Sharma,FIR-2024-003,Hawala Operation,2024-03-10,Frequent Visitor,Active,Delhi
+CR018,PER006,Ravi Shankar,FIR-2024-004,Arms Smuggling,2024-03-25,Transporter,Chargesheet Filed,Lucknow
+CR019,PER007,Baldev Raj,FIR-2024-004,Arms Smuggling,2024-03-25,Supplier,Chargesheet Filed,Lucknow
+CR020,PER002,Vikram Singh,FIR-2024-004,Arms Smuggling,2024-03-25,Intended Recipient,Chargesheet Filed,Lucknow
+CR021,PER003,Mohammed Farooq,FIR-2024-004,Arms Smuggling,2024-03-25,Facilitator,Chargesheet Filed,Lucknow
+CR022,PER004,Sunil Verma,FIR-2024-004,Arms Smuggling,2024-03-25,Network Link,Chargesheet Filed,Lucknow
+CR023,PER010,Priya Sharma,FIR-2024-004,Arms Smuggling,2024-03-25,Contact,Chargesheet Filed,Lucknow
+CR024,PER010,Priya Sharma,FIR-2024-005,Money Laundering,2024-04-05,Shell Company Operator,Under Investigation,Bangalore
+CR025,PER004,Sunil Verma,FIR-2024-005,Money Laundering,2024-04-05,Fund Source,Under Investigation,Bangalore
+CR026,PER001,Rajesh Kumar,FIR-2024-005,Money Laundering,2024-04-05,Proceeds Source,Under Investigation,Bangalore
+CR027,PER012,Kiran Desai,FIR-2024-005,Money Laundering,2024-04-05,Property Front,Under Investigation,Bangalore
+CR028,PER009,Deepa Nair,FIR-2024-005,Money Laundering,2024-04-05,Fund Router,Under Investigation,Bangalore
+CR029,PER003,Mohammed Farooq,FIR-2024-005,Money Laundering,2024-04-05,International Transfer,Under Investigation,Bangalore
+CR030,PER005,Amit Patel,FIR-2024-005,Money Laundering,2024-04-05,Document Forger,Under Investigation,Bangalore
+CR031,PER013,Arjun Mehta,FIR-2024-001,Drug Trafficking,2023-06-15,Previous Associate,Closed,Delhi
+CR032,PER014,Neha Gupta,FIR-2024-002,Online Fraud,2023-08-20,Call Center Worker,Closed,Mumbai
+CR033,PER015,Rohit Sharma,FIR-2024-005,Money Laundering,2023-09-10,Minor Role,Closed,Bangalore
+CR034,PER016,Anjali Singh,FIR-2024-001,Drug Trafficking,2022-11-05,Witness,Closed,Kolkata
+CR035,PER017,Suresh Patel,FIR-2024-003,Hawala Operation,2023-02-15,Minor Transporter,Closed,Ahmedabad
+CR036,PER018,Meera Nair,FIR-2024-002,Online Fraud,2023-04-20,Account Holder,Closed,Kochi
+CR037,PER019,Dinesh Kumar,FIR-2024-001,Drug Trafficking,2022-12-10,Courier,Closed,Delhi
+CR038,PER020,Kavita Reddy,FIR-2024-005,Money Laundering,2023-01-30,Property Buyer,Closed,Hyderabad
+CR039,PER021,Harish Chandra,FIR-2024-004,Arms Smuggling,2023-05-12,Local Contact,Closed,Lucknow
+CR040,PER022,Pooja Singh,FIR-2024-001,Drug Trafficking,2023-07-01,Relative,Closed,Amritsar
+CR041,PER023,Manish Tiwari,FIR-2024-002,Online Fraud,2023-03-15,SIM Provider,Closed,Mumbai
+CR042,PER024,Sunita Devi,FIR-2024-002,Online Fraud,2022-08-10,Account Holder,Closed,Surat
+CR043,PER025,Ajay Kumar,FIR-2024-005,Money Laundering,2023-06-20,Technical Support,Closed,Bangalore
+CR044,PER026,Rekha Sharma,FIR-2024-001,Drug Trafficking,2023-02-28,Neighbor,Closed,Delhi
+CR045,PER027,Vinod Patel,FIR-2024-003,Hawala Operation,2023-04-15,Gold Dealer,Closed,Ahmedabad
+CR046,PER028,Geeta Nair,FIR-2024-002,Online Fraud,2023-05-25,Relative,Closed,Kochi
+CR047,PER029,Ramesh Kumar,FIR-2024-001,Drug Trafficking,2022-10-20,Former Employee,Closed,Delhi
+CR048,PER030,Lakshmi Reddy,FIR-2024-005,Money Laundering,2023-03-20,Front Person,Closed,Hyderabad
+CR049,PER031,Sanjay Chandra,FIR-2024-004,Arms Smuggling,2023-04-10,Logistics,Closed,Lucknow
+CR050,PER032,Rita Singh,FIR-2024-001,Drug Trafficking,2023-06-05,Family,Closed,Amritsar
+CR051,PER033,Amit Tiwari,FIR-2024-002,Online Fraud,2023-07-15,Technical,Closed,Mumbai

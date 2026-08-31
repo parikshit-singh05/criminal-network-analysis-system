@@ -1,0 +1,45 @@
+DOCUMENT_ID: SURV-007
+CASE_ID: FIR-2024-004
+DATE: 2024-03-20
+SOURCE_TYPE: Surveillance Report
+OFFICER: SI Verma
+SUBJECT: Ravi Shankar
+LOCATION: Lucknow, Uttar Pradesh
+
+SURVEILLANCE REPORT
+
+Date: 20th March 2024
+Time: 04:00 hrs to 12:00 hrs
+Officer: SI Verma
+Subject: Ravi Shankar
+Location: Lucknow, Uttar Pradesh
+
+OBSERVATIONS:
+
+04:00 hrs - Surveillance team positioned near Ravi Shankar's residence in Lucknow.
+
+04:30 hrs - Ravi Shankar observed leaving residence. Entered truck UP-32-BN-5678 parked nearby.
+
+05:00 hrs - Truck departed Lucknow heading north on NH27 towards Delhi.
+
+06:30 hrs - Truck stopped at a dhaba near Kanpur. Ravi Shankar met with a person identified as Baldev Raj (arrived in Scorpio HR-26-DK-9876). Brief exchange. Baldev Raj handed over a sealed envelope to Ravi Shankar.
+
+07:30 hrs - Truck continued on NH27/NH44 towards Delhi.
+
+09:00 hrs - Truck crossed Delhi border. Proceeded on NH44 towards Amritsar.
+
+10:30 hrs - Truck stopped at a petrol pump near Ambala. Ravi Shankar made a phone call. CDR confirms call to Vikram Singh (9123456789) at 10:32 hrs.
+
+12:00 hrs - Truck continuing towards Amritsar. Surveillance handed over to Punjab team.
+
+NOTES:
+- This surveillance captured the arms consignment movement 5 days before interception (FIR-2024-004).
+- Baldev Raj's envelope handover likely contained payment or instructions.
+- Call to Vikram Singh at Ambala confirms coordination for Amritsar delivery.
+- Truck UP-32-BN-5678 confirmed as primary arms transport vehicle.
+- Scorpio HR-26-DK-9876 used as pilot/coordination vehicle by Baldev Raj.
+
+SI Verma
+Lucknow PS
+Uttar Pradesh Police
+Date: 2024-03-20

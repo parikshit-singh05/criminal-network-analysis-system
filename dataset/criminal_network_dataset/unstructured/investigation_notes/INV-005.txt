@@ -1,0 +1,122 @@
+DOCUMENT_ID: INV-005
+CASE_ID: FIR-2024-005
+DATE: 2024-04-15
+SOURCE_TYPE: Investigation Notes
+OFFICER: ACP Bangalore
+
+INVESTIGATION NOTES
+
+Case: FIR-2024-005 - Money Laundering Through Shell Companies
+Officer: ACP Bangalore, Koramangala PS
+Date: 15th April 2024
+
+NOTES:
+
+1. FIU-IND ALERT & INITIAL FINDINGS:
+   - Tech Solutions Pvt Ltd flagged by FIU for suspicious transaction patterns
+   - STR filed: High-value RTGS/NEFT with no business rationale, frequent cash, offshore links
+   - Preliminary: Rs. 75+ Cr laundered through 12 shell companies + 8 offshore entities
+
+2. PRIYA SHARMA - CENTRAL ARCHITECT:
+   - Director: Tech Solutions Pvt Ltd, Oceanic Holdings Ltd (Mauritius)
+   - Linked: Bangalore Realty Group, Goa Hospitality Ventures
+   - Accounts: ICICI 7777..., HDFC 4444..., HDFC 8888...
+   - CDR: Hub node - connects to ALL other accused (Sunil, Rajesh, Kiran, Deepa, Farooq, Vikram, Amit)
+   - Goa meeting (Mar 15): LEADING the meeting with foreign national (diplomatic vehicle)
+   - Property: Calangute villa (Goa) - purchased 75L, sold 1Cr (TXN009, TXN014)
+   - Koramangala property (Bangalore) via Bangalore Realty Group
+   - Statement: "Businesswoman, legitimate investments" - but network analysis shows otherwise
+
+3. SUNIL VERMA - FRAUD PROCEEDS SOURCE:
+   - Mumbai call center fraud (FIR-002) -> Rs. 2.5Cr+ proceeds
+   - Route: Sunrise Enterprises (Mumbai shell) -> Crypto (Deepa) -> Pacific Rim (Mauritius) -> Tech Solutions
+   - TXN016: 50L Unknown-Shell3 (YES) -> Sunil
+   - TXN030: 20L Sunil -> Rajesh (fraud->drug)
+   - TXN035: 30L Sunil -> Northern Trading (fraud->arms)
+   - TXN043: 70L Sunil -> Unknown-Shell10 (HDFC) -> Crypto
+   - TXN063: 40L Sunil -> Northern Trading
+   - TXN071: 70L Sunil -> Unknown-Shell10 (HDFC) -> Crypto
+   - CDR: Heavy to Amit, Deepa, Farooq, Priya, Kiran, Rajesh
+
+4. RAJESH KUMAR - DRUG PROCEEDS SOURCE:
+   - Dwarka drug trafficking (FIR-001) -> Rs. 50L+ monthly
+   - Route: Global Exports/Metro Traders (Kolkata shells) -> Island Finance (Mauritius) -> Tech Solutions
+   - TXN002: 15L Shell1 (BOI) -> Rajesh
+   - TXN003: 20L Shell2 (SBI) -> Rajesh
+   - TXN031: 15L Rajesh -> HDFC 9999... (offshore shell)
+   - TXN032: 14L HDFC 9999... -> Tech Solutions
+   - TXN049: 30L Rajesh -> Vikram (drug consignment)
+   - TXN059: 20L Rajesh -> Unknown-Shell8 (YES) -> Offshore
+   - TXN060: 18L Unknown-Shell8 -> Tech Solutions
+   - TXN077: 35L Rajesh -> Vikram
+
+5. KIRAN DESAI - PROPERTY FRONT:
+   - Bangalore Realty Group, Goa Hospitality Ventures director
+   - Accounts: HDFC 8888..., HDFC 5555...
+   - Calangute villa: TXN009 (75L Priya->Kiran), TXN014 (1Cr Kiran->Priya)
+   - Goa property value doubled (witness: Taj Hotel staff)
+   - CDR: Heavy to Priya, Sunil, Amit, Deepa, Farooq
+   - Taj Hotel Goa booking for Aug 15 meeting (witness statement)
+
+6. DEEPA NAIR - CRYPTO/HAWALA CONVERTER:
+   - Kochi Spice Traders cover
+   - FED 4444..., KOTAK 1111..., HDFC 3333..., YES 1212... shells
+   - Converts Sunil's fraud proceeds + Farooq's hawala commissions
+   - TXN005: 8L Farooq->Deepa, TXN017: 35L Priya->Deepa, TXN027: 12L Farooq->Deepa
+   - TXN028: 40L Deepa->Priya, TXN045: 30L Deepa->Priya, TXN056: 35L Deepa->Priya
+   - TXN072: 65L Deepa conversion (KOTAK), TXN073: 40L Deepa->Priya
+   - CDR: Heavy to Priya, Sunil, Farooq, Amit
+
+7. MOHAMMED FAROOQ - INTERNATIONAL CHANNEL:
+   - Hawala operator (FIR-003) -> Dubai/Mauritius corridor
+   - AXIS 3333..., 9999... (Dubai), 8888... (Mauritius)
+   - Hassan Ali (Dubai, Emirates NBD) - final settlement
+   - Desert Gold Trading, Gulf Money Exchange (Dubai shells)
+   - TXN004: 15L Vikram->Farooq, TXN022: 18L Vikram->Farooq, TXN039: 30L Farooq->AXIS 9999...
+   - TXN050: 25L Vikram->Farooq, TXN067: 40L Farooq->AXIS 8888..., TXN078: 30L Vikram->Farooq
+
+8. AMIT PATEL - DOCUMENT FORGER:
+   - Surat Diamond Exports cover
+   - Forged registration docs for shell companies (Tech Solutions, etc.)
+   - Forged SIM/account procurement docs
+   - BOB 6666..., 7777... accounts
+   - TXN006: 3L Sunil->Amit, TXN007: 30L Amit->Farooq (gold), TXN020: 6L Amit->Sunil
+   - TXN026: 25L Amit->Farooq, TXN044: 20L Amit->Farooq, TXN054: 20L Amit->Farooq
+
+9. TAJ HOTEL GOA MEETING (MAR 15) - CRITICAL EVENT:
+   - Attendees: Priya (lead), Sunil, Kiran, Foreign National (diplomatic vehicle CD 45 XXXX)
+   - Duration: 3 hours private conference room
+   - Foreign national: Hassan Ali associate or Mauritius/Dubai banking contact
+   - Diplomatic immunity exploited for coordination
+   - MLA required for diplomatic channel investigation
+
+10. UNIFIED LAUNDERING ARCHITECTURE:
+    Single integrated structure serving ALL predicate offenses:
+    Drug (Rajesh) -> Global Exports/Metro Traders -> Island Finance -> Tech Solutions
+    Fraud (Sunil) -> Sunrise Enterprises -> Crypto/Deepa -> Pacific Rim -> Tech Solutions
+    Arms (Vikram) -> Northern Trading -> Capital Ventures -> Desert Gold -> Tech Solutions
+    Hawala (Farooq) -> Gulf Money Exchange -> Emirates NBD -> Oceanic Holdings
+    Shell Layering (Priya/Kiran) -> Tech Solutions -> Properties -> Oceanic/Island/Pacific
+
+11. ANOMALIES:
+    - Diplomatic vehicle at coordination meeting - unprecedented
+    - 12 shell companies with interlocking directors/addresses
+    - Crypto conversion via 4+ shell accounts in 3 months (KOTAK, HDFC, YES, FED)
+    - Property flipping: Goa villa 75L->1Cr in 3 weeks
+    - Tech Solutions audit shows 1.4Cr "legitimate" revenue (perfect layering amount)
+    - Burner acceleration: 3/month -> 8/month post-Feb raids
+
+12. NEXT STEPS:
+    - [ ] PMLA provisional attachment: All properties, 35+ bank accounts, 12 shell companies
+    - [ ] Arrest Priya Sharma, Kiran Desai, Sunil Verma, Rajesh Kumar
+    - [ ] MLA Mauritius: Oceanic Holdings, Island Finance Corp, Pacific Rim Investments
+    - [ ] MLA UAE: Desert Gold Trading, Gulf Money Exchange, Emirates NBD (Hassan Ali)
+    - [ ] Diplomatic note to concerned embassy (CD 45 XXXX vehicle)
+    - [ ] ED investigation: Tech Solutions audit trail, CA/auditors
+    - [ ] SEBI/ROC: Strike off 12 shell companies, prosecute directors
+    - [ ] Crypto exchanges: Freeze wallets, trace on-chain to offshore
+    - [ ] Joint multi-agency: Police, ED, FIU, IB, MHA (diplomatic)
+
+ACP Bangalore
+Koramangala PS
+Date: 2024-04-15

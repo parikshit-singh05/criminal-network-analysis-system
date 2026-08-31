@@ -1,0 +1,66 @@
+DOCUMENT_ID: INTL-006
+CASE_ID: FIR-2024-001
+DATE: 2024-04-10
+SOURCE_TYPE: Intelligence Report
+SOURCE: Punjab Police / IB
+
+INTELLIGENCE REPORT
+
+Subject: Vikram Singh Network - Amritsar Hub Expansion & Kashmir Link
+Classification: SECRET
+Date: 10th April 2024
+Source: Punjab Police Special Branch / Intelligence Bureau
+
+SUMMARY:
+Intelligence indicates Vikram Singh (Amritsar) is expanding his criminal hub to integrate drug distribution, arms reception, and hawala coordination. The network shows increased activity on the Amritsar-Srinagar corridor suggesting deeper J&K linkages.
+
+KEY FINDINGS:
+
+1. NETWORK EXPANSION:
+   - New recruits: 8-10 local youth in Amritsar/Rural Punjab for distribution
+   - Storage facilities: 3 identified (Ranjit Avenue, Verka, Attari border area)
+   - Vehicle fleet: Tata Harrier PB-10-GH-7890, Fortuner PB-08-WX-5678, Hyundai Tucson PB-02-MN-7890
+
+2. KASHMIR CORRIDOR ACTIVITY:
+   - GPS data (Ravi Shankar's truck) shows 5 trips to Srinagar/Jammu in 90 days
+   - Vikram Singh's phone (9123456789) shows calls to 4 Kashmir-based numbers (not in CDR database)
+   - Intelligence suggests arms diversion to militant groups in South Kashmir (Shopian, Pulwama)
+   - Drug supply to Kashmir valley operators (heroin demand high in valley)
+
+3. HAWALA INTEGRATION:
+   - Daily coordination with Mohammed Farooq (Delhi) - morning calls 1000-1100 hrs
+   - Settlement via AXIS 3333... to Desert Gold (Dubai) -> Emirates NBD
+   - Vikram's PNB account receives hawala credits from Farooq's shells
+
+4. DRUG-ARMS CONVERGENCE:
+   - Same transporter (Ravi Shankar) for both heroin (Fortuner) and arms (Truck)
+   - Same hawala operator (Farooq) for both proceeds and payments
+   - Same front company (Northern Trading) for both drug and arms finance
+   - Baldev Raj (Munger) supplies arms; Vikram distributes/sells onwards
+
+5. COMMUNICATION SECURITY:
+   - Vikram uses 3 burners monthly (procured via Amit Patel/Surat)
+   - Signal/Telegram for sensitive comms
+   - Face-to-face meetings at Golden Temple Road tea stalls (countersurveillance)
+   - Avoids fixed lines; all mobile
+
+6. FINANCIAL PROFILE:
+   - Monthly drug revenue: Rs. 40-60 lakhs (estimated)
+   - Monthly arms margin: Rs. 10-15 lakhs
+   - Hawala commissions paid: Rs. 5-8 lakhs/month to Farooq
+   - Property acquisitions: 2 residential (Amritsar), 1 commercial (Hall Bazaar)
+
+ASSESSMENT:
+Vikram Singh has evolved from a drug distributor to a regional crime hub operator integrating narcotics, arms, and money movement. The Kashmir corridor activity is the most concerning - if arms are reaching militant groups, this escalates to national security threat (UAPA/NSA territory). The use of the same logistics (Ravi Shankar) and finance (Farooq/Northern Trading) for both drug and arms confirms a unified enterprise.
+
+RECOMMENDATIONS:
+1. Enhanced surveillance on Vikram Singh (Amritsar) - physical and technical
+2. Intercept Kashmir-bound communications - coordinate with J&K Police/IB
+3. Target Ravi Shankar's Srinagar/Jammu delivery points
+4. Financial investigation of Vikram's PNB account and linked shells
+5. Monitor Amritsar storage facilities
+6. Consider NSA detention for Vikram Singh if Kashmir militant link confirmed
+7. Joint Punjab-UP-Delhi operation for Ravi Shankar/Baldev Raj/Farooq nexus
+
+Punjab Police Special Branch / IB
+Date: 2024-04-10

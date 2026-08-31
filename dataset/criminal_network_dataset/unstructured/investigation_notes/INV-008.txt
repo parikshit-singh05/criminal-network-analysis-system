@@ -1,0 +1,122 @@
+DOCUMENT_ID: INV-008
+CASE_ID: FIR-2024-005
+DATE: 2024-06-01
+SOURCE_TYPE: Investigation Notes
+OFFICER: ACP Bangalore
+
+INVESTIGATION NOTES
+
+Case: FIR-2024-005 - Money Laundering (Follow-up)
+Officer: ACP Bangalore, Koramangala PS
+Date: 1st June 2024
+
+NOTES:
+
+1. TECH SOLUTIONS PVT LTD - AUDIT TRAIL ANALYSIS:
+   - Statutory auditor: M/s Verma & Associates, Bangalore (CA Rajesh Verma)
+   - Audit reports FY 2022-23, 2023-24 show "clean opinion"
+   - Revenue: FY23: Rs. 1.2 Cr, FY24: Rs. 1.4 Cr (consistent layering amounts)
+   - Expenses: Salaries (Priya, Kiran, 3 ghost employees), Rent (MG Road), "Consultancy" (shell payments)
+   - No actual IT services delivered - zero client invoices, zero TDS certificates issued
+   - Bank reconciliation: 87% credits from shell/offshore, 13% from "consultancy" (circular)
+   - CA Rajesh Verma: Also audits Bangalore Realty Group, Goa Hospitality Ventures - CONFLICT
+
+2. SHELL COMPANY NETWORK - REGISTRAR OF COMPANIES (ROC) DATA:
+   All 12 shells registered 2021-2023, same address patterns:
+   - 8/12 share 123 MG Road, Bangalore (Tech Solutions address)
+   - 3/12 share 45 Civil Lines, Lucknow (Northern Trading address)
+   - 1/12 share 78 Park Street, Kolkata (Global Exports address)
+   Directors: Priya Sharma (9/12), Kiran Desai (5/12), Sunil Verma (3/12), Rajesh Kumar (2/12), Amit Patel (2/12)
+   Authorized capital: Rs. 1-5 Cr each, Paid-up: Rs. 1-10 Lakhs (minimal)
+   ROC filings: Annual returns filed, but no AGM minutes, no board resolutions for major transactions
+
+3. PROPERTY TRANSACTIONS - SUB-REGISTRAR RECORDS:
+   GOA (Calangute):
+   - Purchase: 2024-01-25, Priya Sharma -> Kiran Desai, Rs. 75 Lakhs (TXN009)
+   - Sale: 2024-02-10, Kiran Desai -> Priya Sharma, Rs. 1 Crore (TXN014)
+   - Gain: Rs. 25 Lakhs in 16 days - BENAMI INDICATOR
+   - Current value (circle rate): Rs. 1.8 Cr
+   - Goa Hospitality Ventures registered 2024-02-15 (post-purchase)
+
+   BANGALORE (Koramangala):
+   - Purchase: 2024-03-15, Bangalore Realty Group (Kiran) -> Tech Solutions (Priya), Rs. 8 Cr
+   - Stamp duty paid: Rs. 48 Lakhs (source: Kiran HDFC 8888...)
+   - Registered 2024-03-20
+   - Current value (circle rate): Rs. 12 Cr
+
+   DELHI (Dwarka):
+   - House No. 45, Sector 12: Rajesh Kumar, purchased 2020, Rs. 2.5 Cr
+   - Current value: Rs. 4.5 Cr
+
+4. OFFSHORE ENTITY VERIFICATION:
+   MAURITIUS (FSC - Financial Services Commission):
+   - Oceanic Holdings Ltd: Incorporated 2022-06-15, Director: Priya Sharma, Registered Agent: Rogers Capital
+   - Island Finance Corp: Incorporated 2022-08-20, Director: Rajesh Kumar, Registered Agent: MauriExperta
+   - Pacific Rim Investments: Incorporated 2022-10-30, Director: Sunil Verma, Registered Agent: Rogers Capital
+   - All three: Category 1 Global Business License, No substance requirements met
+
+   DUBAI (DMCC/DAFZA):
+   - Desert Gold Trading: DMCC, Incorporated 2022-05-01, Director: Hassan Ali
+   - Gulf Money Exchange: DAFZA, Incorporated 2022-07-15, Director: Mohammed Farooq
+   - Emirates NBD account: Hassan Ali personal, AED 4.2M balance
+
+5. CRYPTO TRAIL ANALYSIS (Chainalysis/Blockchain Forensics):
+   - Deepa Nair wallets: 12 identified (Binance, WazirX, CoinDCX, MetaMask)
+   - On-chain flow: Indian exchanges -> USDT -> Tron/Ethereum -> Offshore exchange (Binance International, Bybit) -> Mauritius/Dubai entity wallets
+   - Volume: ~Rs. 15 Cr traced on-chain (Jan-May 2024)
+   - Mixing: Tornado Cash used for 3 transactions (Mar 2024)
+   - Offshore wallets: 8 identified, linked to Oceanic Holdings, Pacific Rim, Desert Gold
+
+6. DIPLOMATIC VEHICLE INVESTIGATION (CD 45 XXXX):
+   - Vehicle: Black Mercedes S-Class, Diplomatic plate CD 45 XXXX
+   - Registered to: Embassy of [REDACTED - Country X], New Delhi
+   - Driver: Local hire, not diplomatic staff
+   - Foreign national at Goa meeting: [REDACTED - Name], attached to Embassy of [Country X]
+   - MHA Diplomatic Note: SENT 2024-05-20, Response PENDING
+   - Assessment: Diplomatic cover exploited for criminal coordination
+
+7. ANOMALY DETECTION - ML MODEL (Isolation Forest + LSTM):
+   Training data: 80 transactions (TXN001-TXN080)
+   Anomalies detected (score > 0.85):
+   1. TXN039: Farooq->AXIS 9999... 30L (shell activation)
+   2. TXN016: Shell3->Sunil 50L (new shell, no KYC)
+   3. TXN043: Sunil->Shell10 70L (crypto prep)
+   4. TXN067: Farooq->AXIS 8888... 40L (Mauritius spike)
+   5. TXN071: Sunil->Shell10 70L (repeat pattern)
+   6. TXN014: Kiran->Priya 1Cr (property flip)
+   7. TXN035: Sunil->Northern 30L (arms finance)
+   8. TXN063: Sunil->Northern 40L (arms finance repeat)
+   Feature importance: Amount (0.34), New Account (0.28), Offshore (0.22), Velocity (0.16)
+
+8. NETWORK REGENERATION MONITORING:
+   Post-Feb raids adaptations observed:
+   - New Kolkata shells: Global Exports, Metro Traders (Rajesh)
+   - New burners: 8/month (was 3/month)
+   - Route shift: Chandni Chowk heat -> Kolkata shells
+   - Vehicle rotation: Fortuner DL-5C-AB-1234 + Camry DL-9C-YZ-9012
+   - Communication: Signal-only for core, Telegram groups disbanded
+   - Goa meeting moved to quarterly (was ad-hoc)
+
+9. PROSECUTION STRATEGY - UNIFIED CHARGESHEET:
+   PREDICATE OFFENSES:
+   - NDPS Act (Drugs): Rajesh, Vikram, Farooq, Priya, Sunil
+   - IPC 420/IT Act (Fraud): Sunil, Amit, Deepa, Priya, Rajesh, Vikram
+   - FEMA/PMLA (Hawala): Farooq, Hassan, Vikram, Deepa, Sunil, Amit, Priya, Ravi, Baldev
+   - Arms Act/UAPA (Arms): Ravi, Baldev, Vikram, Farooq, Sunil, Priya
+   - PMLA/Companies Act (Laundering): Priya, Sunil, Rajesh, Kiran, Deepa, Farooq, Amit
+
+   UNIFIED APPROACH: Single PMLA prosecution with all predicate offenses, UAPA for Kashmir nexus, MCOCA for organized crime (Maharashtra).
+
+10. NEXT STEPS:
+    - [ ] Arrest Priya Sharma (Bangalore), Kiran Desai (Goa) - PRIORITY
+    - [ ] MLA Mauritius (3 entities) + UAE (3 entities) - URGENT
+    - [ ] Diplomatic note follow-up (MHA) - URGENT
+    - [ ] CA Rajesh Verma questioning - auditor complicity
+    - [ ] ROC strike-off petitions for 12 shells
+    - [ ] ED provisional attachment: 6 properties, 35 accounts, 12 shells, 8 offshore
+    - [ ] Crypto exchange freezing orders (12 wallets)
+    - [ ] Unified chargesheet drafting (target: July 2024)
+
+ACP Bangalore
+Koramangala PS
+Date: 2024-06-01

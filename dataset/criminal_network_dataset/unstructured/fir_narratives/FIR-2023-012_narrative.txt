@@ -1,0 +1,25 @@
+DOCUMENT_ID: FIR-2023-012-NARR-001
+CASE_ID: FIR-2023-012
+DATE: 2023-06-15
+SOURCE_TYPE: FIR Narrative
+SOURCE: Dwarka Police Station, Delhi
+
+FIRST INFORMATION REPORT NARRATIVE
+
+On 15th June 2023, acting on a tip-off, a team from Dwarka PS conducted a raid at a warehouse in Sector 8, Dwarka and seized 2.3 kg of heroin. One Arjun Mehta (approx. 30 years) was arrested from the spot.
+
+During interrogation, Arjun Mehta disclosed that he was working as a courier for a Delhi-based drug network. He named Rajesh Kumar (Dwarka) as his handler and Vikram Singh (Amritsar) as the supplier. The heroin was transported in a white Toyota Fortuner.
+
+Phone analysis of Arjun Mehta's device revealed communication with:
+- Rajesh Kumar (9876543210) - 34 calls in past 30 days
+- Vikram Singh (9123456789) - 12 calls
+- An unknown number traced to Ludhiana (9988776655) - 8 calls
+
+Financial investigation of Arjun's accounts showed deposits of Rs. 8 lakhs from a shell company account in Kolkata (BOI 11111111111111) in the preceding 3 months.
+
+Arjun Mehta was charged under NDPS Act Sections 21 and 29. He is currently out on bail. The case is closed as the main handlers (Rajesh Kumar, Vikram Singh) were not apprehended at that time. However, this case is now linked to FIR-2024-001 as the same network is involved.
+
+SI Dwarka
+Dwarka PS
+Delhi Police
+Date: 2023-06-15

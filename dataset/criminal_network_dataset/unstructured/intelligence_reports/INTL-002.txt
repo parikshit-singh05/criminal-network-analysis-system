@@ -1,0 +1,69 @@
+DOCUMENT_ID: INTL-002
+CASE_ID: FIR-2024-002
+DATE: 2024-02-05
+SOURCE_TYPE: Intelligence Report
+SOURCE: Mumbai Police Cyber Cell
+
+INTELLIGENCE REPORT
+
+Subject: Transnational Call Center Fraud Network - Mumbai-Surat-Bangalore Axis
+Classification: CONFIDENTIAL
+Date: 5th February 2024
+Source: Mumbai Police Cyber Cell / Technical Intelligence
+
+SUMMARY:
+Technical intelligence reveals a structured call center fraud operation spanning Mumbai (operations), Surat (infrastructure), Bangalore (shell companies), and Kochi (crypto conversion), with proceeds routed through hawala to Dubai and Mauritius.
+
+KEY FINDINGS:
+
+1. OPERATIONAL STRUCTURE:
+   - Call Centers: Malad West & Goregaon East, Mumbai (Sunil Verma - operator)
+   - SIM/Bank Account Supply: Amit Patel (Surat, phone 7766554433)
+   - Crypto Conversion: Deepa Nair (Kochi, phone - uses FED/KOTAK/HDFC shells)
+   - Shell Company Layering: Priya Sharma via Tech Solutions Pvt Ltd (Bangalore)
+   - Hawala Settlement: Mohammed Farooq (Delhi, phone 9111222333) -> Hassan Ali (Dubai)
+
+2. VICTIMOLOGY:
+   - Primary targets: USA, UK, Canada, Australia elderly populations
+   - Scam types: Tech support fraud, refund scams, tax/IRS impersonation
+   - Estimated victims: 2000+ in past 12 months
+   - Estimated proceeds: Rs. 2.5+ crores identified
+
+3. INFRASTRUCTURE:
+   - 300+ SIM cards rotated monthly (procured via forged docs by Amit Patel)
+   - 50+ mule bank accounts across ICICI, HDFC, BOB, SBI, YES, KOTAK
+   - Cryptocurrency: USDT, BTC, ETH via Binance, WazirX, CoinDCX
+   - Offshore: Mauritius (Oceanic Holdings, Island Finance, Pacific Rim), Dubai (Desert Gold, Gulf Money Exchange)
+
+4. COMMUNICATION ANALYSIS:
+   - Sunil Verma (8877665544) to Amit Patel (7766554433): 150+ calls/month
+   - Sunil Verma to Rajesh Kumar (9876543210): 25-30 calls/month (drug proceeds routing)
+   - Sunil Verma to Mohammed Farooq (9111222333): 20+ calls/month (hawala)
+   - Amit Patel to Kiran Desai (9900112233): 30+ calls/month (shell company docs)
+   - Deepa Nair to Priya Sharma: Encrypted Telegram/Signal (content unavailable)
+
+5. FINANCIAL FLOW:
+   Victim Payments -> Mule Accounts (Mumbai) -> Amit Patel's Accounts (Surat) ->
+   Crypto Conversion (Deepa Nair, Kochi) -> Shell Companies (Tech Solutions, Bangalore) ->
+   Hawala (Farooq, Delhi) -> Dubai/Mauritius Offshore
+
+6. CROSS-CASE CONNECTIONS:
+   - Rajesh Kumar (Drug FIR-2024-001) receives fraud proceeds via Sunil Verma (TXN010: 10L)
+   - Vikram Singh (Drug/Arms) receives fraud payments (TXN004, TXN021, TXN049)
+   - Tech Solutions Pvt Ltd used for layering both drug and fraud proceeds
+   - Northern Trading Co. (Lucknow) receives fraud funds for arms procurement
+
+ASSESSMENT:
+This is a professional, well-resourced fraud syndicate with clear division of labor. The Mumbai-Surat-Bangalore-Kochi axis is supported by Delhi hawala and Dubai/Mauritius offshore structures. The network's ability to procure 300+ SIMs monthly and maintain 50+ mule accounts suggests insider support in telecom/banking sectors. The use of diplomatic channels (Goa meeting) for high-level coordination is a significant escalation.
+
+RECOMMENDATIONS:
+1. Raid Malad and Goregaon call centers immediately
+2. Arrest Sunil Verma, Amit Patel, Deepa Nair
+3. Freeze all identified bank accounts and crypto wallets
+4. Seize Tech Solutions Pvt Ltd records (Bangalore)
+5. Request Mauritius FIU and UAE FIU cooperation for offshore entities
+6. Investigate telecom/banking insiders enabling SIM/account procurement
+7. Correlate with FIR-2024-001, 003, 004, 005 for unified prosecution
+
+Mumbai Police Cyber Cell
+Date: 2024-02-05

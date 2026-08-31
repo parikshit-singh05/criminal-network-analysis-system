@@ -1,0 +1,36 @@
+account_id,account_number,holder_name,bank,branch_city,account_type,opened_date,status,linked_entity_type,linked_entity_id
+ACC001,HDFC12345678901234,Rajesh Kumar,HDFC Bank,Dwarka Delhi,Savings,2020-01-15,Active,Person,PER001
+ACC002,PNB98765432101234,Vikram Singh,Punjab National Bank,Amritsar Punjab,Current,2019-11-20,Active,Person,PER002
+ACC003,AXIS33333333333333,Mohammed Farooq,Axis Bank,Chandni Chowk Delhi,Current,2018-08-10,Active,Person,PER003
+ACC004,ICICI55555555555555,Sunil Verma,ICICI Bank,Andheri Mumbai,Savings,2021-03-05,Active,Person,PER004
+ACC005,BOB66666666666666,Amit Patel,Bank of Baroda,Surat Gujarat,Current,2021-02-12,Active,Person,PER005
+ACC006,SBI10101010101010,Ravi Shankar,State Bank of India,Lucknow UP,Savings,2020-12-01,Active,Person,PER006
+ACC007,UNION99999999999999,Baldev Raj,Union Bank of India,Munger Bihar,Current,2019-10-15,Active,Person,PER007
+ACC008,HDFC88888888888888,Kiran Desai,HDFC Bank,Bangalore Karnataka,Savings,2021-04-20,Active,Person,PER008
+ACC009,FED44444444444444,Deepa Nair,Federal Bank,Kochi Kerala,Savings,2020-07-15,Active,Person,PER009
+ACC010,ICICI77777777777777,Priya Sharma,ICICI Bank,Bangalore Karnataka,Current,2021-05-10,Active,Person,PER010
+ACC011,BOI11111111111111,Unknown-Shell1,Bank of India,Kolkata West Bengal,Current,2022-01-10,Active,Organization,ORG003
+ACC012,SBI22222222222222,Unknown-Shell2,State Bank of India,Kolkata West Bengal,Current,2022-02-15,Active,Organization,ORG004
+ACC013,YES12121212121212,Unknown-Shell3,Yes Bank,Mumbai Maharashtra,Current,2022-03-20,Active,Organization,ORG005
+ACC014,IND33333333333333,Unknown-Shell4,IndusInd Bank,Delhi,Current,2022-04-25,Active,Organization,ORG006
+ACC015,HDFC99999999999999,Unknown-Shell5,HDFC Bank,Mauritius,Current,2022-05-30,Active,Organization,ORG007
+ACC016,AXIS99999999999999,Unknown-Shell6,Axis Bank,Dubai UAE,Current,2022-06-10,Active,Organization,ORG008
+ACC017,KOTAK11111111111111,Unknown-Shell7,Kotak Mahindra Bank,Mumbai Maharashtra,Current,2022-07-15,Active,Organization,ORG009
+ACC018,SBI22222222222222,Northern Trading Co.,State Bank of India,Lucknow UP,Current,2019-08-20,Active,Organization,ORG002
+ACC019,ICICI11111111111111,Tech Solutions Pvt Ltd,ICICI Bank,Bangalore Karnataka,Current,2021-01-10,Active,Organization,ORG001
+ACC020,EMIRATES11111111111111,Hassan Ali,Emirates NBD,Dubai UAE,Savings,2018-05-01,Active,Person,PER011
+ACC021,YES22222222222222,Unknown-Shell8,Yes Bank,Mauritius,Current,2022-08-20,Active,Organization,ORG010
+ACC022,AXIS88888888888888,Unknown-Shell9,Axis Bank,Dubai UAE,Current,2022-09-25,Active,Organization,ORG011
+ACC023,HDFC33333333333333,Unknown-Shell10,HDFC Bank,Mauritius,Current,2022-10-30,Active,Organization,ORG012
+ACC024,PNB11111111111111,Vikram Singh,Punjab National Bank,Amritsar Punjab,Savings,2020-03-15,Active,Person,PER002
+ACC025,ICICI22222222222222,Sunil Verma,ICICI Bank,Malad Mumbai,Current,2021-06-20,Active,Person,PER004
+ACC026,HDFC44444444444444,Priya Sharma,HDFC Bank,Bangalore Karnataka,Savings,2021-07-25,Active,Person,PER010
+ACC027,SBI33333333333333,Ravi Shankar,State Bank of India,Lucknow UP,Current,2021-01-15,Active,Person,PER006
+ACC028,AXIS55555555555555,Mohammed Farooq,Axis Bank,Chandni Chowk Delhi,Savings,2019-12-10,Active,Person,PER003
+ACC029,BOB77777777777777,Amit Patel,Bank of Baroda,Surat Gujarat,Savings,2021-04-30,Active,Person,PER005
+ACC030,FED88888888888888,Deepa Nair,Federal Bank,Kochi Kerala,Current,2021-03-10,Active,Person,PER009
+ACC031,UNION44444444444444,Baldev Raj,Union Bank of India,Munger Bihar,Savings,2020-05-20,Active,Person,PER007
+ACC032,HDFC55555555555555,Kiran Desai,HDFC Bank,Goa,Savings,2021-08-15,Active,Person,PER008
+ACC033,ICICI99999999999999,Tech Solutions Pvt Ltd,ICICI Bank,Mumbai Maharashtra,Current,2021-09-01,Active,Organization,ORG001
+ACC034,SBI66666666666666,Northern Trading Co.,State Bank of India,Delhi,Current,2020-02-10,Active,Organization,ORG002
+ACC035,HDFC66666666666666,Arjun Mehta,HDFC Bank,Dwarka Delhi,Savings,2021-10-05,Active,Person,PER012

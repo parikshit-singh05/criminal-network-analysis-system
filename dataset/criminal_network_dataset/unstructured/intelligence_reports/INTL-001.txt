@@ -1,0 +1,60 @@
+DOCUMENT_ID: INTL-001
+CASE_ID: FIR-2024-001
+DATE: 2024-01-10
+SOURCE_TYPE: Intelligence Report
+SOURCE: Delhi Police Special Cell
+
+INTELLIGENCE REPORT
+
+Subject: Drug Trafficking Network - Delhi-Punjab Corridor
+Classification: CONFIDENTIAL
+Date: 10th January 2024
+Source: Delhi Police Special Cell / Human Intelligence
+
+SUMMARY:
+Intelligence indicates an active heroin trafficking network operating between Amritsar (Punjab) and Delhi, with distribution nodes in Dwarka, Karol Bagh, and Chandni Chowk. The network is suspected to be moving 5-10 kg of heroin per month.
+
+KEY FINDINGS:
+
+1. SUPPLY CHAIN:
+   - Source: Amritsar-based supplier Vikram Singh (phone 9123456789)
+   - Transporter: Rajesh Kumar (Dwarka, phone 9876543210) using white Toyota Fortuner DL-5C-AB-1234
+   - Hawala Operator: Mohammed Farooq (Chandni Chowk Shop No. 78, phone 9111222333)
+   - Unknown Ludhiana Contact: Phone 9988776655 (believed to be a courier/handler)
+
+2. FINANCIAL STRUCTURE:
+   - Drug proceeds laundered through shell companies in Kolkata (BOI, SBI accounts)
+   - Rajesh Kumar's HDFC account (12345678901234) receiving suspicious credits
+   - Hawala settlements via Mohammed Farooq to Dubai (Hassan Ali, +971-50-1234567)
+   - Estimated monthly turnover: Rs. 50-75 lakhs
+
+3. COMMUNICATION PATTERNS:
+   - High-frequency CDR between Rajesh Kumar (9876543210) and Vikram Singh (9123456789)
+   - Rajesh Kumar to Unknown Ludhiana (9988776655) - night calls (2200-2330 hrs)
+   - Vikram Singh to Mohammed Farooq (9111222333) - morning calls (1000-1100 hrs)
+   - Use of burners and encrypted apps (Signal, Telegram)
+
+4. CROSS-CASE LINKS:
+   - Rajesh Kumar communicates with Sunil Verma (Mumbai, 8877665544) - link to fraud network
+   - Vikram Singh communicates with Baldev Raj (Munger, 7788990011) - link to arms network
+   - Mohammed Farooq connects to Deepa Nair (Kochi) and Ravi Shankar (Lucknow)
+   - Priya Sharma (Bangalore) links to both drug and fraud networks
+
+5. VEHICLE MOVEMENT:
+   - Fortuner DL-5C-AB-1234: Regular Delhi-Amritsar trips via NH44
+   - Scorpio HR-26-DK-9876: Used by Ravi Shankar for cash/arms transport
+   - Innova DL-1C-MN-4567: Backup vehicle, registered to Farooq
+
+ASSESSMENT:
+The network is well-structured with clear role separation: supply (Vikram), distribution (Rajesh), finance (Farooq), transport (Ravi), and shell company layering (Priya/Kiran). The use of hawala, shell companies, and crypto indicates sophistication. The Ludhiana number (9988776655) may be a cut-out or secondary courier.
+
+RECOMMENDATIONS:
+1. Immediate surveillance on Rajesh Kumar (Dwarka) and Vikram Singh (Amritsar)
+2. Monitor Shop No. 78, Chandni Chowk (Farooq)
+3. CDR analysis for all identified numbers (6 months)
+4. Financial investigation of HDFC 12345678901234 and linked shell accounts
+5. Coordinate with Punjab Police (Amritsar) and UP Police (Lucknow) for Ravi Shankar/Baldev Raj
+6. Request Dubai/Emirates NBD cooperation for Hassan Ali account
+
+Delhi Police Special Cell
+Date: 2024-01-10

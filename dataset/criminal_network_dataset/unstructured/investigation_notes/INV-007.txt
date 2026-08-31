@@ -1,0 +1,121 @@
+DOCUMENT_ID: INV-007
+CASE_ID: FIR-2024-003
+DATE: 2024-05-15
+SOURCE_TYPE: Investigation Notes
+OFFICER: Inspector Singh
+
+INVESTIGATION NOTES
+
+Case: FIR-2024-003 - Hawala Operation (Follow-up)
+Officer: Inspector Singh, Sadar Bazaar PS
+Date: 15th May 2024
+
+NOTES:
+
+1. LEDGER DIGITIZATION COMPLETE:
+   - 27 registers digitized (Jan 2022 - Mar 2024)
+   - 12,847 entries parsed
+   - 94 unique "Parties" (clients) identified
+   - 8 core parties account for 87% of volume
+   - Code book recovered from Farooq's diary
+
+2. CODE BOOK DECIPHERED:
+   PARTY CODES:
+   P01 = Vikram Singh (Amritsar) - "Punjab Party"
+   P02 = Deepa Nair (Kochi) - "Kerala Party"
+   P03 = Sunil Verma (Mumbai) - "Bombay Party"
+   P04 = Amit Patel (Surat) - "Gujarat Party"
+   P05 = Priya Sharma (Bangalore) - "Bangalore Party"
+   P06 = Baldev Raj (Munger) - "Bihar Party"
+   P07 = Ravi Shankar (Transport) - "Carrier"
+   P08 = Rajesh Kumar (Delhi) - "Delhi Party"
+   P09 = Hassan Ali (Dubai) - "Foreign Party"
+   P10 = Unknown Kolkata Shells - "Calcutta Party"
+   P11 = Northern Trading Co. - "Lucknow Party"
+   P12 = Tech Solutions Pvt Ltd - "Tech Party"
+
+   TRANSACTION CODES:
+   CON = Consignment (Cash pickup/delivery)
+   DEL = Delivery (Transfer completion)
+   SET = Settlement (Hawala balancing)
+   RAT = Rate (Commission percentage)
+   ADV = Advance (Pre-payment)
+   BAL = Balance (Outstanding)
+   RET = Return (Refund/Reversal)
+
+   ROUTE CODES:
+   R01 = Delhi-Chandni Chowk (Hub)
+   R02 = Delhi-Lucknow (NH27)
+   R03 = Lucknow-Amritsar (NH44)
+   R04 = Amritsar-Srinagar (NH44)
+   R05 = Srinagar-Jammu
+   R06 = Delhi-Dubai (Air/Hassan)
+   R07 = Dubai-Mauritius (Banking)
+   R08 = Delhi-Kolkata (Shells)
+
+3. VOLUME ANALYSIS BY PARTY:
+   P01 (Vikram): 18.2 Cr (18%) - Drug + Arms
+   P02 (Deepa): 9.8 Cr (10%) - Fraud crypto
+   P03 (Sunil): 6.5 Cr (7%) - Fraud proceeds
+   P04 (Amit): 4.1 Cr (4%) - Gold purchases
+   P05 (Priya): 13.7 Cr (14%) - Shell layering
+   P06 (Baldev): 2.3 Cr (2%) - Arms procurement
+   P07 (Ravi): Transport fees 1.2 Cr (1%)
+   P08 (Rajesh): 5.4 Cr (5%) - Drug proceeds
+   P09 (Hassan): International settlement 38.5 Cr (39%)
+   P10 (Kolkata): 8.9 Cr (9%) - Shell layering
+   P11 (Northern): 3.2 Cr (3%) - Arms finance
+   P12 (Tech Solutions): 6.8 Cr (7%) - Shell layering
+   Others: 1.4 Cr (1%)
+
+4. HASSAN ALI (DUBAI) - NETWORK ANALYSIS:
+   - Emirates NBD account: Final settlement node
+   - Desert Gold Trading: Gold/hawala interface
+   - Gulf Money Exchange: Hawala interface
+   - Communications: 87 calls to Farooq (90 days), 23 to Priya, 12 to Deepa
+   - Travel: Dubai-Delhi monthly (business visa), Dubai-Mauritius quarterly
+   - Associates: Foreign national at Goa meeting (CD 45 XXXX vehicle)
+   - Interpol Red Corner Notice: SUBMITTED 2024-04-20
+
+5. MONEY TRAIL - OFFSHORE:
+   MAURITIUS:
+   Oceanic Holdings Ltd (Priya) <- AXIS 8888... (Farooq) <- Hassan (Emirates NBD)
+   Island Finance Corp (Rajesh) <- HDFC 9999... (Rajesh offshore) <- Global Exports (Kolkata)
+   Pacific Rim Investments (Sunil) <- KOTAK 1111... (Sunil shell) <- Sunrise Enterprises
+
+   DUBAI:
+   Emirates NBD (Hassan) <- AXIS 9999... (Farooq Dubai shell) <- Farooq (Chandni Chowk)
+   Desert Gold Trading (Hassan) <- Gold shipments (Amit Patel/Surat)
+   Gulf Money Exchange (Farooq) <- Hawala settlements
+
+6. ANOMALY DETECTION - STATISTICAL:
+   - Isolation Forest on transaction amounts: 23 outliers (1.8%)
+   - Top anomalies:
+     1. TXN039: 30L Farooq->AXIS 9999... (single large shell transfer)
+     2. TXN016: 50L Unknown-Shell3->Sunil (new shell, no history)
+     3. TXN043: 70L Sunil->Unknown-Shell10 (new shell, crypto)
+     4. TXN067: 40L Farooq->AXIS 8888... (Mauritius route spike)
+     5. TXN071: 70L Sunil->Unknown-Shell10 (repeat pattern)
+   - Temporal clustering: Feb-Mar 2024 shows 40% volume increase
+   - Network burst: Mar 15 Goa meeting -> 300% comms spike in 72 hrs
+
+7. RAVI SHANKAR - DUAL ROLE CONFIRMED:
+   Ledger entries show Ravi (P07) handling BOTH:
+   - Cash transport (Drug/Hawala): CON entries R01-R03
+   - Arms transport (FIR-004): CON entries R03-R05 (Srinagar/Jammu)
+   Same vehicle (Scorpio HR-26-DK-9876, Innova DL-1C-MN-4567)
+   Same routes, same schedule
+   This is the PHYSICAL CONVERGENCE POINT of drug, hawala, arms networks.
+
+8. NEXT STEPS:
+   - [ ] Share code book with all investigating units (Delhi, Mumbai, Lucknow, Bangalore, Punjab, UP)
+   - [ ] Cross-reference ledger parties with CDR/Financial databases
+   - [ ] Target P01, P05, P09 arrests (highest volume + connectivity)
+   - [ ] MLA Dubai: Hassan Ali Emirates NBD, Desert Gold, Gulf Money
+   - [ ] MLA Mauritius: Oceanic Holdings, Island Finance, Pacific Rim
+   - [ ] ED: PMLA attachment based on ledger volumes
+   - [ ] UAPA: Baldev Raj (P06) + Vikram (P01) Kashmir link
+
+Inspector Singh
+Sadar Bazaar PS
+Date: 2024-05-15

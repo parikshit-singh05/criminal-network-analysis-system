@@ -1,0 +1,63 @@
+DOCUMENT_ID: SURV-006
+CASE_ID: FIR-2024-003
+DATE: 2024-02-10
+SOURCE_TYPE: Surveillance Report
+OFFICER: Inspector Singh
+SUBJECT: Mohammed Farooq
+LOCATION: Shop No. 78, Chandni Chowk, Delhi
+
+SURVEILLANCE REPORT
+
+Date: 10th February 2024
+Time: 09:00 hrs to 18:00 hrs
+Officer: Inspector Singh
+Subject: Mohammed Farooq
+Location: Shop No. 78, Chandni Chowk, Delhi
+
+OBSERVATIONS:
+
+09:00 hrs - Subject Mohammed Farooq opened Shop No. 78 (ostensibly a dry fruits wholesale shop). Surveillance team positioned across the street.
+
+09:30 hrs - First visitor: Ravi Shankar arrived in Toyota Innova DL-1C-MN-4567. Entered shop. Stayed 40 minutes. Exited with a black bag (appeared heavy). CDR confirms call between Farooq (9111222333) and Ravi (8899001122) at 09:35 hrs.
+
+10:30 hrs - Amit Patel arrived in Hyundai Creta (MH-02-AB-9012). Entered shop. Stayed 30 minutes. CDR confirms call between Farooq and Amit (7766554433).
+
+11:00 hrs - Unknown male (approx. 35 years) arrived on foot. Entered shop. Stayed 20 minutes. Left with a package. Not identified.
+
+12:00 hrs - Lunch break. Shop closed.
+
+13:30 hrs - Shop reopened.
+
+14:00 hrs - Priya Sharma arrived in a taxi. Entered shop. Stayed 55 minutes. This is her third visit in 6 months (previous: 2023-11-15, 2024-01-08). CDR shows call between Farooq (9111222333) and Kiran Desai (9900112233) at 14:15 hrs - likely coordinating Priya's visit.
+
+15:00 hrs - Baldev Raj arrived in Mahindra Scorpio HR-26-DK-9876. Brief meeting with Farooq (15 minutes). CDR confirms call.
+
+16:00 hrs - Ravi Shankar returned in Innova DL-1C-MN-4567. Loaded 3 cartons into vehicle. Departed towards NH44.
+
+17:00 hrs - Farooq made a call on +971-50-1234567 (Hassan Ali, Dubai). Duration 12 minutes. Observed writing in ledger.
+
+18:00 hrs - Shop closed. Surveillance concluded.
+
+VISITORS LOG:
+1. Ravi Shankar (09:30, 16:00) - Cash transporter
+2. Amit Patel (10:30) - Gold purchaser
+3. Unknown male (11:00) - Unidentified sub-agent
+4. Priya Sharma (14:00) - Shell company coordinator
+5. Baldev Raj (15:00) - Arms supplier
+
+VEHICLES:
+- Toyota Innova DL-1C-MN-4567 (Ravi Shankar / Farooq)
+- Mahindra Scorpio HR-26-DK-9876 (Ravi Shankar / Baldev Raj)
+- Hyundai Creta MH-02-AB-9012 (Amit Patel)
+
+NOTES:
+- Shop No. 78 operates as a front for hawala operations - dry fruits business is cover.
+- Priya Sharma's repeated visits confirm her involvement in hawala coordination for shell companies.
+- Ravi Shankar's two visits with heavy bags/cartons indicate cash pickup and delivery.
+- Call to Hassan Ali (Dubai) at day end suggests daily settlement reporting.
+- Ledger writing observed - matches seized hawala registers.
+
+Inspector Singh
+Sadar Bazaar PS
+Delhi Police
+Date: 2024-02-10

@@ -1,0 +1,53 @@
+DOCUMENT_ID: FIR-2024-003-NARR-001
+CASE_ID: FIR-2024-003
+DATE: 2024-03-10
+SOURCE_TYPE: FIR Narrative
+SOURCE: Sadar Bazaar Police Station, Delhi
+
+FIRST INFORMATION REPORT NARRATIVE
+
+On 10th March 2024, based on sustained surveillance and financial intelligence developed over 8 months, a team led by Inspector Singh conducted a raid at Shop No. 78, Chandni Chowk, Delhi, operated by Mohammed Farooq (approx. 45 years), resident of Old Delhi.
+
+The raid uncovered a full-fledged illegal money transfer (hawala) operation. The following was seized:
+- Handwritten ledgers (hawala registers) covering January 2022 to March 2024
+- Cash amounting to Rs. 45,00,000/- in Indian and foreign currency
+- Two vehicles: Mahindra Scorpio HR-26-DK-9876 and Toyota Innova DL-1C-MN-4567
+- 4 mobile phones including number 9111222333 (Mohammed Farooq) and +971-50-1234567 (Hassan Ali, Dubai)
+- A diary containing codes for international settlements
+
+Analysis of the seized ledgers indicates a turnover exceeding Rs. 100 crores over the past two years. Key clients and transactions identified:
+
+1. Vikram Singh (Amritsar) - Approximately Rs. 15 crores sent through the network for drug proceeds settlement and arms procurement payments. Regular client since mid-2022.
+
+2. Deepa Nair (Kochi) - Approximately Rs. 8 crores routed through the channel for crypto conversion proceeds from Mumbai fraud operations (linked to FIR-2024-002).
+
+3. Ravi Shankar (Lucknow) - Identified as primary cash transporter. Used Scorpio HR-26-DK-9876 and Innova DL-1C-MN-4567 for cash movement between Delhi, Amritsar, Lucknow, and Chandni Chowk. GPS data from vehicles confirms routes.
+
+4. Amit Patel (Surat) - Received approximately Rs. 3 crores for gold purchases on behalf of the network. Gold sourced from Surat diamond market contacts.
+
+5. Priya Sharma (Bangalore) - Visited Shop No. 78 at least 3 times in past 6 months (CCTV footage available). Believed to be coordinating shell company structures for layering.
+
+6. Hassan Ali (Dubai) - International hawala contact. Phone +971-50-1234567. Frequent communication with Mohammed Farooq (87 calls in past 90 days). Settlements via Emirates NBD Bank, Dubai.
+
+Call Detail Record analysis shows:
+- 9111222333 (Farooq) to 9123456789 (Vikram Singh) - 41 calls
+- 9111222333 to 8899001122 (Ravi Shankar) - 33 calls
+- 9111222333 to +971-50-1234567 (Hassan Ali) - 87 calls
+- 9111222333 to 7766554433 (Amit Patel) - 24 calls
+- 9111222333 to 9900112233 (Kiran Desai) - 12 calls
+- 8899001122 (Ravi) to 7788990011 (Baldev Raj) - 29 calls
+- 8899001122 to 9123456789 (Vikram Singh) - 18 calls
+
+Financial trail from seized documents:
+- AXIS Bank account 33333333333333 (Farooq) - credits from PNB 98765432101234 (Vikram), debits to FED 44444444444444 (Deepa), SBI 10101010101010 (Ravi), BOB 66666666666666 (Amit)
+- Emirates NBD account (Hassan Ali) - SWIFT transfers from AXIS shell accounts
+- Multiple shell company accounts in Kolkata, Mumbai, Dubai, Mauritius
+
+The operation used coded language in ledgers: "Consignment" = cash, "Delivery" = transfer, "Party" = client, "Broker" = sub-agent.
+
+Mohammed Farooq arrested under FEMA Act and PMLA Act. Vehicles seized. Investigation active to trace international links, identify all clients, and establish connection to drug trafficking (FIR-2024-001), fraud (FIR-2024-002), arms smuggling (FIR-2024-004), and money laundering (FIR-2024-005) cases.
+
+Inspector Singh
+Sadar Bazaar PS
+Delhi Police
+Date: 2024-03-10

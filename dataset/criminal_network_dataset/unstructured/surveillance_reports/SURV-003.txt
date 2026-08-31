@@ -1,0 +1,62 @@
+DOCUMENT_ID: SURV-003
+CASE_ID: FIR-2024-002
+DATE: 2024-02-15
+SOURCE_TYPE: Surveillance Report
+OFFICER: Inspector Sharma
+SUBJECT: Sunil Verma
+LOCATION: Office Complex, Malad West, Mumbai
+
+SURVEILLANCE REPORT
+
+Date: 15th February 2024
+Time: 09:00 hrs to 18:00 hrs
+Officer: Inspector Sharma
+Subject: Sunil Verma
+Location: Office Complex, Malad West, Mumbai
+
+OBSERVATIONS:
+
+09:00 hrs - Surveillance team positioned at Office Complex, Malad West (building identified as housing call center operations).
+
+09:15 hrs - Sunil Verma observed entering the building. Approximately 20 workers observed at workstations with headsets, computers, and scripts. Activity consistent with call center operations.
+
+10:30 hrs - Amit Patel (known associate from Surat) arrived at the premises in a Hyundai Creta (MH-02-AB-9012). Entered building and proceeded to Sunil Verma's office.
+
+11:00 hrs - Sunil Verma and Amit Patel observed in meeting for approximately 90 minutes. Documents exchanged. Amit Patel appeared to be handing over SIM card packs and documents.
+
+12:30 hrs - Both individuals left the building together in Sunil Verma's BMW X5 (MH-04-ST-7890).
+
+12:45 hrs - Vehicle proceeded towards Bhendi Bazaar area, South Mumbai. Stopped near a known hawala operator's office in Bhendi Bazaar. Both entered the premises.
+
+13:30 hrs - Sunil Verma and Amit Patel exited Bhendi Bazaar office after 45 minutes. Returned to Malad.
+
+14:00 hrs - Kiran Desai (Bangalore, known associate of Priya Sharma) arrived at Malad office in a taxi. Entered building and met with Sunil Verma. Meeting duration approximately 60 minutes. Documents and a laptop exchanged.
+
+15:00 hrs - Kiran Desai departed. Sunil Verma continued operations at the center.
+
+16:30 hrs - Sunil Verma and Amit Patel left together again in BMW X5. Proceeded towards Goregaon (second call center location).
+
+17:00 hrs to 18:00 hrs - Observed at Goregaon center. Similar setup - approximately 15 workers. Amit Patel handed over additional SIM packs.
+
+PERSONS OBSERVED:
+- Sunil Verma (primary subject)
+- Amit Patel (Surat - SIM/bank account provider)
+- Kiran Desai (Bangalore - Priya Sharma's associate, property front)
+- Approximately 35 call center workers (not identified)
+
+VEHICLES:
+- BMW X5 MH-04-ST-7890 (Sunil Verma)
+- Hyundai Creta MH-02-AB-9012 (Amit Patel)
+
+NOTES:
+- The Malad center shows clear fake call center activity - scripts observed for tech support/refund scams targeting foreign nationals.
+- Amit Patel's visit with SIM cards and documents confirms his role as infrastructure provider.
+- Bhendi Bazaar hawala operator visit indicates cash movement/currency conversion.
+- Kiran Desai's presence links the Mumbai fraud operation to Priya Sharma's Bangalore shell company structure (Tech Solutions Pvt Ltd).
+- The Goregaon center appears to be a second location - expansion of operations.
+- Recommend immediate raid on both centers and financial investigation of all parties.
+
+Inspector Sharma
+Cyber Crime PS
+Mumbai Police
+Date: 2024-02-15

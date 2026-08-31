@@ -1,0 +1,329 @@
+{
+  "cases": [
+    {
+      "case_id": "FIR-2024-001",
+      "title": "Drug Trafficking Network Busted",
+      "originating_unit": "Rajouri Garden PS, Delhi",
+      "dates": {
+        "incident_date": "2024-01-15",
+        "fir_date": "2024-01-15",
+        "last_update": "2024-06-15"
+      },
+      "jurisdictions": ["Delhi", "Punjab", "West Bengal"],
+      "crime_categories": ["Drug Trafficking", "NDPS Act", "Organized Crime"],
+      "persons_of_interest": [
+        {"person_id": "PER001", "name": "Rajesh Kumar", "role": "Primary Suspect"},
+        {"person_id": "PER002", "name": "Vikram Singh", "role": "Co-conspirator"},
+        {"person_id": "PER003", "name": "Mohammed Farooq", "role": "Hawala Operator"},
+        {"person_id": "PER010", "name": "Priya Sharma", "role": "Associate"},
+        {"person_id": "PER004", "name": "Sunil Verma", "role": "Associate"}
+      ],
+      "related_cases": ["FIR-2024-002", "FIR-2024-003", "FIR-2024-005"],
+      "evidence_types": ["Narcotics", "Vehicle", "Financial Records", "CDR", "Mobile Devices"],
+      "current_status": "Under Investigation",
+      "investigating_officer": "Inspector Sharma",
+      "case_metadata_id": "META-001"
+    },
+    {
+      "case_id": "FIR-2024-002",
+      "title": "Online Fraud Ring Detected",
+      "originating_unit": "Cyber Crime PS, Mumbai",
+      "dates": {
+        "incident_date": "2024-02-20",
+        "fir_date": "2024-02-20",
+        "last_update": "2024-06-15"
+      },
+      "jurisdictions": ["Maharashtra", "Karnataka", "Delhi", "Punjab"],
+      "crime_categories": ["Cyber Crime", "Financial Fraud", "Money Laundering"],
+      "persons_of_interest": [
+        {"person_id": "PER004", "name": "Sunil Verma", "role": "Primary Suspect"},
+        {"person_id": "PER005", "name": "Amit Patel", "role": "Co-conspirator"},
+        {"person_id": "PER009", "name": "Deepa Nair", "role": "Financial Handler"},
+        {"person_id": "PER001", "name": "Rajesh Kumar", "role": "Connected Party"},
+        {"person_id": "PER002", "name": "Vikram Singh", "role": "Financial Beneficiary"}
+      ],
+      "related_cases": ["FIR-2024-001", "FIR-2024-003", "FIR-2024-005"],
+      "evidence_types": ["Digital Devices", "SIM Cards", "Bank Records", "Crypto Wallets", "CDR"],
+      "current_status": "Under Investigation",
+      "investigating_officer": "ACP Cyber Crime",
+      "case_metadata_id": "META-002"
+    },
+    {
+      "case_id": "FIR-2024-003",
+      "title": "Hawala Operation Uncovered",
+      "originating_unit": "Sadar Bazaar PS, Delhi",
+      "dates": {
+        "incident_date": "2024-03-10",
+        "fir_date": "2024-03-10",
+        "last_update": "2024-06-15"
+      },
+      "jurisdictions": ["Delhi", "Punjab", "UAE", "Gujarat", "Bihar"],
+      "crime_categories": ["FEMA Violation", "Money Laundering", "Hawala", "Cross-border Crime"],
+      "persons_of_interest": [
+        {"person_id": "PER003", "name": "Mohammed Farooq", "role": "Primary Operator"},
+        {"person_id": "PER002", "name": "Vikram Singh", "role": "Major Client"},
+        {"person_id": "PER009", "name": "Deepa Nair", "role": "Fund Router"},
+        {"person_id": "PER011", "name": "Hassan Ali", "role": "International Contact"},
+        {"person_id": "PER006", "name": "Ravi Shankar", "role": "Cash Transporter"},
+        {"person_id": "PER005", "name": "Amit Patel", "role": "Gold Purchaser"},
+        {"person_id": "PER010", "name": "Priya Sharma", "role": "Frequent Visitor"}
+      ],
+      "related_cases": ["FIR-2024-001", "FIR-2024-002", "FIR-2024-004", "FIR-2024-005"],
+      "evidence_types": ["Hawala Ledgers", "Cash", "Vehicles", "Mobile Phones", "Diary"],
+      "current_status": "Active",
+      "investigating_officer": "Inspector Singh",
+      "case_metadata_id": "META-003"
+    },
+    {
+      "case_id": "FIR-2024-004",
+      "title": "Arms Smuggling Case",
+      "originating_unit": "Kotwali PS, Lucknow",
+      "dates": {
+        "incident_date": "2024-03-25",
+        "fir_date": "2024-03-25",
+        "last_update": "2024-06-15"
+      },
+      "jurisdictions": ["Uttar Pradesh", "Punjab", "Bihar", "Jammu & Kashmir", "Delhi", "Maharashtra", "Karnataka"],
+      "crime_categories": ["Arms Smuggling", "UAPA", "Organized Crime", "Cross-border Crime"],
+      "persons_of_interest": [
+        {"person_id": "PER006", "name": "Ravi Shankar", "role": "Transporter"},
+        {"person_id": "PER007", "name": "Baldev Raj", "role": "Supplier"},
+        {"person_id": "PER002", "name": "Vikram Singh", "role": "Intended Recipient"},
+        {"person_id": "PER003", "name": "Mohammed Farooq", "role": "Facilitator"},
+        {"person_id": "PER004", "name": "Sunil Verma", "role": "Network Link"},
+        {"person_id": "PER010", "name": "Priya Sharma", "role": "Contact"}
+      ],
+      "related_cases": ["FIR-2024-001", "FIR-2024-002", "FIR-2024-003", "FIR-2024-005"],
+      "evidence_types": ["Firearms", "Ammunition", "Vehicle", "GPS Data", "Mobile Phone", "Cash"],
+      "current_status": "Chargesheet Filed",
+      "investigating_officer": "ACP Lucknow",
+      "case_metadata_id": "META-004"
+    },
+    {
+      "case_id": "FIR-2024-005",
+      "title": "Money Laundering Through Shell Companies",
+      "originating_unit": "Koramangala PS, Bangalore",
+      "dates": {
+        "incident_date": "2024-04-05",
+        "fir_date": "2024-04-05",
+        "last_update": "2024-06-15"
+      },
+      "jurisdictions": ["Karnataka", "Goa", "Maharashtra", "Delhi", "Punjab", "Mauritius", "UAE"],
+      "crime_categories": ["Money Laundering", "Shell Companies", "PMLA", "Corporate Fraud"],
+      "persons_of_interest": [
+        {"person_id": "PER010", "name": "Priya Sharma", "role": "Shell Company Operator"},
+        {"person_id": "PER004", "name": "Sunil Verma", "role": "Fund Source"},
+        {"person_id": "PER001", "name": "Rajesh Kumar", "role": "Proceeds Source"},
+        {"person_id": "PER008", "name": "Kiran Desai", "role": "Property Front"},
+        {"person_id": "PER009", "name": "Deepa Nair", "role": "Fund Router"},
+        {"person_id": "PER003", "name": "Mohammed Farooq", "role": "International Transfer"},
+        {"person_id": "PER005", "name": "Amit Patel", "role": "Document Forger"}
+      ],
+      "related_cases": ["FIR-2024-001", "FIR-2024-002", "FIR-2024-003", "FIR-2024-004"],
+      "evidence_types": ["Company Documents", "Bank Statements", "Property Deeds", "Encrypted Chats", "Passport Copies", "Vehicle Records"],
+      "current_status": "Under Investigation",
+      "investigating_officer": "ACP Bangalore",
+      "case_metadata_id": "META-005"
+    },
+    {
+      "case_id": "FIR-2023-012",
+      "title": "Previous Drug Seizure - Dwarka",
+      "originating_unit": "Dwarka PS, Delhi",
+      "dates": {
+        "incident_date": "2023-06-15",
+        "fir_date": "2023-06-15",
+        "last_update": "2023-12-31"
+      },
+      "jurisdictions": ["Delhi"],
+      "crime_categories": ["Drug Trafficking", "NDPS Act"],
+      "persons_of_interest": [
+        {"person_id": "PER013", "name": "Arjun Mehta", "role": "Previous Associate"}
+      ],
+      "related_cases": ["FIR-2024-001"],
+      "evidence_types": ["Narcotics", "Cash", "Mobile Phone"],
+      "current_status": "Closed",
+      "investigating_officer": "SI Dwarka",
+      "case_metadata_id": "META-006"
+    },
+    {
+      "case_id": "FIR-2023-028",
+      "title": "Call Center Fraud - Malad",
+      "originating_unit": "Malad PS, Mumbai",
+      "dates": {
+        "incident_date": "2023-08-20",
+        "fir_date": "2023-08-20",
+        "last_update": "2024-01-15"
+      },
+      "jurisdictions": ["Maharashtra"],
+      "crime_categories": ["Cyber Crime", "Financial Fraud"],
+      "persons_of_interest": [
+        {"person_id": "PER014", "name": "Neha Gupta", "role": "Call Center Worker"}
+      ],
+      "related_cases": ["FIR-2024-002"],
+      "evidence_types": ["Laptops", "Scripts", "SIM Cards"],
+      "current_status": "Closed",
+      "investigating_officer": "SI Malad",
+      "case_metadata_id": "META-007"
+    },
+    {
+      "case_id": "FIR-2023-045",
+      "title": "Property Fraud - Bangalore",
+      "originating_unit": "Koramangala PS, Bangalore",
+      "dates": {
+        "incident_date": "2023-09-10",
+        "fir_date": "2023-09-10",
+        "last_update": "2024-02-28"
+      },
+      "jurisdictions": ["Karnataka"],
+      "crime_categories": ["Money Laundering", "Property Fraud"],
+      "persons_of_interest": [
+        {"person_id": "PER015", "name": "Rohit Sharma", "role": "Minor Role"}
+      ],
+      "related_cases": ["FIR-2024-005"],
+      "evidence_types": ["Property Documents", "Bank Records"],
+      "current_status": "Closed",
+      "investigating_officer": "SI Koramangala",
+      "case_metadata_id": "META-008"
+    },
+    {
+      "case_id": "FIR-2022-067",
+      "title": "Gold Smuggling - Kolkata",
+      "originating_unit": "Park Street PS, Kolkata",
+      "dates": {
+        "incident_date": "2022-11-05",
+        "fir_date": "2022-11-05",
+        "last_update": "2023-06-30"
+      },
+      "jurisdictions": ["West Bengal"],
+      "crime_categories": ["Gold Smuggling", "Customs Act"],
+      "persons_of_interest": [
+        {"person_id": "PER016", "name": "Anjali Singh", "role": "Witness"}
+      ],
+      "related_cases": ["FIR-2024-001", "FIR-2024-003"],
+      "evidence_types": ["Gold", "Documents"],
+      "current_status": "Closed",
+      "investigating_officer": "Inspector Kolkata",
+      "case_metadata_id": "META-009"
+    },
+    {
+      "case_id": "FIR-2023-089",
+      "title": "Hawala Network - Ahmedabad",
+      "originating_unit": "Navrangpura PS, Ahmedabad",
+      "dates": {
+        "incident_date": "2023-02-15",
+        "fir_date": "2023-02-15",
+        "last_update": "2023-08-31"
+      },
+      "jurisdictions": ["Gujarat"],
+      "crime_categories": ["Hawala", "FEMA Violation"],
+      "persons_of_interest": [
+        {"person_id": "PER017", "name": "Suresh Patel", "role": "Minor Transporter"}
+      ],
+      "related_cases": ["FIR-2024-003"],
+      "evidence_types": ["Cash", "Ledgers", "Mobile Phone"],
+      "current_status": "Closed",
+      "investigating_officer": "SI Ahmedabad",
+      "case_metadata_id": "META-010"
+    },
+    {
+      "case_id": "FIR-2023-112",
+      "title": "Online Banking Fraud - Kochi",
+      "originating_unit": "Cyber Cell, Kochi",
+      "dates": {
+        "incident_date": "2023-04-20",
+        "fir_date": "2023-04-20",
+        "last_update": "2023-11-30"
+      },
+      "jurisdictions": ["Kerala"],
+      "crime_categories": ["Cyber Crime", "Financial Fraud"],
+      "persons_of_interest": [
+        {"person_id": "PER018", "name": "Meera Nair", "role": "Account Holder"}
+      ],
+      "related_cases": ["FIR-2024-002"],
+      "evidence_types": ["Bank Statements", "Digital Logs"],
+      "current_status": "Closed",
+      "investigating_officer": "SI Cyber Kochi",
+      "case_metadata_id": "META-011"
+    },
+    {
+      "case_id": "FIR-2022-134",
+      "title": "Drug Courier Network - Delhi",
+      "originating_unit": "Karol Bagh PS, Delhi",
+      "dates": {
+        "incident_date": "2022-12-10",
+        "fir_date": "2022-12-10",
+        "last_update": "2023-07-15"
+      },
+      "jurisdictions": ["Delhi"],
+      "crime_categories": ["Drug Trafficking", "NDPS Act"],
+      "persons_of_interest": [
+        {"person_id": "PER019", "name": "Dinesh Kumar", "role": "Courier"}
+      ],
+      "related_cases": ["FIR-2024-001"],
+      "evidence_types": ["Narcotics", "Vehicle", "Cash"],
+      "current_status": "Closed",
+      "investigating_officer": "SI Karol Bagh",
+      "case_metadata_id": "META-012"
+    },
+    {
+      "case_id": "FIR-2023-003",
+      "title": "Benami Property - Hyderabad",
+      "originating_unit": "Banjarahills PS, Hyderabad",
+      "dates": {
+        "incident_date": "2023-01-30",
+        "fir_date": "2023-01-30",
+        "last_update": "2023-10-31"
+      },
+      "jurisdictions": ["Telangana"],
+      "crime_categories": ["Benami Property", "Money Laundering"],
+      "persons_of_interest": [
+        {"person_id": "PER020", "name": "Kavita Reddy", "role": "Property Buyer"}
+      ],
+      "related_cases": ["FIR-2024-005"],
+      "evidence_types": ["Property Deeds", "Bank Records"],
+      "current_status": "Closed",
+      "investigating_officer": "Inspector Hyderabad",
+      "case_metadata_id": "META-013"
+    },
+    {
+      "case_id": "FIR-2023-056",
+      "title": "Arms Recovery - Lucknow",
+      "originating_unit": "Hazratganj PS, Lucknow",
+      "dates": {
+        "incident_date": "2023-05-12",
+        "fir_date": "2023-05-12",
+        "last_update": "2023-12-15"
+      },
+      "jurisdictions": ["Uttar Pradesh"],
+      "crime_categories": ["Arms Act", "Smuggling"],
+      "persons_of_interest": [
+        {"person_id": "PER021", "name": "Harish Chandra", "role": "Local Contact"}
+      ],
+      "related_cases": ["FIR-2024-004"],
+      "evidence_types": ["Firearms", "Vehicle"],
+      "current_status": "Closed",
+      "investigating_officer": "SI Lucknow",
+      "case_metadata_id": "META-014"
+    },
+    {
+      "case_id": "FIR-2023-078",
+      "title": "Drug Network - Amritsar",
+      "originating_unit": "Civil Lines PS, Amritsar",
+      "dates": {
+        "incident_date": "2023-07-01",
+        "fir_date": "2023-07-01",
+        "last_update": "2024-01-31"
+      },
+      "jurisdictions": ["Punjab"],
+      "crime_categories": ["Drug Trafficking", "NDPS Act"],
+      "persons_of_interest": [
+        {"person_id": "PER022", "name": "Pooja Singh", "role": "Relative"}
+      ],
+      "related_cases": ["FIR-2024-001"],
+      "evidence_types": ["Cash", "Mobile Phone"],
+      "current_status": "Closed",
+      "investigating_officer": "SI Amritsar",
+      "case_metadata_id": "META-015"
+    }
+  ]
+}

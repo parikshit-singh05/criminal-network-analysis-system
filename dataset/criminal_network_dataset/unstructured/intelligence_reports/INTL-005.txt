@@ -1,0 +1,99 @@
+DOCUMENT_ID: INTL-005
+CASE_ID: FIR-2024-005
+DATE: 2024-03-25
+SOURCE_TYPE: Intelligence Report
+SOURCE: Bangalore Police / FIU-IND / ED
+
+INTELLIGENCE REPORT
+
+Subject: Multi-Layered Money Laundering Architecture - Shell Companies, Offshore Entities & Diplomatic Cover
+Classification: TOP SECRET
+Date: 25th March 2024
+Source: Bangalore Police / FIU-IND / Enforcement Directorate
+
+SUMMARY:
+Investigation into Tech Solutions Pvt Ltd (Bangalore) has uncovered a sophisticated money laundering architecture involving 12+ shell companies, 8 offshore entities (Mauritius/Dubai), property fronts, crypto conversion, and the use of diplomatic channels for high-level coordination. Estimated laundered proceeds: Rs. 75+ crores from drug trafficking, cyber fraud, and arms smuggling.
+
+KEY FINDINGS:
+
+1. SHELL COMPANY MATRIX (India):
+   - Tech Solutions Pvt Ltd (Bangalore) - Priya Sharma, Director - PRIMARY LAYERING VEHICLE
+   - Northern Trading Co. (Lucknow) - Sunil Verma linked - ARMS FINANCE FRONT
+   - Global Exports India (Kolkata) - Rajesh Kumar linked - DRUG PROCEEDS ENTRY
+   - Metro Traders Ltd (Kolkata) - Vikram Singh linked - DRUG/ARMS MIXED
+   - Sunrise Enterprises (Mumbai) - Sunil Verma linked - FRAUD OPERATIONS
+   - Capital Ventures (Delhi) - Mohammed Farooq linked - HAWALA INTERFACE
+   - Bangalore Realty Group (Bangalore) - Kiran Desai - PROPERTY FRONT
+   - Goa Hospitality Ventures (Goa) - Kiran Desai - PROPERTY FRONT
+   - Delhi Logistics Pvt Ltd (Delhi) - Ravi Shankar - TRANSPORT FRONT
+   - Mumbai Call Center Solutions (Mumbai) - Amit Patel - FRAUD INFRASTRUCTURE
+   - Surat Diamond Exports (Surat) - Amit Patel - GOLD MOVEMENT COVER
+   - Kochi Spice Traders (Kochi) - Deepa Nair - CRYPTO/COMMODITY COVER
+
+2. OFFSHORE ARCHITECTURE:
+   MAURITIUS:
+   - Oceanic Holdings Ltd (Priya Sharma) - PRIMARY OFFSHORE HUB
+   - Island Finance Corp (Rajesh Kumar) - DRUG PROCEEDS OFFSHORE
+   - Pacific Rim Investments (Sunil Verma) - FRAUD PROCEEDS OFFSHORE
+
+   DUBAI:
+   - Desert Gold Trading (Hassan Ali) - GOLD/HAWALA SETTLEMENT
+   - Gulf Money Exchange (Mohammed Farooq) - HAWALA SETTLEMENT
+   - Emirates NBD (Hassan Ali personal) - FINAL SETTLEMENT
+
+3. LAYERING METHODOLOGY:
+   Stage 1 - PLACEMENT: Drug cash (Rajesh), Fraud proceeds (Sunil), Arms payments (Vikram) -> Indian shell accounts
+   Stage 2 - LAYERING: Tech Solutions Pvt Ltd (legitimate revenue show), Property deals (Kiran), Gold (Amit), Crypto (Deepa)
+   Stage 3 - INTEGRATION: Mauritius/Dubai offshore -> Clean funds back to India as "FDI", "Consultancy", "Export proceeds"
+
+4. KEY FINANCIAL CHANNELS:
+   - Rajesh Kumar HDFC 12345678901234 -> Island Finance Corp (Mauritius) -> Tech Solutions
+   - Sunil Verma ICICI 5555... -> Sunrise Enterprises -> Crypto (Deepa) -> Pacific Rim -> Tech Solutions
+   - Vikram Singh PNB 9876... -> Northern Trading Co. -> Capital Ventures (Farooq) -> Desert Gold (Dubai)
+   - Mohammed Farooq AXIS 3333... -> Gulf Money Exchange -> Emirates NBD -> Oceanic Holdings
+   - Priya Sharma ICICI 7777... -> Tech Solutions -> Bangalore Realty / Goa Hospitality -> Oceanic Holdings
+
+5. DIPLOMATIC CHANNEL EXPLOITATION:
+   - Taj Hotel Goa Meeting (15 March 2024): Foreign national arrived in diplomatic-plated vehicle (CD 45 XXXX)
+   - Attendees: Priya Sharma (lead), Sunil Verma, Kiran Desai, Foreign National
+   - Duration: 3 hours in private conference room
+   - Assessment: Diplomatic cover used for high-value coordination, immunity from search/seizure
+   - Foreign National: Believed to be Hassan Ali associate or Mauritius/Dubai banking contact
+
+6. PROPERTY PORTFOLIO (Benami/Proceeds):
+   - House No. 45, Sector 12, Dwarka (Rajesh Kumar) - Rs. 2.5 Cr
+   - 123 MG Road, Bangalore Office (Tech Solutions) - Rs. 5 Cr
+   - Koramangala Property (Bangalore Realty Group) - Rs. 8 Cr
+   - Calangute Villa, Goa (Goa Hospitality Ventures) - Rs. 12 Cr (purchased 75L, sold 1Cr)
+   - Taj Hotel Goa conference room bookings (quarterly meetings)
+
+7. CRYPTO CONVERSION PIPELINE:
+   - Deepa Nair (Kochi) - Primary converter
+   - Exchanges: Binance, WazirX, CoinDCX, CoinSwitch
+   - Shell accounts: FED 4444..., KOTAK 1111..., HDFC 3333..., YES 1212...
+   - Monthly volume: Rs. 5-10 Cr
+   - Offshore wallets: Mauritius/Dubai entity controlled
+
+8. CROSS-CASE FINANCIAL FUSION:
+   This laundering architecture serves as the UNIFIED FINANCIAL INFRASTRUCTURE for:
+   - FIR-2024-001: Drug proceeds (Rajesh Kumar) -> Global Exports -> Island Finance -> Tech Solutions
+   - FIR-2024-002: Fraud proceeds (Sunil Verma) -> Sunrise Enterprises -> Crypto -> Pacific Rim -> Tech Solutions
+   - FIR-2024-003: Hawala settlements (Farooq) -> Gulf Money Exchange -> Emirates NBD -> Oceanic Holdings
+   - FIR-2024-004: Arms payments (Vikram) -> Northern Trading -> Capital Ventures -> Desert Gold
+   - FIR-2024-005: Shell company layering (Priya/Kiran) -> Tech Solutions -> Properties -> Offshore
+
+ASSESSMENT:
+This is a textbook multi-layered laundering operation with professional structuring (shell companies, offshore, properties, crypto, gold, diplomatic cover). The use of diplomatic vehicles for coordination meetings represents a significant escalation suggesting possible state-level facilitation or exploitation of diplomatic privileges. The fusion of drug, fraud, and arms proceeds through a single architecture (Tech Solutions/Oceanic Holdings) creates a "super-node" whose disruption would cascade across all predicate offenses.
+
+RECOMMENDATIONS:
+1. Immediate PMLA attachment of all identified properties and bank accounts
+2. Provisional arrest of Priya Sharma (architect), Kiran Desai (property front), Sunil Verma (fraud source), Rajesh Kumar (drug source)
+3. MLA requests to Mauritius (Oceanic Holdings, Island Finance, Pacific Rim) and UAE (Desert Gold, Gulf Money, Emirates NBD)
+4. Diplomatic note to concerned embassy regarding misuse of diplomatic vehicle/immunity
+5. ED investigation of Tech Solutions Pvt Ltd audit trail - identify CA/auditors
+6. SEBI/ROC investigation of all 12 shell companies - strike off and prosecute directors
+7. Crypto exchange cooperation - freeze identified wallets, trace on-chain flows
+8. Coordinated multi-agency operation (Police, ED, FIU, IB, MHA for diplomatic aspect)
+
+Bangalore Police / FIU-IND / ED
+Date: 2024-03-25
