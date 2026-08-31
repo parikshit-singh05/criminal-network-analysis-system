@@ -44,23 +44,35 @@ def create_or_merge_entity(entity_type: str, entity_text: str, document_id: str)
             "normalized_property": "normalized_name",
             "normalize_func": normalize_name
         },
-        "PHONE_NUMBER": {
+        "PHONE": {
             "label": "Phone",
             "text_property": "phone_number",
             "normalized_property": "normalized_number",
             "normalize_func": normalize_phone_number
         },
-        "VEHICLE_NUMBER": {
+        "VEHICLE": {
             "label": "Vehicle",
             "text_property": "registration_number",
             "normalized_property": "normalized_number",
             "normalize_func": normalize_vehicle_number
         },
-        "BANK_ACCOUNT": {
+        "ACCOUNT": {
             "label": "BankAccount",
             "text_property": "account_number",
             "normalized_property": "normalized_number",
             "normalize_func": normalize_account_number
+        },
+        "LOCATION": {
+            "label": "Location",
+            "text_property": "name",
+            "normalized_property": "normalized_name",
+            "normalize_func": normalize_name
+        },
+        "ORGANIZATION": {
+            "label": "Organization",
+            "text_property": "name",
+            "normalized_property": "normalized_name",
+            "normalize_func": normalize_name
         },
         # Add more entity types as needed
     }
@@ -102,32 +114,42 @@ def create_mention_relationship(document_id: str, entity_type: str, entity_text:
     """
     Create a MENTIONED_IN relationship between the Document node and the Entity node.
     """
-    mapping = {
+    # Mapping from entity type to node label
+    entity_label_mapping = {
         "PERSON": "Person",
-        "PHONE_NUMBER": "Phone",
-        "VEHICLE_NUMBER": "Vehicle",
-        "BANK_ACCOUNT": "BankAccount",
+        "PHONE": "Phone",
+        "VEHICLE": "Vehicle",
+        "ACCOUNT": "BankAccount",
+        "LOCATION": "Location",
+        "ORGANIZATION": "Organization",
     }
-    if entity_type not in mapping:
+    if entity_type not in entity_label_mapping:
         return
 
-    label = mapping[entity_type]
+    label = entity_label_mapping[entity_type]
     normalized_value = None
     if entity_type == "PERSON":
         normalized_value = normalize_name(entity_text)
-    elif entity_type == "PHONE_NUMBER":
+    elif entity_type == "PHONE":
         normalized_value = normalize_phone_number(entity_text)
-    elif entity_type == "VEHICLE_NUMBER":
+    elif entity_type == "VEHICLE":
         normalized_value = normalize_vehicle_number(entity_text)
-    elif entity_type == "BANK_ACCOUNT":
+    elif entity_type == "ACCOUNT":
         normalized_value = normalize_account_number(entity_text)
+    elif entity_type == "LOCATION":
+        normalized_value = normalize_name(entity_text)
+    elif entity_type == "ORGANIZATION":
+        normalized_value = normalize_name(entity_text)
 
     if normalized_value is None:
         return
 
+    # Determine the normalized property to use in the query
+    normalized_prop = 'normalized_name' if label in ['Person', 'Location', 'Organization'] else 'normalized_number'
+
     query = f"""
     MATCH (d:Document {{document_id: $document_id}})
-    MATCH (e:{label} {{{'normalized_name' if label == 'Person' else 'normalized_number'}: $normalized_value}})
+    MATCH (e:{label} {{{normalized_prop}: $normalized_value}})
     MERGE (d)-[r:MENTIONED_IN]->(e)
     ON CREATE SET r.count = 1
     ON MATCH SET r.count = r.count + 1
@@ -157,20 +179,30 @@ def create_relation_relationship(relation: Dict[str, Any], document_id: str) -> 
             "normalized_property": "normalized_name",
             "normalize_func": normalize_name
         },
-        "PHONE_NUMBER": {
+        "PHONE": {
             "label": "Phone",
             "normalized_property": "normalized_number",
             "normalize_func": normalize_phone_number
         },
-        "VEHICLE_NUMBER": {
+        "VEHICLE": {
             "label": "Vehicle",
             "normalized_property": "normalized_number",
             "normalize_func": normalize_vehicle_number
         },
-        "BANK_ACCOUNT": {
+        "ACCOUNT": {
             "label": "BankAccount",
             "normalized_property": "normalized_number",
             "normalize_func": normalize_account_number
+        },
+        "LOCATION": {
+            "label": "Location",
+            "normalized_property": "normalized_name",
+            "normalize_func": normalize_name
+        },
+        "ORGANIZATION": {
+            "label": "Organization",
+            "normalized_property": "normalized_name",
+            "normalize_func": normalize_name
         },
     }
 
