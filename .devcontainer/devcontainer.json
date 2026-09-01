@@ -1,0 +1,47 @@
+{
+  "name": "Criminal Network Analysis System",
+
+  "dockerComposeFile": "docker-compose.yml",
+  "service": "workspace",
+  "workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
+
+  "forwardPorts": [
+    3000,
+    8000,
+    7474,
+    7687
+  ],
+
+  "portsAttributes": {
+    "3000": {
+      "label": "React Frontend",
+      "onAutoForward": "notify"
+    },
+    "8000": {
+      "label": "FastAPI Backend",
+      "onAutoForward": "notify"
+    },
+    "7474": {
+      "label": "Neo4j Browser",
+      "onAutoForward": "notify"
+    },
+    "7687": {
+      "label": "Neo4j Bolt",
+      "onAutoForward": "silent"
+    }
+  },
+
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "ms-python.vscode-pylance",
+        "dbaeumer.vscode-eslint",
+        "esbenp.prettier-vscode",
+        "neo4j-extensions.neo4j-vscode"
+      ]
+    }
+  },
+
+  "postCreateCommand": "bash .devcontainer/setup.sh"
+}
