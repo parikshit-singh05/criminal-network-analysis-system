@@ -44,217 +44,223 @@ function getNodeColor(type) {
   return NODE_COLORS[type] || '#838C99';
 }
 
-// HIGHLIGHT color used for focused/selected edges in investigation mode
-const FOCUS_EDGE_COLOR = '#E4E7EC';
+function getCyStyle(theme) {
+  const isLight = theme === 'light';
+  
+  const textColor = isLight ? '#4B5563' : '#E4E7EC';
+  const textOutlineColor = isLight ? '#FFFFFF' : '#0E1116';
+  const mutedColor = isLight ? '#6B7280' : '#838C99';
+  const focusEdgeColor = isLight ? '#111827' : '#E4E7EC';
+  const highlightColor = '#C98A3B'; // same in both
 
-const CY_STYLE = [
-  // ── NODES ──
-  {
-    selector: 'node',
-    style: {
-      'shape': 'ellipse',
-      'width': function (ele) { return Math.min(50, 24 + (ele.data('degree') || 1) * 2); },
-      'height': function (ele) { return Math.min(50, 24 + (ele.data('degree') || 1) * 2); },
-      'background-color': function (ele) { return getNodeColor(ele.data('type')); },
-      'background-opacity': 0.85,
-      'border-width': 2,
-      'border-color': function (ele) { return getNodeColor(ele.data('type')); },
-      'border-opacity': 0.6,
-      'label': function (ele) {
-        const label = ele.data('label') || '';
-        return label.length > 18 ? label.substring(0, 16) + '...' : label;
+  return [
+    // ── NODES ──
+    {
+      selector: 'node',
+      style: {
+        'shape': 'ellipse',
+        'width': function (ele) { return Math.min(50, 24 + (ele.data('degree') || 1) * 2); },
+        'height': function (ele) { return Math.min(50, 24 + (ele.data('degree') || 1) * 2); },
+        'background-color': function (ele) { return getNodeColor(ele.data('type')); },
+        'background-opacity': 0.85,
+        'border-width': 2,
+        'border-color': function (ele) { return getNodeColor(ele.data('type')); },
+        'border-opacity': 0.6,
+        'label': function (ele) {
+          const label = ele.data('label') || '';
+          return label.length > 18 ? label.substring(0, 16) + '...' : label;
+        },
+        'font-size': 8,
+        'font-weight': 400,
+        'font-family': 'Inter, sans-serif',
+        'color': textColor,
+        'text-valign': 'bottom',
+        'text-halign': 'center',
+        'text-margin-y': 4,
+        'text-outline-color': textOutlineColor,
+        'text-outline-width': 1.5,
+        'text-max-width': '70px',
+        'text-wrap': 'ellipsis',
+        'overlay-opacity': 0,
+        'transition-property': 'opacity, border-width, border-color, width, height',
+        'transition-duration': '200ms',
       },
-      'font-size': 9,
-      'font-weight': 500,
-      'font-family': 'Inter, sans-serif',
-      'color': '#E4E7EC',
-      'text-valign': 'bottom',
-      'text-halign': 'center',
-      'text-margin-y': 4,
-      'text-outline-color': '#0E1116',
-      'text-outline-width': 2,
-      'text-max-width': '80px',
-      'text-wrap': 'ellipsis',
-      'overlay-opacity': 0,
-      'transition-property': 'opacity, border-width, border-color, width, height',
-      'transition-duration': '200ms',
     },
-  },
 
-  // ── EDGES (default) ──
-  // Colors per relationship type. Labels HIDDEN.
-  {
-    selector: 'edge',
-    style: {
-      'width': 1.5,
-      'line-color': function (ele) { return getRelColor(ele.data('label')); },
-      'target-arrow-color': function (ele) { return getRelColor(ele.data('label')); },
-      'target-arrow-shape': 'triangle',
-      'arrow-scale': 0.8,
-      'curve-style': 'bezier',
-      // No label text whatsoever in the default state
-      'label': '',
-      'text-opacity': 0,
-      'font-size': 8,
-      'font-family': 'Inter, sans-serif',
-      'color': '#838C99',
-      'text-rotation': 'autorotate',
-      'text-outline-color': '#0E1116',
-      'text-outline-width': 2,
-      'overlay-opacity': 0,
+    // ── EDGES (default) ──
+    {
+      selector: 'edge',
+      style: {
+        'width': 1.5,
+        'line-color': function (ele) { return getRelColor(ele.data('label')); },
+        'target-arrow-color': function (ele) { return getRelColor(ele.data('label')); },
+        'target-arrow-shape': 'triangle',
+        'arrow-scale': 0.8,
+        'curve-style': 'bezier',
+        'label': '',
+        'text-opacity': 0,
+        'font-size': 8,
+        'font-weight': 400,
+        'font-family': 'Inter, sans-serif',
+        'color': mutedColor,
+        'text-rotation': 'autorotate',
+        'text-outline-color': textOutlineColor,
+        'text-outline-width': 1.5,
+        'overlay-opacity': 0,
+      },
     },
-  },
 
-  // ── EDGE: global "show all labels" toggle ──
-  {
-    selector: 'edge.show-labels',
-    style: {
-      'label': function (ele) { return ele.data('label') || ''; },
-      'text-opacity': 1,
+    // ── EDGE: global "show all labels" toggle ──
+    {
+      selector: 'edge.show-labels',
+      style: {
+        'label': function (ele) { return ele.data('label') || ''; },
+        'text-opacity': 1,
+      }
+    },
+
+    // ── EDGE: hover ──
+    {
+      selector: 'edge:active',
+      style: {
+        'label': function (ele) { return ele.data('label') || ''; },
+        'width': 2.5,
+        'line-color': focusEdgeColor,
+        'target-arrow-color': focusEdgeColor,
+        'text-opacity': 1,
+        'z-index': 99,
+      }
+    },
+
+    // ── NODE: selected ──
+    {
+      selector: 'node:selected',
+      style: {
+        'border-width': 4,
+        'border-color': function (ele) { return getNodeColor(ele.data('type')); },
+        'border-opacity': 1,
+        'underlay-color': focusEdgeColor,
+        'underlay-padding': 4,
+        'underlay-opacity': 0.15,
+        'width': function (ele) { return Math.min(56, 30 + (ele.data('degree') || 1) * 2); },
+        'height': function (ele) { return Math.min(56, 30 + (ele.data('degree') || 1) * 2); },
+        'z-index': 999,
+      },
+    },
+
+    // ── EDGE: selected ──
+    {
+      selector: 'edge:selected',
+      style: {
+        'label': function (ele) { return ele.data('label') || ''; },
+        'width': 2.5,
+        'line-color': focusEdgeColor,
+        'target-arrow-color': focusEdgeColor,
+        'text-opacity': 1,
+        'color': focusEdgeColor,
+        'z-index': 998,
+      },
+    },
+
+    // ── NODE: highlighted (path tracing) ──
+    {
+      selector: 'node.highlighted',
+      style: {
+        'border-width': 4,
+        'border-color': function (ele) { return getNodeColor(ele.data('type')); },
+        'border-opacity': 1,
+        'underlay-color': highlightColor,
+        'underlay-padding': 4,
+        'underlay-opacity': 0.2,
+        'z-index': 999,
+      },
+    },
+
+    // ── EDGE: highlighted (path tracing) ──
+    {
+      selector: 'edge.highlighted',
+      style: {
+        'label': function (ele) { return ele.data('label') || ''; },
+        'width': 2.5,
+        'line-color': highlightColor,
+        'target-arrow-color': highlightColor,
+        'text-opacity': 1,
+        'z-index': 998,
+      },
+    },
+
+    // ── DIMMED (unrelated elements) ──
+    {
+      selector: '.dimmed',
+      style: {
+        'opacity': 0.15,
+      },
+    },
+    {
+      selector: 'edge.dimmed',
+      style: {
+        'opacity': 0.1,
+        'label': '',
+        'text-opacity': 0,
+      },
+    },
+
+    // ── NODE: focused (investigation neighborhood) ──
+    {
+      selector: 'node.focused',
+      style: {
+        'border-width': 3,
+        'border-color': function (ele) { return getNodeColor(ele.data('type')); },
+        'underlay-color': focusEdgeColor,
+        'underlay-padding': 3,
+        'underlay-opacity': 0.1,
+        'z-index': 100,
+      }
+    },
+
+    // ── EDGE: focused ──
+    {
+      selector: 'edge.focused',
+      style: {
+        'label': function (ele) { return ele.data('label') || ''; },
+        'width': 2.5,
+        'line-color': focusEdgeColor,
+        'target-arrow-color': focusEdgeColor,
+        'text-opacity': 1,
+        'color': focusEdgeColor,
+        'z-index': 100,
+      }
+    },
+
+    // ── EDGE: show-labels-local (selected node's edges) ──
+    {
+      selector: 'edge.show-labels-local',
+      style: {
+        'label': function (ele) { return ele.data('label') || ''; },
+        'width': 2.5,
+        'line-color': focusEdgeColor,
+        'target-arrow-color': focusEdgeColor,
+        'text-opacity': 1,
+        'color': focusEdgeColor,
+        'z-index': 99,
+      }
+    },
+
+    // ── NODE: hub ──
+    {
+      selector: 'node.hub',
+      style: {
+        'border-width': 3,
+        'border-color': function (ele) { return getNodeColor(ele.data('type')); },
+        'border-style': 'double',
+      }
     }
-  },
-
-  // ── EDGE: hover ──
-  {
-    selector: 'edge:active',
-    style: {
-      'label': function (ele) { return ele.data('label') || ''; },
-      'width': 2.5,
-      'line-color': FOCUS_EDGE_COLOR,
-      'target-arrow-color': FOCUS_EDGE_COLOR,
-      'text-opacity': 1,
-      'z-index': 99,
-    }
-  },
-
-  // ── NODE: selected ──
-  {
-    selector: 'node:selected',
-    style: {
-      'border-width': 4,
-      'border-color': function (ele) { return getNodeColor(ele.data('type')); },
-      'border-opacity': 1,
-      'underlay-color': '#E4E7EC',
-      'underlay-padding': 4,
-      'underlay-opacity': 0.15,
-      'width': function (ele) { return Math.min(56, 30 + (ele.data('degree') || 1) * 2); },
-      'height': function (ele) { return Math.min(56, 30 + (ele.data('degree') || 1) * 2); },
-      'z-index': 999,
-    },
-  },
-
-  // ── EDGE: selected ──
-  {
-    selector: 'edge:selected',
-    style: {
-      'label': function (ele) { return ele.data('label') || ''; },
-      'width': 2.5,
-      'line-color': FOCUS_EDGE_COLOR,
-      'target-arrow-color': FOCUS_EDGE_COLOR,
-      'text-opacity': 1,
-      'color': FOCUS_EDGE_COLOR,
-      'z-index': 998,
-    },
-  },
-
-  // ── NODE: highlighted (path tracing) ──
-  {
-    selector: 'node.highlighted',
-    style: {
-      'border-width': 4,
-      'border-color': function (ele) { return getNodeColor(ele.data('type')); },
-      'border-opacity': 1,
-      'underlay-color': '#C98A3B',
-      'underlay-padding': 4,
-      'underlay-opacity': 0.2,
-      'z-index': 999,
-    },
-  },
-
-  // ── EDGE: highlighted (path tracing) ──
-  {
-    selector: 'edge.highlighted',
-    style: {
-      'label': function (ele) { return ele.data('label') || ''; },
-      'width': 2.5,
-      'line-color': '#C98A3B',
-      'target-arrow-color': '#C98A3B',
-      'text-opacity': 1,
-      'z-index': 998,
-    },
-  },
-
-  // ── DIMMED (unrelated elements) ──
-  {
-    selector: '.dimmed',
-    style: {
-      'opacity': 0.15,
-    },
-  },
-  {
-    selector: 'edge.dimmed',
-    style: {
-      'opacity': 0.1,
-      'label': '',
-      'text-opacity': 0,
-    },
-  },
-
-  // ── NODE: focused (investigation neighborhood) ──
-  {
-    selector: 'node.focused',
-    style: {
-      'border-width': 3,
-      'border-color': function (ele) { return getNodeColor(ele.data('type')); },
-      'underlay-color': '#E4E7EC',
-      'underlay-padding': 3,
-      'underlay-opacity': 0.1,
-      'z-index': 100,
-    }
-  },
-
-  // ── EDGE: focused ──
-  {
-    selector: 'edge.focused',
-    style: {
-      'label': function (ele) { return ele.data('label') || ''; },
-      'width': 2.5,
-      'line-color': FOCUS_EDGE_COLOR,
-      'target-arrow-color': FOCUS_EDGE_COLOR,
-      'text-opacity': 1,
-      'color': FOCUS_EDGE_COLOR,
-      'z-index': 100,
-    }
-  },
-
-  // ── EDGE: show-labels-local (selected node's edges) ──
-  {
-    selector: 'edge.show-labels-local',
-    style: {
-      'label': function (ele) { return ele.data('label') || ''; },
-      'width': 2.5,
-      'line-color': FOCUS_EDGE_COLOR,
-      'target-arrow-color': FOCUS_EDGE_COLOR,
-      'text-opacity': 1,
-      'color': FOCUS_EDGE_COLOR,
-      'z-index': 99,
-    }
-  },
-
-  // ── NODE: hub ──
-  {
-    selector: 'node.hub',
-    style: {
-      'border-width': 3,
-      'border-color': function (ele) { return getNodeColor(ele.data('type')); },
-      'border-style': 'double',
-    }
-  }
-];
+  ];
+}
 
 const NetworkGraph = forwardRef(function NetworkGraph({
   elements, selectedEntityId, pathHighlight, focusMode,
-  showLabels, importantMode,
+  importantMode, showLabels, theme,
   onNodeSelect, onEdgeSelect, onNodeDoubleClick, onBackgroundClick,
 }, ref) {
   const containerRef = useRef(null);
@@ -269,7 +275,7 @@ const NetworkGraph = forwardRef(function NetworkGraph({
 
     const cy = cytoscape({
       container: containerRef.current,
-      style: CY_STYLE,
+      style: getCyStyle(theme),
       elements: [],
       minZoom: 0.1,
       maxZoom: 5,
@@ -283,9 +289,9 @@ const NetworkGraph = forwardRef(function NetworkGraph({
     const tooltip = document.createElement('div');
     tooltip.style.cssText = `
       position: absolute; pointer-events: none; z-index: 9999;
-      background: #1D222A; border: 1px solid #262C35;
-      padding: 8px 10px; border-radius: 4px; font-size: 12px;
-      font-family: Inter, sans-serif; color: #E4E7EC;
+      background: var(--color-elevated); border: 1px solid var(--color-border);
+      padding: 8px 10px; border-radius: var(--radius-sm); font-size: 12px;
+      font-family: var(--font-sans); color: var(--color-text-primary);
       max-width: 220px; display: none; line-height: 1.4;
       box-shadow: 0 4px 12px rgba(0,0,0,0.4);
     `;
@@ -327,9 +333,9 @@ const NetworkGraph = forwardRef(function NetworkGraph({
 
       tooltip.innerHTML = `
         <div style="font-weight:600;margin-bottom:3px">${label}</div>
-        <div style="font-size:10px;color:#838C99;text-transform:uppercase;letter-spacing:0.5px;margin-bottom:3px">${type}</div>
-        ${props.map(p => `<div style="font-size:11px;color:#838C99;font-family:JetBrains Mono,monospace">${p}</div>`).join('')}
-        <div style="font-size:10px;color:#5A6270;margin-top:3px">${degree} connection${degree !== 1 ? 's' : ''}</div>
+        <div style="font-size:10px;color:var(--color-text-secondary);text-transform:uppercase;letter-spacing:0.5px;margin-bottom:3px">${type}</div>
+        ${props.map(p => `<div style="font-size:11px;color:var(--color-text-secondary);font-family:var(--font-mono)">${p}</div>`).join('')}
+        <div style="font-size:10px;color:var(--color-text-muted);margin-top:3px">${degree} connection${degree !== 1 ? 's' : ''}</div>
       `;
       tooltip.style.display = 'block';
       tooltip.style.left = (pos.x + 20) + 'px';
@@ -367,6 +373,18 @@ const NetworkGraph = forwardRef(function NetworkGraph({
       cyRef.current = null;
     };
   }, []); // eslint-disable-line react-hooks/exhaustive-deps
+
+  // Update Cytoscape style when theme changes
+  useEffect(() => {
+    if (cyRef.current) {
+      cyRef.current.style(getCyStyle(theme));
+      
+      // We must re-apply imperative styles for focus/labels if they are active
+      // because re-assigning the stylesheet resets inline styles.
+      // But actually cy.style() updates the *stylesheet*, which shouldn't override inline styles...
+      // Let's just update the stylesheet.
+    }
+  }, [theme]);
 
   // Update elements
   useEffect(() => {
@@ -455,6 +473,8 @@ const NetworkGraph = forwardRef(function NetworkGraph({
       });
     });
 
+    const focusEdgeColor = theme === 'light' ? '#111827' : '#E4E7EC';
+
     if (selectedEntityId) {
       const node = cy.getElementById(selectedEntityId);
       if (node.length > 0) {
@@ -465,11 +485,11 @@ const NetworkGraph = forwardRef(function NetworkGraph({
         // Show labels and highlight connected edges with SINGLE focus color
         node.connectedEdges().forEach(edge => {
           edge.style({
-            'line-color': FOCUS_EDGE_COLOR,
-            'target-arrow-color': FOCUS_EDGE_COLOR,
+            'line-color': focusEdgeColor,
+            'target-arrow-color': focusEdgeColor,
             'label': edge.data('label') || '',
             'text-opacity': 1,
-            'color': FOCUS_EDGE_COLOR,
+            'color': focusEdgeColor,
             'width': 2.5,
           });
         });
@@ -484,7 +504,7 @@ const NetworkGraph = forwardRef(function NetworkGraph({
         }
       }
     }
-  }, [selectedEntityId, focusMode]);
+  }, [selectedEntityId, focusMode, theme]);
 
   // Handle important mode and global labels
   useEffect(() => {

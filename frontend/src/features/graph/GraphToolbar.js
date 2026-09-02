@@ -21,7 +21,7 @@ export default function GraphToolbar({
     <div style={{
       position: 'absolute', top: 12, right: 12, zIndex: 10,
       display: 'flex', flexDirection: 'column', gap: 2,
-      background: 'rgba(22,26,32,0.92)', border: '1px solid var(--color-border)',
+      background: 'var(--color-overlay)', border: '1px solid var(--color-border)',
       borderRadius: 'var(--radius-md)', padding: 3,
     }}>
       <button style={btnStyle(false)} onClick={onZoomIn} title="Zoom In">

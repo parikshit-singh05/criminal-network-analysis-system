@@ -1,7 +1,7 @@
 import React, { useRef, useEffect } from 'react';
-import { Shield, Search, X, Activity } from 'lucide-react';
+import { Shield, Search, X, Activity, Sun, Moon } from 'lucide-react';
 
-export default function TopBar({ searchValue, onSearchChange, onSearchSubmit, apiStatus }) {
+export default function TopBar({ searchValue, onSearchChange, onSearchSubmit, apiStatus, theme, toggleTheme }) {
   const inputRef = useRef(null);
 
   useEffect(() => {
@@ -85,8 +85,22 @@ export default function TopBar({ searchValue, onSearchChange, onSearchSubmit, ap
         </kbd>
       </div>
 
-      {/* Status */}
-      <div style={{ display: 'flex', alignItems: 'center', gap: 8, flexShrink: 0 }}>
+      {/* Status & Settings */}
+      <div style={{ display: 'flex', alignItems: 'center', gap: 16, flexShrink: 0 }}>
+        <button
+          onClick={toggleTheme}
+          style={{
+            display: 'flex', alignItems: 'center', justifyContent: 'center',
+            width: 32, height: 32, borderRadius: 'var(--radius-md)',
+            background: 'var(--color-base)', border: '1px solid var(--color-border)',
+            color: 'var(--color-text-secondary)', cursor: 'pointer',
+            transition: 'all var(--transition-fast)',
+          }}
+          title={`Switch to ${theme === 'dark' ? 'Light' : 'Dark'} Mode`}
+        >
+          {theme === 'dark' ? <Sun size={15} /> : <Moon size={15} />}
+        </button>
+        
         <div style={{ display: 'flex', alignItems: 'center', gap: 5, fontSize: 11, color: 'var(--color-text-secondary)' }}>
           <Activity size={13} color={statusColor} />
           <span style={{ color: statusColor }}>

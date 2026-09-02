@@ -1,4 +1,5 @@
 :root {
+  /* DARK THEME (DEFAULT) */
   --color-base: #0E1116;
   --color-panel: #161A20;
   --color-elevated: #1D222A;
@@ -7,6 +8,7 @@
   --color-text-primary: #E4E7EC;
   --color-text-secondary: #838C99;
   --color-text-muted: #5A6270;
+  
   --color-accent: #C98A3B;
   --color-accent-dim: rgba(201, 138, 59, 0.15);
   --color-anomaly: #B5544B;
@@ -15,6 +17,9 @@
   --color-verified-dim: rgba(76, 140, 125, 0.15);
   --color-info: #5B7FA6;
   --color-info-dim: rgba(91, 127, 166, 0.15);
+  
+  --color-overlay: rgba(22, 26, 32, 0.85);
+  
   --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   --font-mono: 'JetBrains Mono', 'Cascadia Code', 'Fira Code', monospace;
   --radius-sm: 3px;
@@ -22,6 +27,28 @@
   --radius-lg: 8px;
   --transition-fast: 150ms ease;
   --transition-normal: 250ms ease;
+}
+
+[data-theme="light"] {
+  --color-base: #F3F4F6;
+  --color-panel: #FFFFFF;
+  --color-elevated: #FFFFFF;
+  --color-border: #E5E7EB;
+  --color-border-light: #D1D5DB;
+  --color-text-primary: #111827;
+  --color-text-secondary: #4B5563;
+  --color-text-muted: #6B7280;
+  
+  --color-accent: #B7792A;
+  --color-accent-dim: rgba(183, 121, 42, 0.15);
+  --color-anomaly: #B5544B;
+  --color-anomaly-dim: rgba(181, 84, 75, 0.15);
+  --color-verified: #366C5F;
+  --color-verified-dim: rgba(54, 108, 95, 0.15);
+  --color-info: #46678C;
+  --color-info-dim: rgba(70, 103, 140, 0.15);
+  
+  --color-overlay: rgba(255, 255, 255, 0.85);
 }
 
 *, *::before, *::after {
