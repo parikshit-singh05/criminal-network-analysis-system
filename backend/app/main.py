@@ -8,8 +8,9 @@ app = FastAPI(title="Criminal Network Analysis System", version="0.1.0")
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
-        "http://localhost:3000",
-        "http://localhost:3001",
+    "http://localhost:3000",
+    "http://localhost:3001",
+    "http://192.168.1.10:3000",
     ],
     allow_credentials=True,
     allow_methods=["*"],

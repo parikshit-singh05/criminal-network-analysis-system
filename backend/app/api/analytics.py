@@ -177,12 +177,18 @@ async def get_clustering_coefficient(entity_id: str):
         MATCH (n)
         WHERE elementId(n) = $entity_id
 
-        OPTIONAL MATCH (n)-[r1]-()(f)-[r2]-(n)
-        WHERE r1 <> r2
+        // Count total neighbors
+        OPTIONAL MATCH (n)-[r]-(neighbor)
+        WITH n, collect(DISTINCT neighbor) AS neighbors, count(DISTINCT neighbor) AS total_neighbors
 
-        WITH n, count(DISTINCT f) AS connections_between_neighbors
-        OPTIONAL MATCH (n)-[r]-()
-        WITH n, connections_between_neighbors, count(r) AS total_neighbors
+        // Count edges between neighbors (triangles)
+        UNWIND neighbors AS a
+        UNWIND neighbors AS b
+        WITH n, total_neighbors, a, b
+        WHERE elementId(a) < elementId(b)
+
+        OPTIONAL MATCH (a)-[conn]-(b)
+        WITH n, total_neighbors, count(conn) AS connections_between_neighbors
 
         RETURN elementId(n) AS id,
                labels(n) AS types,
