@@ -4,6 +4,7 @@ from app.repositories.neo4j_connector import neo4j_connector
 
 router = APIRouter()
 
+
 @router.get("/traverse/{entity_id}")
 async def traverse_graph(
     entity_id: str,
@@ -94,6 +95,7 @@ async def traverse_graph(
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 
+
 @router.get("/path/{from_entity_id}/{to_entity_id}")
 async def find_shortest_path(
     from_entity_id: str,
@@ -167,6 +169,7 @@ async def find_shortest_path(
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 
+
 @router.get("/neighbors/{entity_id}")
 async def get_neighbors(
     entity_id: str,
@@ -224,5 +227,67 @@ async def get_neighbors(
             "neighbors": neighbors,
             "count": len(neighbors)
         }
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+
+@router.get("/whole")
+async def get_whole_graph(
+    limit: int = Query(1000, description="Maximum number of nodes to return"),
+    relationship_limit: int = Query(1000, description="Maximum number of relationships to return")
+):
+    """
+    Get the whole graph (nodes and relationships) up to specified limits.
+    Returns elements in Cytoscape.js format.
+    """
+    try:
+        # Get nodes
+        nodes_query = """
+        MATCH (n)
+        RETURN elementId(n) AS id,
+               labels(n) AS types,
+               properties(n) AS properties
+        LIMIT $limit
+        """
+
+        nodes_result = neo4j_connector.run_query(nodes_query, {"limit": limit})
+
+        elements = []
+        for record in nodes_result:
+            # Determine a label for the node
+            label = record["properties"].get('person_name') or record["properties"].get('phone_number') or record["properties"].get('registration_number') or record["properties"].get('account_number') or record["properties"].get('name') or 'Unknown'
+            elements.append({
+                "data": {
+                    "id": record["id"],
+                    "label": label,
+                    "type": record["types"][0] if record["types"] else "Unknown",
+                    **record["properties"]
+                }
+            })
+
+        # Get relationships
+        rels_query = """
+        MATCH (a)-[r]->(b)
+        RETURN elementId(r) AS id,
+               type(r) AS type,
+               properties(r) AS properties,
+               elementId(a) AS source,
+               elementId(b) AS target
+        LIMIT $relationship_limit
+        """
+        rels_result = neo4j_connector.run_query(rels_query, {"relationship_limit": relationship_limit})
+
+        for record in rels_result:
+            elements.append({
+                "data": {
+                    "id": record["id"],
+                    "source": record["source"],
+                    "target": record["target"],
+                    "label": record["type"],
+                    **record["properties"]
+                }
+            })
+
+        return elements
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))

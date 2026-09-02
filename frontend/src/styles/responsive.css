@@ -1,0 +1,121 @@
+/* Responsive adjustments */
+
+/* Tablet and smaller screens */
+@media (max-width: 1024px) {
+  .main-layout > aside {
+    width: 240px;
+  }
+
+  .main-layout > section > aside {
+    width: 260px;
+  }
+
+  .header-center {
+    max-width: 300px;
+  }
+}
+
+/* Mobile and smaller screens */
+@media (max-width: 768px) {
+  .main-layout {
+    flex-direction: column;
+  }
+
+  .main-layout > aside,
+  .main-layout > section > aside {
+    width: 100%;
+    height: auto;
+    max-height: 200px;
+    border-right: none;
+    border-bottom: 1px solid var(--color-border);
+  }
+
+  .main-layout > section {
+    flex: 1;
+    min-height: 0;
+  }
+
+  .main-layout > section > main {
+    flex: 1;
+  }
+
+  .main-layout > section > aside {
+    order: 2;
+  }
+
+  .main-layout > section > main {
+    order: 1;
+  }
+
+  .graph-panel,
+  .dossier-panel {
+    height: calc(50vh - 64px); /* Account for header */
+  }
+
+  .bottom-panel {
+    height: 80px;
+    flex-wrap: wrap;
+  }
+
+  .header-center {
+    display: none;
+  }
+
+  .entity-list-item {
+    padding: var(--spacing-xs);
+  }
+
+  .entity-list-item-icon {
+    width: 24px;
+    height: 24px;
+  }
+
+  .dossier-section h3,
+  .sidebar-section h3 {
+    font-size: var(--font-size-xs);
+  }
+}
+
+/* Very small screens */
+@media (max-width: 480px) {
+  .header {
+    height: 56px;
+    padding: 0 var(--spacing-md);
+  }
+
+  .header-left,
+  .header-right {
+    gap: var(--spacing-xs);
+  }
+
+  .header-title {
+    font-size: var(--font-size-base);
+  }
+
+  .graph-toolbar,
+  .graph-legend,
+  .bottom-panel {
+    padding: 0 var(--spacing-sm);
+  }
+
+  .sidebar,
+  .dossier-panel {
+    padding: var(--spacing-sm);
+  }
+
+  .entity-list-item {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: var(--spacing-xs);
+  }
+
+  .entity-list-item-content {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  .entity-list-item-title,
+  .entity-list-item-subtitle {
+    width: 100%;
+  }
+}
