@@ -4,6 +4,27 @@ from app.repositories.neo4j_connector import neo4j_connector
 
 router = APIRouter()
 
+@router.get("/stats")
+async def get_graph_stats():
+    """
+    Get total counts of nodes and relationships in the database.
+    """
+    try:
+        nodes_query = "MATCH (n) RETURN count(n) as count"
+        rels_query = "MATCH ()-[r]->() RETURN count(r) as count"
+        
+        nodes_result = neo4j_connector.run_query(nodes_query)
+        rels_result = neo4j_connector.run_query(rels_query)
+        
+        total_nodes = nodes_result[0]["count"] if nodes_result else 0
+        total_rels = rels_result[0]["count"] if rels_result else 0
+        
+        return {
+            "total_nodes": total_nodes,
+            "total_relationships": total_rels
+        }
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
 
 @router.get("/traverse/{entity_id}")
 async def traverse_graph(
@@ -265,28 +286,35 @@ async def get_whole_graph(
                 }
             })
 
-        # Get relationships
-        rels_query = """
-        MATCH (a)-[r]->(b)
-        RETURN elementId(r) AS id,
-               type(r) AS type,
-               properties(r) AS properties,
-               elementId(a) AS source,
-               elementId(b) AS target
-        LIMIT $relationship_limit
-        """
-        rels_result = neo4j_connector.run_query(rels_query, {"relationship_limit": relationship_limit})
+        valid_node_ids = [record["id"] for record in nodes_result]
 
-        for record in rels_result:
-            elements.append({
-                "data": {
-                    "id": record["id"],
-                    "source": record["source"],
-                    "target": record["target"],
-                    "label": record["type"],
-                    **record["properties"]
-                }
+        # Get relationships ONLY between the fetched nodes to ensure consistency
+        if valid_node_ids:
+            rels_query = """
+            MATCH (a)-[r]->(b)
+            WHERE elementId(a) IN $node_ids AND elementId(b) IN $node_ids
+            RETURN elementId(r) AS id,
+                   type(r) AS type,
+                   properties(r) AS properties,
+                   elementId(a) AS source,
+                   elementId(b) AS target
+            LIMIT $relationship_limit
+            """
+            rels_result = neo4j_connector.run_query(rels_query, {
+                "node_ids": valid_node_ids,
+                "relationship_limit": relationship_limit
             })
+    
+            for record in rels_result:
+                elements.append({
+                    "data": {
+                        "id": record["id"],
+                        "source": record["source"],
+                        "target": record["target"],
+                        "label": record["type"],
+                        **record["properties"]
+                    }
+                })
 
         return elements
     except Exception as e:
