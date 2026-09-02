@@ -14,7 +14,7 @@ import api from '../../api/client';
 import { convertNeighborsToElements, convertPathToElements, mergeElements, getPathNodeIds, getPathEdgeIds } from '../../utils/graphHelpers';
 import { getEntityDisplayName } from '../../utils/normalize';
 
-export default function InvestigationWorkspace() {
+export default function InvestigationWorkspace({ theme, toggleTheme }) {
   const graphRef = useRef(null);
 
   // Core state
@@ -242,6 +242,8 @@ export default function InvestigationWorkspace() {
         onSearchChange={handleSearchChange}
         onSearchSubmit={handleSearchSubmit}
         apiStatus={apiStatus}
+        theme={theme}
+        toggleTheme={toggleTheme}
       />
 
       {/* Main Content */}
@@ -277,6 +279,7 @@ export default function InvestigationWorkspace() {
                 focusMode={focusMode}
                 importantMode={importantMode}
                 showLabels={showLabels}
+                theme={theme}
                 onNodeSelect={handleNodeSelect}
                 onEdgeSelect={handleEdgeSelect}
                 onNodeDoubleClick={handleNodeDoubleClick}

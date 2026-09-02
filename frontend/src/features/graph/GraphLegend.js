@@ -18,9 +18,9 @@ export default function GraphLegend({ elements = [], hideRelationships = false }
   return (
     <div style={{
       position: 'absolute', bottom: 44, left: 16, zIndex: 10,
-      background: 'rgba(22,26,32,0.85)', border: '1px solid var(--color-border)',
+      background: 'var(--color-overlay)', border: '1px solid var(--color-border)',
       borderRadius: 'var(--radius-md)', padding: '10px 14px',
-      boxShadow: '0 4px 16px rgba(0,0,0,0.3)', backdropFilter: 'blur(4px)',
+      boxShadow: '0 4px 16px rgba(0,0,0,0.1)', backdropFilter: 'blur(4px)',
       maxHeight: 'calc(100vh - 120px)', overflowY: 'auto'
     }}>
       <div style={{ fontSize: 10, fontWeight: 600, textTransform: 'uppercase', letterSpacing: 0.5, color: 'var(--color-text-secondary)', marginBottom: 8 }}>

@@ -71,9 +71,9 @@ export default function NetworkInsights({ elements, dbStats }) {
   return (
     <div style={{
       position: 'absolute', top: 12, left: 16, zIndex: 10,
-      width: 250, background: 'rgba(22,26,32,0.85)',
+      width: 250, background: 'var(--color-overlay)',
       border: '1px solid var(--color-border)', borderRadius: 'var(--radius-md)',
-      padding: '12px 14px', boxShadow: '0 4px 16px rgba(0,0,0,0.3)',
+      padding: '12px 14px', boxShadow: '0 4px 16px rgba(0,0,0,0.1)',
       backdropFilter: 'blur(4px)',
     }}>
       <div style={{ display: 'flex', alignItems: 'center', gap: 6, marginBottom: 12 }}>
